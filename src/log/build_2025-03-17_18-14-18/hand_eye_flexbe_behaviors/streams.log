@@ -1,0 +1,100 @@
+[0.045s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_behaviors -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_behaviors
+[1.092s] -- The C compiler identification is GNU 11.4.0
+[1.092s] -- The CXX compiler identification is GNU 11.4.0
+[1.092s] -- Detecting C compiler ABI info
+[1.092s] -- Detecting C compiler ABI info - done
+[1.092s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.093s] -- Detecting C compile features
+[1.093s] -- Detecting C compile features - done
+[1.093s] -- Detecting CXX compiler ABI info
+[1.093s] -- Detecting CXX compiler ABI info - done
+[1.093s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.094s] -- Detecting CXX compile features
+[1.094s] -- Detecting CXX compile features - done
+[1.094s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.094s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.094s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.094s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.095s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.095s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.095s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.095s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.233s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.284s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.392s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.411s] -- Looking for pthread.h
+[1.533s] -- Looking for pthread.h - found
+[1.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.640s] -- Found Threads: TRUE  
+[1.943s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[2.230s] -- Configuring done
+[2.237s] -- Generating done
+[2.239s] -- Build files have been written to: /home/open/work/src/build/hand_eye_flexbe_behaviors
+[2.250s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_behaviors -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_behaviors
+[2.253s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_behaviors -- -j16 -l16
+[2.328s] Built target ament_cmake_python_copy_hand_eye_flexbe_behaviors
+[2.329s] Built target ament_cmake_python_copy_hand_eye_flexbe_behaviors_setup
+[2.636s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.636s]   warnings.warn(
+[2.636s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[2.636s]   warnings.warn(
+[2.645s] running egg_info
+[2.646s] creating hand_eye_flexbe_behaviors.egg-info
+[2.646s] writing hand_eye_flexbe_behaviors.egg-info/PKG-INFO
+[2.646s] writing dependency_links to hand_eye_flexbe_behaviors.egg-info/dependency_links.txt
+[2.646s] writing top-level names to hand_eye_flexbe_behaviors.egg-info/top_level.txt
+[2.647s] writing manifest file 'hand_eye_flexbe_behaviors.egg-info/SOURCES.txt'
+[2.650s] reading manifest file 'hand_eye_flexbe_behaviors.egg-info/SOURCES.txt'
+[2.651s] writing manifest file 'hand_eye_flexbe_behaviors.egg-info/SOURCES.txt'
+[2.684s] Built target ament_cmake_python_build_hand_eye_flexbe_behaviors_egg
+[2.697s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_behaviors -- -j16 -l16
+[2.744s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_behaviors
+[2.753s] -- Install configuration: ""
+[2.753s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest
+[2.753s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/manual_hand_eye_calibration.xml
+[2.753s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/automatic_hand_eye_calibration.xml
+[2.753s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/hand_eye_calibration.xml
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/camera_calibration.xml
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/verify_calibraion.xml
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/config
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/config/example.yaml
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/pythonpath.sh
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/pythonpath.dsv
+[2.754s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/PKG-INFO
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/top_level.txt
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/dependency_links.txt
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/SOURCES.txt
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/hand_eye_calibration_sm.py
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/verify_calibraion_sm.py
+[2.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/automatic_hand_eye_calibration_sm.py
+[2.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/__init__.py
+[2.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/camera_calibration_sm.py
+[2.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/manual_hand_eye_calibration_sm.py
+[2.812s] Listing '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors'...
+[2.812s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/__init__.py'...
+[2.812s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/automatic_hand_eye_calibration_sm.py'...
+[2.813s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/camera_calibration_sm.py'...
+[2.813s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/hand_eye_calibration_sm.py'...
+[2.813s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/manual_hand_eye_calibration_sm.py'...
+[2.813s] Compiling '/home/open/work/src/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/verify_calibraion_sm.py'...
+[2.819s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/package_run_dependencies/hand_eye_flexbe_behaviors
+[2.819s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/parent_prefix_path/hand_eye_flexbe_behaviors
+[2.819s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/ament_prefix_path.sh
+[2.820s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/ament_prefix_path.dsv
+[2.820s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/path.sh
+[2.820s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/path.dsv
+[2.820s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.bash
+[2.821s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.sh
+[2.821s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.zsh
+[2.821s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.dsv
+[2.821s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/package.dsv
+[2.822s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/packages/hand_eye_flexbe_behaviors
+[2.822s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/cmake/hand_eye_flexbe_behaviorsConfig.cmake
+[2.822s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/cmake/hand_eye_flexbe_behaviorsConfig-version.cmake
+[2.823s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/package.xml
+[2.827s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_behaviors

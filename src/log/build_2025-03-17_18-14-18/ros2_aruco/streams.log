@@ -1,0 +1,61 @@
+[1.601s] Invoking command in '/home/open/work/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/open/work/src/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/open/work/src/build/ros2_aruco/build install --record /home/open/work/src/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data
+[1.981s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.981s]   warnings.warn(
+[1.994s] running egg_info
+[1.995s] creating ../../build/ros2_aruco/ros2_aruco.egg-info
+[1.995s] writing ../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[1.996s] writing dependency_links to ../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[1.996s] writing entry points to ../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[1.996s] writing requirements to ../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[1.996s] writing top-level names to ../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[1.997s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[1.999s] reading manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.000s] writing manifest file '../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.000s] running build
+[2.000s] running build_py
+[2.000s] creating /home/open/work/src/build/ros2_aruco/build
+[2.001s] creating /home/open/work/src/build/ros2_aruco/build/lib
+[2.001s] creating /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.001s] copying ros2_aruco/aruco_node.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.001s] copying ros2_aruco/test_mask.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.001s] copying ros2_aruco/single_aruco_set_tf.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.001s] copying ros2_aruco/mask_color_and_depth_image.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.001s] copying ros2_aruco/aruco_generate_marker.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.002s] copying ros2_aruco/__init__.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.002s] copying ros2_aruco/three_points_cali_aruco.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.002s] copying ros2_aruco/transformations.py -> /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco
+[2.002s] running install
+[2.002s] running install_lib
+[2.003s] creating /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.003s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.004s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/test_mask.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.004s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/single_aruco_set_tf.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/mask_color_and_depth_image.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/three_points_cali_aruco.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] copying /home/open/work/src/build/ros2_aruco/build/lib/ros2_aruco/transformations.py -> /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[2.005s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc
+[2.008s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/test_mask.py to test_mask.cpython-310.pyc
+[2.009s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/single_aruco_set_tf.py to single_aruco_set_tf.cpython-310.pyc
+[2.011s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/mask_color_and_depth_image.py to mask_color_and_depth_image.cpython-310.pyc
+[2.013s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc
+[2.014s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc
+[2.014s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/three_points_cali_aruco.py to three_points_cali_aruco.cpython-310.pyc
+[2.016s] byte-compiling /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/transformations.py to transformations.cpython-310.pyc
+[2.029s] running install_data
+[2.029s] creating /home/open/work/src/install/ros2_aruco/share/ament_index
+[2.029s] creating /home/open/work/src/install/ros2_aruco/share/ament_index/resource_index
+[2.029s] creating /home/open/work/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.030s] copying resource/ros2_aruco -> /home/open/work/src/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.030s] copying package.xml -> /home/open/work/src/install/ros2_aruco/share/ros2_aruco
+[2.030s] running install_egg_info
+[2.032s] Copying ../../build/ros2_aruco/ros2_aruco.egg-info to /home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[2.033s] running install_scripts
+[2.063s] Installing aruco_generate_marker script to /home/open/work/src/install/ros2_aruco/lib/ros2_aruco
+[2.063s] Installing hiwin_cali script to /home/open/work/src/install/ros2_aruco/lib/ros2_aruco
+[2.063s] Installing mask_color_and_depth_image script to /home/open/work/src/install/ros2_aruco/lib/ros2_aruco
+[2.064s] Installing test_mask script to /home/open/work/src/install/ros2_aruco/lib/ros2_aruco
+[2.064s] Installing tm_aruco script to /home/open/work/src/install/ros2_aruco/lib/ros2_aruco
+[2.064s] writing list of installed files to '/home/open/work/src/build/ros2_aruco/install.log'
+[2.098s] Invoked command in '/home/open/work/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/open/work/src/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_aruco build --build-base /home/open/work/src/build/ros2_aruco/build install --record /home/open/work/src/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data

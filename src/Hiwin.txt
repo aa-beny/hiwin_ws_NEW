@@ -1,0 +1,43 @@
+colcon build --symlink-install
+ rm -rf build/ log/ install/
+ colcon build --symlink-install
+sudo apt-get install ros-humble-diagnostic-updater
+sudo apt update
+sudo apt-get install ros-humble-diagnostic-update
+colcon build --symlink-install
+
+
+./build.sh 
+
+192 168 02
+MXX TCP service
+
+連手臂
+. install/setup.bash
+ros2 run hiwin_libmodbus hiwinlibmodbus_server
+推疊
+. install/setup.bash
+python3 src/Hiwin_libmodbus/hiwin_example/hiwin_example/strategy_example.py
+直接跑堆疊
+ros2 topic pub -1 /topic std_msgs/msg/String "{data: 'done'}"
+分撿
+. install/setup.bash
+python3 src/Hiwin_libmodbus/hiwin_example/hiwin_example/movetest.py
+
+
+python3 src/Hiwin_libmodbus/hiwin_example/hiwin_example/Hiwin_move.py
+
+相機叫陣
+. install/setup.bash
+ros2 launch flexbe_app flexbe_full.launch.py
+
+
+三點叫陣
+ros2 run hiwin_libmodbus hiwinlibmodbus_server
+ros2 launch hiwin_example test_three_points_calibration.launch.py 
+pip3 install numpy-quaternion
+ros2 run hiwin_example three_points_calibration_example --ros-args --params-file ~/work/src/Hiwin_libmodbus/hiwin_example/config/test_cali_pose.yaml
+
+
+
+

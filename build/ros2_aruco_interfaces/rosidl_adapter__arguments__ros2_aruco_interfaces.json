@@ -1,0 +1,8 @@
+{
+  "package_name": "ros2_aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/open/work/src/ros2_aruco/ros2_aruco_interfaces:msg/ArucoMarkers.msg",
+    "/home/open/work/src/ros2_aruco/ros2_aruco_interfaces:srv/ArucoMarkerInfo.srv",
+    "/home/open/work/src/ros2_aruco/ros2_aruco_interfaces:srv/GetMaskImage.srv"
+  ]
+}

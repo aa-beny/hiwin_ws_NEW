@@ -1,0 +1,9 @@
+three_points_cali_aruco:
+  ros__parameters:
+    marker_size: 0.0459
+    aruco_dictionary_id: DICT_4X4_50
+    image_topic: /camera/color/image_raw
+    camera_info_topic: /camera/color/camera_info
+    # marker_info_topic: /aruco_markers
+    camera_intrinsics: [1353.8459216349952, 0.0, 958.3761352725523, 0.0, 1354.1268412275624, 533.8888876615691, 0.0 ,0.0, 1.0]
+    camera_distortion: [0.11380461491596729, -0.23207035214494726, 0.00024769031531732613, -0.0005096917475952313, -0.04220840263073865]

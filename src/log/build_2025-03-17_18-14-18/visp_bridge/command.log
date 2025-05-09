@@ -1,0 +1,6 @@
+Invoking command in '/home/open/work/src/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_bridge
+Invoked command in '/home/open/work/src/build/visp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_bridge
+Invoking command in '/home/open/work/src/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/visp_bridge -- -j16 -l16
+Invoked command in '/home/open/work/src/build/visp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/visp_bridge -- -j16 -l16
+Invoking command in '/home/open/work/src/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/visp_bridge
+Invoked command in '/home/open/work/src/build/visp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/visp_bridge

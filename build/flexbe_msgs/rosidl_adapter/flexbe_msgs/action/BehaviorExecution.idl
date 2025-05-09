@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from flexbe_msgs/action/BehaviorExecution.action
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Commands the execution of any behavior.")
+    struct BehaviorExecution_Goal {
+      @verbatim (language="comment", text=
+        "name of the behavior to be executed")
+      string behavior_name;
+
+      @verbatim (language="comment", text=
+        "optional list of behavior parameters")
+      sequence<string> arg_keys;
+
+      sequence<string> arg_values;
+
+      @verbatim (language="comment", text=
+        "optional list of initial userdata")
+      sequence<string> input_keys;
+
+      sequence<string> input_values;
+    };
+    struct BehaviorExecution_Result {
+      @verbatim (language="comment", text=
+        "result of the executed behavior")
+      string outcome;
+    };
+    struct BehaviorExecution_Feedback {
+      @verbatim (language="comment", text=
+        "path of the current state")
+      string current_state;
+    };
+  };
+};

@@ -1,0 +1,52 @@
+[0.099s] Invoking command in '/home/open/work/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/open/work/install/visp_bridge
+[1.846s] -- The C compiler identification is GNU 11.4.0
+[1.847s] -- The CXX compiler identification is GNU 11.4.0
+[1.847s] -- Detecting C compiler ABI info
+[1.847s] -- Detecting C compiler ABI info - done
+[1.847s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.848s] -- Detecting C compile features
+[1.848s] -- Detecting C compile features - done
+[1.849s] -- Detecting CXX compiler ABI info
+[1.849s] -- Detecting CXX compiler ABI info - done
+[1.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.850s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.852s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.852s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.852s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.853s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.853s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.853s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.083s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.322s] -- Found camera_calibration_parsers: 3.1.9 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+[2.517s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.526s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.803s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.920s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.120s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.157s] -- Looking for pthread.h
+[3.322s] -- Looking for pthread.h - found
+[3.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.547s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.549s] -- Found Threads: TRUE  
+[4.022s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[4.202s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[4.205s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[4.415s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[4.416s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[4.603s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[4.777s] -- Configuring done
+[4.845s] -- Generating done
+[4.851s] -- Build files have been written to: /home/open/work/build/visp_bridge
+[4.879s] Invoked command in '/home/open/work/build/visp_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_bridge -DCMAKE_INSTALL_PREFIX=/home/open/work/install/visp_bridge
+[4.883s] Invoking command in '/home/open/work/build/visp_bridge': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/visp_bridge -- -j16 -l16
+[4.984s] [ 16%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o[0m
+[4.989s] [ 33%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/image.cpp.o[0m
+[4.990s] [ 50%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/camera.cpp.o[0m
+[7.869s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:76: src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o] Interrupt
+[7.870s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:104: src/CMakeFiles/visp_bridge.dir/image.cpp.o] Interrupt
+[7.870s] gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:90: src/CMakeFiles/visp_bridge.dir/camera.cpp.o] Interrupt
+[7.904s] gmake[1]: *** [CMakeFiles/Makefile2:170: src/CMakeFiles/visp_bridge.dir/all] Interrupt
+[7.905s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,48 @@
+[0.028s] Invoking command in '/home/open/work/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/charuco_detector_interfaces -- -j16 -l16
+[1.076s] [35m[1mConsolidate compiler generated dependencies of target charuco_detector_interfaces__rosidl_generator_c[0m
+[1.076s] [  3%] Built target charuco_detector_interfaces__cpp
+[1.076s] [  3%] Built target ament_cmake_python_copy_charuco_detector_interfaces
+[1.076s] [ 12%] Built target charuco_detector_interfaces__rosidl_generator_c
+[1.076s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.076s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.076s] [ 22%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o[0m
+[1.076s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.076s] [ 32%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/charuco_detector_interfaces/srv/detail/dds_fastrtps/eye2base__type_support.cpp.o[0m
+[1.076s] [ 32%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp.o[0m
+[1.076s] running egg_info
+[1.077s] writing charuco_detector_interfaces.egg-info/PKG-INFO
+[1.079s] writing dependency_links to charuco_detector_interfaces.egg-info/dependency_links.txt
+[1.079s] writing top-level names to charuco_detector_interfaces.egg-info/top_level.txt
+[1.079s] [ 35%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o[0m
+[1.079s] reading manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[1.079s] writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[1.080s] [ 35%] Built target ament_cmake_python_build_charuco_detector_interfaces_egg
+[1.080s] [ 38%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_c.so[0m
+[1.080s] [ 41%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/charuco_detector_interfaces/srv/detail/eye2base__type_support.c.o[0m
+[1.080s] [ 41%] Built target charuco_detector_interfaces__rosidl_typesupport_c
+[1.080s] [ 45%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/charuco_detector_interfaces/srv/detail/eye2base__type_support_c.cpp.o[0m
+[1.080s] [ 48%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_cpp.so[0m
+[1.080s] [ 51%] [32m[1mLinking C shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.080s] [ 51%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c
+[1.080s] [ 54%] Built target charuco_detector_interfaces__rosidl_typesupport_cpp
+[1.080s] [ 58%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.080s] [ 61%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.080s] [ 64%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_cpp
+[1.127s] [ 67%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.167s] [ 70%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.388s] [ 70%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c
+[1.440s] [ 70%] Built target charuco_detector_interfaces
+[1.499s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.978s] [ 74%] Built target charuco_detector_interfaces__py
+[3.034s] [ 77%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c.o[0m
+[3.511s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/libcharuco_detector_interfaces__rosidl_generator_py.so[0m
+[3.627s] [ 80%] Built target charuco_detector_interfaces__rosidl_generator_py
+[3.701s] [ 83%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.708s] [ 87%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.711s] [ 90%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.960s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.998s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.040s] [100%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.043s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_c__pyext
+[4.078s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.133s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext

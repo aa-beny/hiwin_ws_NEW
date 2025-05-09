@@ -1,0 +1,234 @@
+[0.048s] Invoking command in '/home/open/work/src/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/charuco_detector_ROS2/charuco_detector_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/charuco_detector_interfaces
+[1.092s] -- The C compiler identification is GNU 11.4.0
+[1.092s] -- The CXX compiler identification is GNU 11.4.0
+[1.092s] -- Detecting C compiler ABI info
+[1.093s] -- Detecting C compiler ABI info - done
+[1.093s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.093s] -- Detecting C compile features
+[1.093s] -- Detecting C compile features - done
+[1.093s] -- Detecting CXX compiler ABI info
+[1.093s] -- Detecting CXX compiler ABI info - done
+[1.093s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.094s] -- Detecting CXX compile features
+[1.094s] -- Detecting CXX compile features - done
+[1.094s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.095s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.095s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.095s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.095s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.095s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.095s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.096s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.199s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.838s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.587s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.898s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.950s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.953s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.999s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.999s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.000s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.000s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.032s] -- Found PythonExtra: .so  
+[3.137s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.167s] -- Added test 'lint_cmake' to check CMake code style
+[3.168s] -- Added test 'xmllint' to check XML markup files
+[3.172s] -- Configuring done
+[3.224s] -- Generating done
+[3.230s] -- Build files have been written to: /home/open/work/src/build/charuco_detector_interfaces
+[3.247s] Invoked command in '/home/open/work/src/build/charuco_detector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/charuco_detector_ROS2/charuco_detector_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/charuco_detector_interfaces
+[3.249s] Invoking command in '/home/open/work/src/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/charuco_detector_interfaces -- -j16 -l16
+[3.330s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.349s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.364s] [  6%] Built target ament_cmake_python_copy_charuco_detector_interfaces
+[3.880s] running egg_info
+[3.880s] creating charuco_detector_interfaces.egg-info
+[3.880s] writing charuco_detector_interfaces.egg-info/PKG-INFO
+[3.881s] writing dependency_links to charuco_detector_interfaces.egg-info/dependency_links.txt
+[3.881s] writing top-level names to charuco_detector_interfaces.egg-info/top_level.txt
+[3.881s] writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[3.884s] reading manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[3.886s] writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[3.936s] [  6%] Built target ament_cmake_python_build_charuco_detector_interfaces_egg
+[4.063s] [  9%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_c.dir/rosidl_generator_c/charuco_detector_interfaces/srv/detail/eye2base__functions.c.o[0m
+[4.084s] [  9%] Built target charuco_detector_interfaces__cpp
+[4.107s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.107s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.107s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.186s] [ 22%] [32m[1mLinking C shared library libcharuco_detector_interfaces__rosidl_generator_c.so[0m
+[4.263s] [ 22%] Built target charuco_detector_interfaces__rosidl_generator_c
+[4.289s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.299s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.307s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.760s] [ 35%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o[0m
+[4.875s] [ 38%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp.o[0m
+[4.968s] [ 41%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/charuco_detector_interfaces/srv/detail/dds_fastrtps/eye2base__type_support.cpp.o[0m
+[5.084s] [ 45%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/charuco_detector_interfaces/srv/detail/eye2base__type_support_c.cpp.o[0m
+[5.147s] [ 48%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o[0m
+[5.300s] [ 51%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_c.so[0m
+[5.303s] [ 54%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/charuco_detector_interfaces/srv/detail/eye2base__type_support.c.o[0m
+[5.457s] [ 54%] Built target charuco_detector_interfaces__rosidl_typesupport_c
+[5.519s] [ 58%] [32m[1mLinking C shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.661s] [ 58%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c
+[5.684s] [ 61%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_cpp.so[0m
+[5.862s] [ 61%] Built target charuco_detector_interfaces__rosidl_typesupport_cpp
+[6.078s] [ 64%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.162s] [ 67%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.405s] [ 67%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_cpp
+[6.471s] [ 67%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c
+[7.406s] [ 70%] [32m[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.870s] [ 70%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.961s] [ 70%] Built target charuco_detector_interfaces
+[8.086s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.140s] [ 74%] Built target charuco_detector_interfaces__py
+[11.266s] [ 77%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c.o[0m
+[11.990s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/libcharuco_detector_interfaces__rosidl_generator_py.so[0m
+[12.086s] [ 80%] Built target charuco_detector_interfaces__rosidl_generator_py
+[12.133s] [ 83%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.141s] [ 87%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.161s] [ 90%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.383s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.419s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.436s] [100%] [32m[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[12.467s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.500s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext
+[12.521s] [100%] Built target charuco_detector_interfaces__rosidl_typesupport_c__pyext
+[12.544s] Invoked command in '/home/open/work/src/build/charuco_detector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/charuco_detector_interfaces -- -j16 -l16
+[12.667s] Invoking command in '/home/open/work/src/build/charuco_detector_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/charuco_detector_interfaces
+[12.682s] -- Install configuration: ""
+[12.682s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/ament_index/resource_index/rosidl_interfaces/charuco_detector_interfaces
+[12.683s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.683s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg
+[12.683s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.683s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.684s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.684s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__functions.c
+[12.684s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__functions.h
+[12.684s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__struct.h
+[12.684s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__type_support.h
+[12.685s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/eye2base.h
+[12.685s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/library_path.sh
+[12.685s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/library_path.dsv
+[12.686s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_generator_c.so
+[12.686s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_generator_c.so" to ""
+[12.686s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.687s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg
+[12.687s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.687s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.687s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.688s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_fastrtps_c.h
+[12.688s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.688s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.688s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.688s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.688s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/eye2base.hpp
+[12.689s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.689s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__traits.hpp
+[12.689s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__struct.hpp
+[12.689s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__builder.hpp
+[12.689s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.689s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg
+[12.690s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.690s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.690s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.690s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/dds_fastrtps
+[12.690s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_fastrtps_cpp.hpp
+[12.690s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.690s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.691s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.691s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg
+[12.691s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.691s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.691s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.692s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_introspection_c.h
+[12.692s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__type_support.c
+[12.692s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_introspection_c.so
+[12.692s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.692s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_c.so
+[12.693s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_c.so" to ""
+[12.693s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces
+[12.693s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv
+[12.693s] -- Up-to-date: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail
+[12.694s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp
+[12.694s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/include/charuco_detector_interfaces/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_introspection_cpp.hpp
+[12.694s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.694s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.695s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_cpp.so
+[12.695s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.695s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/pythonpath.sh
+[12.696s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/pythonpath.dsv
+[12.696s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces-0.0.0-py3.10.egg-info
+[12.696s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.696s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.696s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.697s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.697s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces
+[12.697s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.697s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.698s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv
+[12.698s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv/_eye2base.py
+[12.698s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv/_eye2base_s.c
+[12.698s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv/__init__.py
+[12.698s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/__init__.py
+[12.699s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_c.c
+[12.699s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/libcharuco_detector_interfaces__rosidl_generator_py.so
+[12.699s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.699s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.700s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.779s] Listing '/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces'...
+[12.779s] Compiling '/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/__init__.py'...
+[12.779s] Listing '/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv'...
+[12.779s] Compiling '/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv/__init__.py'...
+[12.779s] Compiling '/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/srv/_eye2base.py'...
+[12.788s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.788s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.789s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.789s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.790s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.791s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/local/lib/python3.10/dist-packages/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.791s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_generator_py.so
+[12.791s] -- Set runtime path of "/home/open/work/src/install/charuco_detector_interfaces/lib/libcharuco_detector_interfaces__rosidl_generator_py.so" to ""
+[12.791s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/srv/Eye2base.idl
+[12.792s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/srv/Eye2base.srv
+[12.792s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/srv/Eye2base_Request.msg
+[12.792s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/srv/Eye2base_Response.msg
+[12.792s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/ament_index/resource_index/package_run_dependencies/charuco_detector_interfaces
+[12.793s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/ament_index/resource_index/parent_prefix_path/charuco_detector_interfaces
+[12.793s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/ament_prefix_path.sh
+[12.794s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/ament_prefix_path.dsv
+[12.794s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/path.sh
+[12.795s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/environment/path.dsv
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/local_setup.bash
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/local_setup.sh
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/local_setup.zsh
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/local_setup.dsv
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/package.dsv
+[12.796s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/ament_index/resource_index/packages/charuco_detector_interfaces
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_generator_cExport.cmake
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_generator_cppExport.cmake
+[12.797s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.798s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.798s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.799s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.799s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_cExport.cmake
+[12.799s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.799s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.799s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.800s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_cppExport.cmake
+[12.800s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.800s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_generator_pyExport.cmake
+[12.801s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/export_charuco_detector_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.801s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.801s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.801s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.801s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.802s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.802s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.803s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.803s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfacesConfig.cmake
+[12.803s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/cmake/charuco_detector_interfacesConfig-version.cmake
+[12.803s] -- Installing: /home/open/work/src/install/charuco_detector_interfaces/share/charuco_detector_interfaces/package.xml
+[12.810s] Invoked command in '/home/open/work/src/build/charuco_detector_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/charuco_detector_interfaces

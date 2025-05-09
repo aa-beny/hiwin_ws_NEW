@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_aruco_interfaces/srv/GetMaskImage.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module ros2_aruco_interfaces {
+  module srv {
+    struct GetMaskImage_Request {
+      boolean get_mask;
+    };
+    struct GetMaskImage_Response {
+      sequence<sensor_msgs::msg::Image> mask_image;
+
+      string image_condition;
+    };
+  };
+};

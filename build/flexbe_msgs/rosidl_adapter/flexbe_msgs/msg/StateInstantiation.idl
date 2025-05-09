@@ -1,0 +1,87 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/StateInstantiation.msg
+// generated code does not contain a copyright notice
+
+#include "flexbe_msgs/msg/OutcomeCondition.idl"
+
+module flexbe_msgs {
+  module msg {
+    typedef float float__2[2];
+    module StateInstantiation_Constants {
+      @verbatim (language="comment", text=
+        "Specifies the class implementing this state" "\n"        "Use one of the provided CLASS constants if this is not a primitive state" "\n"        "e.g. \"CalculationState\"")
+      const string CLASS_STATEMACHINE = ":STATEMACHINE";
+      const string CLASS_CONCURRENCY = ":CONCURRENCY";
+      const string CLASS_PRIORITY = ":PRIORITY";
+      const string CLASS_BEHAVIOR = ":BEHAVIOR";
+    };
+    @verbatim (language="comment", text=
+      "Describes a single instantiation of a state")
+    struct StateInstantiation {
+      @verbatim (language="comment", text=
+        "Path of this state inside the behavior" "\n"
+        "Last segment of the path is the name of this state" "\n"
+        "e.g. \"/Inner_Statemachine/This_State\"")
+      string state_path;
+
+      string state_class;
+
+      @verbatim (language="comment", text=
+        "Only relevant for state machine, priority, and concurrency" "\n"
+        "Name of the initial state / state to be monitored")
+      string initial_state_name;
+
+      @verbatim (language="comment", text=
+        "Input and output keys (can be remapped below)")
+      sequence<string> input_keys;
+
+      sequence<string> output_keys;
+
+      @verbatim (language="comment", text=
+        "Only relevant for concurrency" "\n"
+        "Outcome conditions")
+      sequence<string> cond_outcome;
+
+      sequence<flexbe_msgs::msg::OutcomeCondition> cond_transition;
+
+      @verbatim (language="comment", text=
+        "Only relevant for behavior" "\n"
+        "Name of the class implementing this state")
+      string behavior_class;
+
+      @verbatim (language="comment", text=
+        "Only relevant for primitive state" "\n"
+        "List of parameter names and values of this state" "\n"
+        "Order of names and values has to match")
+      sequence<string> parameter_names;
+
+      sequence<string> parameter_values;
+
+      @verbatim (language="comment", text=
+        "Position of this state in the editor [x,y]")
+      float__2 position;
+
+      @verbatim (language="comment", text=
+        "Outcomes of this state" "\n"
+        "Defines the order of the lists: transitions, autonomy")
+      sequence<string> outcomes;
+
+      @verbatim (language="comment", text=
+        "Transition targets (state names or container outcomes) of the outcomes")
+      sequence<string> transitions;
+
+      @verbatim (language="comment", text=
+        "Required autonomy level of the outcomes")
+      sequence<int8> autonomy;
+
+      @verbatim (language="comment", text=
+        "Userdata of this state" "\n"
+        "Merges own input_keys and output_keys, no duplicates")
+      sequence<string> userdata_keys;
+
+      @verbatim (language="comment", text=
+        "Remapping of the corresponding own key (= key used by container)")
+      sequence<string> userdata_remapping;
+    };
+  };
+};

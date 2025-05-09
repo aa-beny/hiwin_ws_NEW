@@ -1,0 +1,188 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/open/work/build/charuco_detector_interfaces
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_charuco_detector_interfaces
+running egg_info
+creating charuco_detector_interfaces.egg-info
+writing charuco_detector_interfaces.egg-info/PKG-INFO
+writing dependency_links to charuco_detector_interfaces.egg-info/dependency_links.txt
+writing top-level names to charuco_detector_interfaces.egg-info/top_level.txt
+writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_charuco_detector_interfaces_egg
+[  6%] Built target charuco_detector_interfaces__cpp
+[  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_c.dir/rosidl_generator_c/charuco_detector_interfaces/srv/detail/eye2base__functions.c.o[0m
+[ 22%] [32m[1mLinking C shared library libcharuco_detector_interfaces__rosidl_generator_c.so[0m
+[ 22%] Built target charuco_detector_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/charuco_detector_interfaces/srv/detail/dds_fastrtps/eye2base__type_support.cpp.o[0m
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_c/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_introspection_c.h'
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:151: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/charuco_detector_interfaces/srv/detail/dds_fastrtps/eye2base__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/build.make:146: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:151: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp.o] Interrupt
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 33, in <module>
+    generate_c(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 31, in <module>
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Interrupt
+    return generate_files(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+    sys.exit(main())
+  File "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c", line 27, in main
+    sys.exit(main())
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c", line 29, in main
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    generate_c(args.generator_arguments_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py", line 31, in generate_c
+    generate_typesupport_fastrtps_c(args.generator_arguments_file)
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_c/__init__.py", line 24, in generate_typesupport_fastrtps_c
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    return generate_files(generator_arguments_file, mapping)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/all] Interrupt
+    return generate_files(generator_arguments_file, mapping)
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    expand_template(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 415, in __init__
+    idl_file = parse_idl_file(locator)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+    interpreter.string(template_content, template_path, locals=data)
+  File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+    content = parse_idl_string(string, png_file=png_file)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+    tree = get_ast_from_idl_string(idl_string)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 88, in get_ast_from_idl_string
+    _parser = Lark(grammar, start='specification', maybe_placeholders=False)
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 415, in __init__
+    self.parser = self._build_parser()
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 458, in _build_parser
+    return parser_class(self.lexer_conf, parser_conf, options=self.options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 242, in __call__
+    self.safe(scanner, True, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+    self.parser = self._build_parser()
+  File "/usr/lib/python3/dist-packages/lark/lark.py", line 458, in _build_parser
+    return parser_class(self.lexer_conf, parser_conf, options=self.options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 242, in __call__
+    return ParsingFrontend(lexer_conf, parser_conf, options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 57, in __init__
+    return ParsingFrontend(lexer_conf, parser_conf, options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 57, in __init__
+    self.parser = create_parser(lexer_conf, parser_conf, options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 209, in create_earley_parser
+    self.parser = create_parser(lexer_conf, parser_conf, options)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 209, in create_earley_parser
+    self.parse(scanner, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+    return f(lexer_conf, parser_conf, options, resolve_ambiguity=resolve_ambiguity, debug=debug, tree_class=tree_class, **extra)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 186, in create_earley_parser__dynamic
+    return f(lexer_conf, parser_conf, options, resolve_ambiguity=resolve_ambiguity, debug=debug, tree_class=tree_class, **extra)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 187, in create_earley_parser__dynamic
+    earley_matcher = EarleyRegexpMatcher(lexer_conf)
+  File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 167, in __init__
+    return xearley.Parser(lexer_conf, parser_conf, earley_matcher.match, **kw)
+  File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 29, in __init__
+    width = get_regexp_width(regexp)[0]
+  File "/usr/lib/python3/dist-packages/lark/utils.py", line 131, in get_regexp_width
+    BaseParser.__init__(self, lexer_conf, parser_conf, term_matcher, resolve_ambiguity, debug, tree_class)
+  File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 25, in __init__
+    analysis = GrammarAnalyzer(parser_conf)
+  File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 161, in __init__
+    return [int(x) for x in sre_parse.parse(regexp_final).getwidth()]
+  File "/usr/lib/python3.10/sre_parse.py", line 185, in getwidth
+    self.FIRST, self.FOLLOW, self.NULLABLE = calculate_sets(rules)
+  File "/usr/lib/python3/dist-packages/lark/parsers/grammar_analysis.py", line 99, in calculate_sets
+    token.run(self, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+    l, h = av.getwidth()
+  File "/usr/lib/python3.10/sre_parse.py", line 185, in getwidth
+    if set(rule.expansion[:i]) <= NULLABLE:
+KeyboardInterrupt
+    l, h = av.getwidth()
+  File "/usr/lib/python3.10/sre_parse.py", line 199, in getwidth
+    i, j = av[2].getwidth()
+  File "/usr/lib/python3.10/sre_parse.py", line 221, in getwidth
+    self.subrun(info[0][1], interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+    self.width = min(lo, MAXREPEAT - 1), min(hi, MAXREPEAT)
+KeyboardInterrupt
+    token.run(interpreter, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+    interpreter.execute(self.code, locals)
+  File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+    _exec(statements, self.globals, locals)
+  File "<string>", line 2, in <module>
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 193, in _expand_template
+    with template_path.open('r') as h:
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0x7fb7755edfc0>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c.dir/build.make:142: rosidl_typesupport_fastrtps_c/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_fastrtps_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:238: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c.dir/build.make:140: rosidl_typesupport_c/charuco_detector_interfaces/srv/eye2base__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:342: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c.dir/build.make:142: rosidl_typesupport_introspection_c/charuco_detector_interfaces/srv/detail/eye2base__rosidl_typesupport_introspection_c.h] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:316: CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

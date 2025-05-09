@@ -1,0 +1,140 @@
+[0.113s] Invoking command in '/home/open/work/build/flexbe_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/install/flexbe_msgs
+[1.862s] -- The C compiler identification is GNU 11.4.0
+[1.863s] -- The CXX compiler identification is GNU 11.4.0
+[1.864s] -- Detecting C compiler ABI info
+[1.864s] -- Detecting C compiler ABI info - done
+[1.864s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.865s] -- Detecting C compile features
+[1.865s] -- Detecting C compile features - done
+[1.865s] -- Detecting CXX compiler ABI info
+[1.865s] -- Detecting CXX compiler ABI info - done
+[1.865s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.866s] -- Detecting CXX compile features
+[1.866s] -- Detecting CXX compile features - done
+[1.866s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.866s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.867s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.867s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.272s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.280s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.289s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.299s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.590s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.646s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.651s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.720s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.720s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.720s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.721s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.774s] -- Found PythonExtra: .so  
+[4.879s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[4.885s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[4.905s] -- Configuring done
+[5.064s] -- Generating done
+[5.070s] -- Build files have been written to: /home/open/work/build/flexbe_msgs
+[5.083s] Invoked command in '/home/open/work/build/flexbe_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/install/flexbe_msgs
+[5.088s] Invoking command in '/home/open/work/build/flexbe_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/flexbe_msgs -- -j16 -l16
+[5.196s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.230s] [  0%] Built target ament_cmake_python_copy_flexbe_msgs
+[5.232s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.974s] running egg_info
+[5.975s] creating flexbe_msgs.egg-info
+[5.976s] writing flexbe_msgs.egg-info/PKG-INFO
+[5.976s] writing dependency_links to flexbe_msgs.egg-info/dependency_links.txt
+[5.977s] writing top-level names to flexbe_msgs.egg-info/top_level.txt
+[5.977s] writing manifest file 'flexbe_msgs.egg-info/SOURCES.txt'
+[5.982s] reading manifest file 'flexbe_msgs.egg-info/SOURCES.txt'
+[5.983s] writing manifest file 'flexbe_msgs.egg-info/SOURCES.txt'
+[6.033s] [  0%] Built target ament_cmake_python_build_flexbe_msgs_egg
+[7.891s] Traceback (most recent call last):
+[7.892s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[7.893s]     sys.exit(main())
+[7.893s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/flexbe_msgs/msg/be_status.hpp'
+[7.894s] gmake[2]: *** Deleting file 'rosidl_generator_c/flexbe_msgs/msg/be_status.h'
+[7.896s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[7.896s]     generate_cpp(args.generator_arguments_file)
+[7.896s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp
+[7.897s] Traceback (most recent call last):
+[7.898s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[7.898s]     return generate_files(
+[7.898s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.899s]     expand_template(
+[7.899s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.899s]     interpreter.string(template_content, template_path, locals=data)
+[7.900s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.900s]     sys.exit(main())
+[7.900s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[7.900s]     generate_c(args.generator_arguments_file)
+[7.901s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[7.901s]     return generate_files(
+[7.901s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.901s]     expand_template(
+[7.902s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.902s]     interpreter.string(template_content, template_path, locals=data)
+[7.902s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.902s]     self.safe(scanner, True, locals)
+[7.903s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.903s]     self.safe(scanner, True, locals)
+[7.903s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.903s]     self.parse(scanner, locals)
+[7.904s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.920s]     token.run(self, locals)
+[7.921s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.921s]     self.parse(scanner, locals)
+[7.921s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.922s]     self.subrun(info[0][1], interpreter, locals)
+[7.922s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.923s]     token.run(self, locals)
+[7.924s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.925s]     token.run(interpreter, locals)
+[7.925s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.925s]     interpreter.execute(self.code, locals)
+[7.926s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.926s]     self.subrun(info[0][1], interpreter, locals)
+[7.926s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.940s]     token.run(interpreter, locals)
+[7.940s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.940s]     _exec(statements, self.globals, locals)
+[7.940s]   File "<string>", line 2, in <module>
+[7.941s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.941s]     interpreter.string(content, str(template_path), kwargs)
+[7.941s]     interpreter.execute(self.code, locals)
+[7.941s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.941s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.948s]     self.safe(scanner, True, locals)
+[7.948s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.948s]     _exec(statements, self.globals, locals)
+[7.949s]   File "<string>", line 1, in <module>
+[7.949s] KeyboardInterrupt
+[7.949s]     self.parse(scanner, locals)
+[7.949s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[7.949s]     token = scanner.one()
+[7.949s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.950s]     token.scan(self)
+[7.950s]   File "/usr/lib/python3/dist-packages/em.py", line 1456, in scan
+[7.950s]     i = scanner.complex('[', ']', 0)
+[7.950s]   File "/usr/lib/python3/dist-packages/em.py", line 1892, in complex
+[7.951s]     while i < end:
+[7.952s] KeyboardInterrupt
+[7.957s] Exception ignored in: <function Interpreter.__del__ at 0x75630f48dfc0>
+[7.957s] Traceback (most recent call last):
+[7.957s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[7.957s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[7.957s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[7.957s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[7.958s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[7.959s] Exception ignored in: <function Interpreter.__del__ at 0x7c14ccbcdd80>
+[7.959s] Traceback (most recent call last):
+[7.959s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[7.959s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[7.959s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[7.959s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[7.959s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[7.960s] gmake[2]: *** [CMakeFiles/flexbe_msgs__cpp.dir/build.make:183: rosidl_generator_cpp/flexbe_msgs/msg/be_status.hpp] Interrupt
+[7.960s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/flexbe_msgs__cpp.dir/all] Interrupt
+[7.963s] gmake[2]: *** [CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/build.make:111: rosidl_generator_c/flexbe_msgs/msg/be_status.h] Interrupt
+[7.963s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/all] Interrupt
+[7.963s] gmake: *** [Makefile:146: all] Interrupt

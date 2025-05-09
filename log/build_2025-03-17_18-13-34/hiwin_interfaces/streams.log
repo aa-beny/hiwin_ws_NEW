@@ -1,0 +1,156 @@
+[0.102s] Invoking command in '/home/open/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/install/hiwin_interfaces
+[1.849s] -- The C compiler identification is GNU 11.4.0
+[1.850s] -- The CXX compiler identification is GNU 11.4.0
+[1.851s] -- Detecting C compiler ABI info
+[1.851s] -- Detecting C compiler ABI info - done
+[1.851s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.851s] -- Detecting C compile features
+[1.852s] -- Detecting C compile features - done
+[1.852s] -- Detecting CXX compiler ABI info
+[1.852s] -- Detecting CXX compiler ABI info - done
+[1.852s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.852s] -- Detecting CXX compile features
+[1.853s] -- Detecting CXX compile features - done
+[1.853s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.853s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.853s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.854s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.854s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.855s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.096s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.096s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.346s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.839s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.901s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.901s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.902s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.902s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.952s] -- Found PythonExtra: .so  
+[5.103s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.155s] -- Added test 'lint_cmake' to check CMake code style
+[5.158s] -- Added test 'xmllint' to check XML markup files
+[5.163s] -- Configuring done
+[5.260s] -- Generating done
+[5.266s] -- Build files have been written to: /home/open/work/build/hiwin_interfaces
+[5.283s] Invoked command in '/home/open/work/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/install/hiwin_interfaces
+[5.287s] Invoking command in '/home/open/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/hiwin_interfaces -- -j16 -l16
+[5.406s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.429s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.462s] [  5%] Built target ament_cmake_python_copy_hiwin_interfaces
+[6.344s] running egg_info
+[6.348s] creating hiwin_interfaces.egg-info
+[6.348s] writing hiwin_interfaces.egg-info/PKG-INFO
+[6.348s] writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt
+[6.348s] writing top-level names to hiwin_interfaces.egg-info/top_level.txt
+[6.349s] writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[6.355s] reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[6.357s] writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'
+[6.433s] [  5%] Built target ament_cmake_python_build_hiwin_interfaces_egg
+[7.890s] Traceback (most recent call last):
+[7.891s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[7.891s] Traceback (most recent call last):
+[7.891s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[7.891s]     sys.exit(main())
+[7.892s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[7.892s]     generate_c(args.generator_arguments_file)
+[7.892s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[7.892s]     sys.exit(main())
+[7.893s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[7.893s]     return generate_files(
+[7.893s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.893s]     generate_cpp(args.generator_arguments_file)
+[7.894s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp
+[7.894s]     expand_template(
+[7.894s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.894s]     return generate_files(
+[7.895s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 87, in generate_files
+[7.895s]     interpreter.string(template_content, template_path, locals=data)
+[7.895s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.896s]     expand_template(
+[7.896s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 149, in expand_template
+[7.896s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/hiwin_interfaces/srv/hiwinmodbus.hpp'
+[7.897s]     interpreter.string(template_content, template_path, locals=data)
+[7.897s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.897s] gmake[2]: *** Deleting file 'rosidl_generator_c/hiwin_interfaces/srv/hiwinmodbus.h'
+[7.898s]     self.safe(scanner, True, locals)
+[7.898s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.898s]     self.safe(scanner, True, locals)
+[7.898s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.899s]     self.parse(scanner, locals)
+[7.899s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.899s]     self.parse(scanner, locals)
+[7.899s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.905s]     token.run(self, locals)
+[7.906s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.906s]     self.subrun(info[0][1], interpreter, locals)
+[7.906s]     token.run(self, locals)
+[7.906s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.906s]   File "/usr/lib/python3/dist-packages/em.py", line 1547, in run
+[7.906s]     token.run(interpreter, locals)
+[7.906s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.906s]     self.subrun(info[0][1], interpreter, locals)
+[7.907s]   File "/usr/lib/python3/dist-packages/em.py", line 1631, in subrun
+[7.907s]     interpreter.execute(self.code, locals)
+[7.907s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.907s]     token.run(interpreter, locals)
+[7.907s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.925s]     _exec(statements, self.globals, locals)
+[7.925s]     interpreter.execute(self.code, locals)
+[7.925s]   File "<string>", line 1, in <module>
+[7.926s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.926s] KeyboardInterrupt
+[7.926s]     _exec(statements, self.globals, locals)
+[7.926s]   File "<string>", line 2, in <module>
+[7.926s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.926s]     interpreter.string(content, str(template_path), kwargs)
+[7.926s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.926s]     self.safe(scanner, True, locals)
+[7.927s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.927s]     self.parse(scanner, locals)
+[7.927s]   File "/usr/lib/python3/dist-packages/em.py", line 2421, in parse
+[7.929s]     token.run(self, locals)
+[7.929s]   File "/usr/lib/python3/dist-packages/em.py", line 1425, in run
+[7.929s]     interpreter.execute(self.code, locals)
+[7.929s]   File "/usr/lib/python3/dist-packages/em.py", line 2596, in execute
+[7.930s]     _exec(statements, self.globals, locals)
+[7.930s]   File "<string>", line 2, in <module>
+[7.930s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 198, in _expand_template
+[7.930s]     interpreter.string(content, str(template_path), kwargs)
+[7.930s]   File "/usr/lib/python3/dist-packages/em.py", line 2391, in string
+[7.931s]     self.safe(scanner, True, locals)
+[7.931s]   File "/usr/lib/python3/dist-packages/em.py", line 2401, in safe
+[7.931s]     self.parse(scanner, locals)
+[7.932s]   File "/usr/lib/python3/dist-packages/em.py", line 2417, in parse
+[7.932s]     token = scanner.one()
+[7.932s]   File "/usr/lib/python3/dist-packages/em.py", line 1984, in one
+[7.932s]     token.scan(self)
+[7.932s]   File "/usr/lib/python3/dist-packages/em.py", line 1421, in scan
+[7.932s]     i = scanner.complex('{', '}', 0)
+[7.932s]   File "/usr/lib/python3/dist-packages/em.py", line 1893, in complex
+[7.932s]     newQuote = self.check(i, quote)
+[7.933s]   File "/usr/lib/python3/dist-packages/em.py", line 1766, in check
+[7.933s]     if self[i] in '\'\"':
+[7.933s] KeyboardInterrupt
+[7.937s] Exception ignored in: <function Interpreter.__del__ at 0x738190c81d80>
+[7.937s] Traceback (most recent call last):
+[7.937s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[7.937s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[7.938s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[7.938s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[7.938s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[7.939s] Exception ignored in: <function Interpreter.__del__ at 0x7b0492749fc0>
+[7.940s] Traceback (most recent call last):
+[7.940s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[7.940s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[7.940s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[7.940s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[7.940s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[7.941s] gmake[2]: *** [CMakeFiles/hiwin_interfaces__rosidl_generator_c.dir/build.make:148: rosidl_generator_c/hiwin_interfaces/srv/hiwinmodbus.h] Interrupt
+[7.941s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/hiwin_interfaces__rosidl_generator_c.dir/all] Interrupt
+[7.943s] gmake[2]: *** [CMakeFiles/hiwin_interfaces__cpp.dir/build.make:156: rosidl_generator_cpp/hiwin_interfaces/srv/hiwinmodbus.hpp] Interrupt
+[7.944s] gmake[1]: *** [CMakeFiles/Makefile2:265: CMakeFiles/hiwin_interfaces__cpp.dir/all] Interrupt
+[7.944s] gmake: *** [Makefile:146: all] Interrupt

@@ -1,0 +1,8 @@
+[ 16%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/camera.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/image.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libvisp_bridge.so[0m
+[ 66%] Built target visp_bridge
+[ 83%] [32mBuilding CXX object tool/CMakeFiles/visp_bridge_cam_param_converter.dir/cam_param_converter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable visp_bridge_cam_param_converter[0m
+[100%] Built target visp_bridge_cam_param_converter

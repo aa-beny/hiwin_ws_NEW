@@ -1,0 +1,121 @@
+[0.101s] Invoking command in '/home/open/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/install/realsense2_camera_msgs
+[1.849s] -- The C compiler identification is GNU 11.4.0
+[1.849s] -- The CXX compiler identification is GNU 11.4.0
+[1.849s] -- Detecting C compiler ABI info
+[1.849s] -- Detecting C compiler ABI info - done
+[1.850s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.850s] -- Detecting C compile features
+[1.850s] -- Detecting C compile features - done
+[1.850s] -- Detecting CXX compiler ABI info
+[1.851s] -- Detecting CXX compiler ABI info - done
+[1.851s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.851s] -- Detecting CXX compile features
+[1.851s] -- Detecting CXX compile features - done
+[1.851s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.852s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.852s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.852s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.853s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.853s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.887s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.438s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[3.447s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[3.457s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[3.466s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.641s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.649s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.741s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.742s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.742s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.742s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.819s] -- Found PythonExtra: .so  
+[6.123s] -- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[6.133s] -- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[6.162s] -- Configuring done
+[6.349s] -- Generating done
+[6.359s] -- Build files have been written to: /home/open/work/build/realsense2_camera_msgs
+[6.386s] Invoked command in '/home/open/work/build/realsense2_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/realsense-ros/realsense2_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/install/realsense2_camera_msgs
+[6.389s] Invoking command in '/home/open/work/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/realsense2_camera_msgs -- -j16 -l16
+[6.527s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.554s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.582s] [  3%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[7.434s] running egg_info
+[7.438s] creating realsense2_camera_msgs.egg-info
+[7.439s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[7.441s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[7.442s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[7.446s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[7.453s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[7.454s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[7.557s] [  3%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg
+[7.836s] Traceback (most recent call last):
+[7.836s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 38, in <module>
+[7.900s] Traceback (most recent call last):
+[7.901s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 38, in <module>
+[7.901s] gmake[2]: *** Deleting file 'rosidl_generator_cpp/realsense2_camera_msgs/msg/imu_info.hpp'
+[7.901s]     sys.exit(main())
+[7.901s]   File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 34, in main
+[7.901s]     generate_c(args.generator_arguments_file)
+[7.902s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 37, in generate_c
+[7.902s]     return generate_files(
+[7.902s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[7.902s]     idl_file = parse_idl_file(locator)
+[7.902s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[7.902s]     content = parse_idl_string(string, png_file=png_file)
+[7.902s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[7.903s]     tree = get_ast_from_idl_string(idl_string)
+[7.903s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[7.903s]     return _parser.parse(idl_string)
+[7.903s]     sys.exit(main())
+[7.903s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[7.903s]   File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 34, in main
+[7.903s]     generate_cpp(args.generator_arguments_file)
+[7.904s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 38, in generate_cpp
+[7.904s]     return generate_files(
+[7.904s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 74, in generate_files
+[7.904s]     idl_file = parse_idl_file(locator)
+[7.904s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 64, in parse_idl_file
+[7.905s]     content = parse_idl_string(string, png_file=png_file)
+[7.905s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 72, in parse_idl_string
+[7.914s]     tree = get_ast_from_idl_string(idl_string)
+[7.914s]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 89, in get_ast_from_idl_string
+[7.914s]     return _parser.parse(idl_string)
+[7.915s]   File "/usr/lib/python3/dist-packages/lark/lark.py", line 619, in parse
+[7.915s]     return self.parser.parse(text, start=start, on_error=on_error)
+[7.915s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[7.915s] gmake[2]: *** Deleting file 'rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h'
+[7.915s]     return self.parser.parse(stream, chosen_start, **kw)
+[7.915s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 266, in parse
+[7.915s]     return self.parser.parse(text, start=start, on_error=on_error)
+[7.915s]   File "/usr/lib/python3/dist-packages/lark/parser_frontends.py", line 99, in parse
+[7.916s]     return self.parser.parse(stream, chosen_start, **kw)
+[7.916s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 292, in parse
+[7.916s]     to_scan = self._parse(lexer, columns, to_scan, start_symbol)
+[7.916s]   File "/usr/lib/python3/dist-packages/lark/parsers/xearley.py", line 144, in _parse
+[7.916s]     return transformer.transform(solutions[0])
+[7.916s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 395, in transform
+[7.916s]     self.predict_and_complete(i, to_scan, columns, transitives)
+[7.917s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in predict_and_complete
+[7.917s]     self.visit(root)
+[7.917s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[7.917s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 532, in visit
+[7.917s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley.py", line 122, in <listcomp>
+[7.917s]     originators = [originator for originator in columns[item.start] if originator.expect is not None and originator.expect == item.s]
+[7.917s] KeyboardInterrupt
+[7.917s]     super(ForestToParseTree, self).visit(root)
+[7.918s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 355, in visit
+[7.918s]     next_node = vsni(current)
+[7.918s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 620, in visit_symbol_node_in
+[7.918s]     super(ForestToParseTree, self).visit_symbol_node_in(node)
+[7.918s]   File "/usr/lib/python3/dist-packages/lark/parsers/earley_forest.py", line 416, in visit_symbol_node_in
+[7.918s]     def visit_symbol_node_in(self, node):
+[7.918s] KeyboardInterrupt
+[7.934s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/build.make:181: rosidl_generator_c/realsense2_camera_msgs/msg/imu_info.h] Interrupt
+[7.934s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/all] Interrupt
+[7.934s] gmake[2]: *** [CMakeFiles/realsense2_camera_msgs__cpp.dir/build.make:201: rosidl_generator_cpp/realsense2_camera_msgs/msg/imu_info.hpp] Interrupt
+[7.934s] gmake[1]: *** [CMakeFiles/Makefile2:317: CMakeFiles/realsense2_camera_msgs__cpp.dir/all] Interrupt
+[7.934s] gmake: *** [Makefile:146: all] Interrupt

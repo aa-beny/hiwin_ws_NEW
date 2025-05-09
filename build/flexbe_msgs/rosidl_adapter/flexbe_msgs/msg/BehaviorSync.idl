@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/BehaviorSync.msg
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module msg {
+    module BehaviorSync_Constants {
+      @verbatim (language="comment", text=
+        "denotes unset id or checksum")
+      const int32 INVALID = 0;
+    };
+    struct BehaviorSync {
+      int32 behavior_id;
+
+      int32 current_state_checksum;
+    };
+  };
+};

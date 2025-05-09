@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from flexbe_msgs/action/BehaviorSynthesis.action
+// generated code does not contain a copyright notice
+
+#include "flexbe_msgs/msg/StateInstantiation.idl"
+#include "flexbe_msgs/msg/SynthesisErrorCodes.idl"
+#include "flexbe_msgs/msg/SynthesisRequest.idl"
+
+module flexbe_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Minimal template for a behavior synthesis action." "\n"
+      "As long as your action type supports at least the fields listed below, you can also use a custom one.")
+    struct BehaviorSynthesis_Goal {
+      @verbatim (language="comment", text=
+        "Request message as set in the FlexBE UI")
+      flexbe_msgs::msg::SynthesisRequest request;
+    };
+    struct BehaviorSynthesis_Result {
+      @verbatim (language="comment", text=
+        "Provides feedback regarding possibly occured errors")
+      flexbe_msgs::msg::SynthesisErrorCodes error_code;
+
+      @verbatim (language="comment", text=
+        "Result of behavior synthesis as a list of state instantiations")
+      sequence<flexbe_msgs::msg::StateInstantiation> states;
+    };
+    struct BehaviorSynthesis_Feedback {
+      @verbatim (language="comment", text=
+        "Any custom feedback message regarding the status")
+      string status;
+
+      @verbatim (language="comment", text=
+        "Progress indication from 0 (started) to 1 (completed)")
+      float progress;
+    };
+  };
+};

@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from flexbe_msgs/action/BehaviorInput.action
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "If desired, custom request types can be defined and choosen here")
+    struct BehaviorInput_Goal {
+      uint8 request_type;
+
+      @verbatim (language="comment", text=
+        "Request message displayed to the operator" "\n"
+        "Provide context information, i.e. for which purpose the data is required.")
+      string msg;
+    };
+    module BehaviorInput_Result_Constants {
+      const uint8 RESULT_OK = 0;
+      const uint8 RESULT_FAILED = 1;
+      const uint8 RESULT_ABORTED = 2;
+    };
+    struct BehaviorInput_Result {
+      @verbatim (language="comment", text=
+        "Indicates if the request has been successful")
+      uint8 result_code;
+
+      @verbatim (language="comment", text=
+        "Serialized data which was requested" "\n"
+        "In case of result_code != RESULT_OK, this field will contain unserialized data regarding the reason of failure instead.")
+      string data;
+    };
+    struct BehaviorInput_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/UICommand.msg
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Sends a command to the command interface of the FlexBE UI." "\n"
+      "In order to be successfully executed, the user needs to have ROS commands enabled and the keys have to match.")
+    struct UICommand {
+      @verbatim (language="comment", text=
+        "Command to be executed as it would be entered in the command interface")
+      string command;
+
+      @verbatim (language="comment", text=
+        "Security key, needs to match the key set in the UI")
+      string key;
+    };
+  };
+};

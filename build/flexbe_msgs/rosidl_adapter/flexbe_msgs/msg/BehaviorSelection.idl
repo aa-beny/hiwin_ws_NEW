@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/BehaviorSelection.msg
+// generated code does not contain a copyright notice
+
+#include "flexbe_msgs/msg/BehaviorModification.idl"
+
+module flexbe_msgs {
+  module msg {
+    struct BehaviorSelection {
+      int32 behavior_id;
+
+      int32 behavior_checksum;
+
+      uint8 autonomy_level;
+
+      sequence<string> arg_keys;
+
+      sequence<string> arg_values;
+
+      sequence<string> input_keys;
+
+      sequence<string> input_values;
+
+      sequence<flexbe_msgs::msg::BehaviorModification> modifications;
+    };
+  };
+};

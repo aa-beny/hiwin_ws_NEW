@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../build/flexbe_input/flexbe_input.egg-info
+writing ../../../build/flexbe_input/flexbe_input.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flexbe_input/flexbe_input.egg-info/dependency_links.txt
+writing entry points to ../../../build/flexbe_input/flexbe_input.egg-info/entry_points.txt
+writing requirements to ../../../build/flexbe_input/flexbe_input.egg-info/requires.txt
+writing top-level names to ../../../build/flexbe_input/flexbe_input.egg-info/top_level.txt
+writing manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+reading manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/src/build/flexbe_input/build
+creating /home/open/work/src/build/flexbe_input/build/lib
+creating /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+copying flexbe_input/complex_action_server.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+copying flexbe_input/__init__.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+copying flexbe_input/flexbe_input.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+running install
+running install_lib
+creating /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/complex_action_server.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/__init__.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/flexbe_input.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/complex_action_server.py to complex_action_server.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/flexbe_input.py to flexbe_input.cpython-310.pyc
+running install_data
+creating /home/open/work/src/install/flexbe_input/share/ament_index
+creating /home/open/work/src/install/flexbe_input/share/ament_index/resource_index
+creating /home/open/work/src/install/flexbe_input/share/ament_index/resource_index/packages
+copying resource/flexbe_input -> /home/open/work/src/install/flexbe_input/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/src/install/flexbe_input/share/flexbe_input
+running install_egg_info
+Copying ../../../build/flexbe_input/flexbe_input.egg-info to /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input-2.0.0-py3.10.egg-info
+running install_scripts
+Installing behavior_input script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+Installing complex_action_server script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+Installing flexbe_input script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+writing list of installed files to '/home/open/work/src/build/flexbe_input/install.log'

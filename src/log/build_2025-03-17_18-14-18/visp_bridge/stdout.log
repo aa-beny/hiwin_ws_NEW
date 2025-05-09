@@ -1,0 +1,85 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found camera_calibration_parsers: 3.1.9 (/opt/ros/humble/share/camera_calibration_parsers/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/open/work/src/build/visp_bridge
+[ 16%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/camera.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/image.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libvisp_bridge.so[0m
+[ 66%] Built target visp_bridge
+[ 83%] [32mBuilding CXX object tool/CMakeFiles/visp_bridge_cam_param_converter.dir/cam_param_converter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable visp_bridge_cam_param_converter[0m
+[100%] Built target visp_bridge_cam_param_converter
+-- Install configuration: ""
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge/visp_bridge
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge/visp_bridge/image.h
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge/visp_bridge/3dpose.h
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge/visp_bridge/camera.h
+-- Installing: /home/open/work/src/install/visp_bridge/lib/libvisp_bridge.so
+-- Set runtime path of "/home/open/work/src/install/visp_bridge/lib/libvisp_bridge.so" to ""
+-- Installing: /home/open/work/src/install/visp_bridge/share/ament_index/resource_index/package_run_dependencies/visp_bridge
+-- Installing: /home/open/work/src/install/visp_bridge/share/ament_index/resource_index/parent_prefix_path/visp_bridge
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/environment/path.sh
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/environment/path.dsv
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/local_setup.bash
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/local_setup.sh
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/local_setup.zsh
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/local_setup.dsv
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/package.dsv
+-- Installing: /home/open/work/src/install/visp_bridge/share/ament_index/resource_index/packages/visp_bridge
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/export_visp_bridgeExport.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/export_visp_bridgeExport-noconfig.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/visp_bridgeConfig.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/cmake/visp_bridgeConfig-version.cmake
+-- Installing: /home/open/work/src/install/visp_bridge/share/visp_bridge/package.xml
+-- Up-to-date: /home/open/work/src/install/visp_bridge/lib/libvisp_bridge.so
+-- Installing: /home/open/work/src/install/visp_bridge/include/visp_bridge/visp_bridge/visp_bridge_export.h
+-- Installing: /home/open/work/src/install/visp_bridge/lib/visp_bridge/visp_bridge_cam_param_converter
+-- Set runtime path of "/home/open/work/src/install/visp_bridge/lib/visp_bridge/visp_bridge_cam_param_converter" to ""
+-- Installing: /home/open/work/src/install/visp_bridge/share/data
+-- Installing: /home/open/work/src/install/visp_bridge/share/data/visp-camera-model-with-distortion.xml
+-- Installing: /home/open/work/src/install/visp_bridge/share/data/ros-camera-model-with-distortion.ini
+-- Installing: /home/open/work/src/install/visp_bridge/share/data/ros-camera-model-without-distortion.ini
+-- Installing: /home/open/work/src/install/visp_bridge/share/data/visp-camera-model-without-distortion.xml

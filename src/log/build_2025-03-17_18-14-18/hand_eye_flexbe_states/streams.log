@@ -1,0 +1,117 @@
+[0.926s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_states': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_states -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_states
+[1.197s] -- The C compiler identification is GNU 11.4.0
+[1.447s] -- The CXX compiler identification is GNU 11.4.0
+[1.483s] -- Detecting C compiler ABI info
+[1.779s] -- Detecting C compiler ABI info - done
+[1.826s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.826s] -- Detecting C compile features
+[1.826s] -- Detecting C compile features - done
+[1.839s] -- Detecting CXX compiler ABI info
+[2.170s] -- Detecting CXX compiler ABI info - done
+[2.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.212s] -- Detecting CXX compile features
+[2.213s] -- Detecting CXX compile features - done
+[2.229s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.767s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.167s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[3.342s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.356s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.379s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.418s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.472s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.814s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.828s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.154s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.308s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.550s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.606s] -- Looking for pthread.h
+[4.905s] -- Looking for pthread.h - found
+[4.905s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.195s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.200s] -- Found Threads: TRUE  
+[5.721s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[6.171s] -- Configuring done
+[6.185s] -- Generating done
+[6.190s] -- Build files have been written to: /home/open/work/src/build/hand_eye_flexbe_states
+[6.213s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_states' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_states -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_states
+[6.222s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_states': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_states -- -j16 -l16
+[6.446s] Built target ament_cmake_python_copy_hand_eye_flexbe_states
+[6.450s] Built target ament_cmake_python_copy_hand_eye_flexbe_states_setup
+[7.036s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.036s]   warnings.warn(
+[7.037s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[7.037s]   warnings.warn(
+[7.050s] running egg_info
+[7.052s] creating hand_eye_flexbe_states.egg-info
+[7.053s] writing hand_eye_flexbe_states.egg-info/PKG-INFO
+[7.053s] writing dependency_links to hand_eye_flexbe_states.egg-info/dependency_links.txt
+[7.054s] writing top-level names to hand_eye_flexbe_states.egg-info/top_level.txt
+[7.054s] writing manifest file 'hand_eye_flexbe_states.egg-info/SOURCES.txt'
+[7.060s] reading manifest file 'hand_eye_flexbe_states.egg-info/SOURCES.txt'
+[7.061s] writing manifest file 'hand_eye_flexbe_states.egg-info/SOURCES.txt'
+[7.118s] Built target ament_cmake_python_build_hand_eye_flexbe_states_egg
+[7.639s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_states' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_states -- -j16 -l16
+[7.737s] Invoking command in '/home/open/work/src/build/hand_eye_flexbe_states': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_states
+[7.755s] -- Install configuration: ""
+[7.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/lib/hand_eye_flexbe_states
+[7.755s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/pythonpath.sh
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/pythonpath.dsv
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states-1.0.0-py3.10.egg-info
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states-1.0.0-py3.10.egg-info/PKG-INFO
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states-1.0.0-py3.10.egg-info/top_level.txt
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states-1.0.0-py3.10.egg-info/dependency_links.txt
+[7.756s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states-1.0.0-py3.10.egg-info/SOURCES.txt
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/execute_traj.py
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/get_ar_marker.py
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/automatic_move_robot.py
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/find_charuco.py
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/take_picture.py
+[7.757s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/joints_plan.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/charuco_camera_calibration.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/generate_hand_eye_point.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/compute_calib.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/pose_plan.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/move_charuco_center.py
+[7.758s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/move_robot_manually.py
+[7.762s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/initial_pose.py
+[7.762s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/get_calib_pose.py
+[7.762s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/__init__.py
+[7.762s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/moveit_hand_eye_excute.py
+[7.762s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/moveit_plan_excute.py
+[7.763s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/obj_trans_to_arm.py
+[7.870s] Listing '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states'...
+[7.870s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/__init__.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/automatic_move_robot.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/charuco_camera_calibration.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/compute_calib.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/execute_traj.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/find_charuco.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/generate_hand_eye_point.py'...
+[7.871s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/get_ar_marker.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/get_calib_pose.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/initial_pose.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/joints_plan.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/move_charuco_center.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/move_robot_manually.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/moveit_hand_eye_excute.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/moveit_plan_excute.py'...
+[7.872s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/obj_trans_to_arm.py'...
+[7.873s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/pose_plan.py'...
+[7.873s] Compiling '/home/open/work/src/install/hand_eye_flexbe_states/local/lib/python3.10/dist-packages/hand_eye_flexbe_states/take_picture.py'...
+[7.882s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/ament_index/resource_index/package_run_dependencies/hand_eye_flexbe_states
+[7.882s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/ament_index/resource_index/parent_prefix_path/hand_eye_flexbe_states
+[7.882s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/ament_prefix_path.sh
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/ament_prefix_path.dsv
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/path.sh
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/environment/path.dsv
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/local_setup.bash
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/local_setup.sh
+[7.883s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/local_setup.zsh
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/local_setup.dsv
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/package.dsv
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/ament_index/resource_index/packages/hand_eye_flexbe_states
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/cmake/hand_eye_flexbe_statesConfig.cmake
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/cmake/hand_eye_flexbe_statesConfig-version.cmake
+[7.884s] -- Installing: /home/open/work/src/install/hand_eye_flexbe_states/share/hand_eye_flexbe_states/package.xml
+[7.891s] Invoked command in '/home/open/work/src/build/hand_eye_flexbe_states' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_states

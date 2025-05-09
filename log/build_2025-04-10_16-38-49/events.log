@@ -1,0 +1,909 @@
+[0.000000] (-) TimerEvent: {}
+[0.000184] (charuco_detector_interfaces) JobQueued: {'identifier': 'charuco_detector_interfaces', 'dependencies': OrderedDict()}
+[0.000203] (dynamixel_hardware) JobQueued: {'identifier': 'dynamixel_hardware', 'dependencies': OrderedDict()}
+[0.000214] (flexbe_msgs) JobQueued: {'identifier': 'flexbe_msgs', 'dependencies': OrderedDict()}
+[0.000223] (hand_eye_flexbe_behaviors) JobQueued: {'identifier': 'hand_eye_flexbe_behaviors', 'dependencies': OrderedDict()}
+[0.000232] (hiwin_example) JobQueued: {'identifier': 'hiwin_example', 'dependencies': OrderedDict()}
+[0.000241] (hiwin_interfaces) JobQueued: {'identifier': 'hiwin_interfaces', 'dependencies': OrderedDict()}
+[0.000250] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000258] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.000267] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.000276] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.000284] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000299] (visp_bridge) JobQueued: {'identifier': 'visp_bridge', 'dependencies': OrderedDict()}
+[0.000744] (charuco_detector) JobQueued: {'identifier': 'charuco_detector', 'dependencies': OrderedDict([('charuco_detector_interfaces', '/home/open/work/install/charuco_detector_interfaces')])}
+[0.000756] (flexbe_core) JobQueued: {'identifier': 'flexbe_core', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs')])}
+[0.000766] (flexbe_input) JobQueued: {'identifier': 'flexbe_input', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs')])}
+[0.000775] (hiwin_libmodbus) JobQueued: {'identifier': 'hiwin_libmodbus', 'dependencies': OrderedDict([('hiwin_interfaces', '/home/open/work/install/hiwin_interfaces')])}
+[0.000784] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/open/work/install/realsense2_camera_msgs')])}
+[0.000794] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/open/work/install/realsense2_camera_msgs')])}
+[0.000803] (visp_camera_calibration) JobQueued: {'identifier': 'visp_camera_calibration', 'dependencies': OrderedDict([('visp_bridge', '/home/open/work/install/visp_bridge')])}
+[0.000814] (visp_hand2eye_calibration) JobQueued: {'identifier': 'visp_hand2eye_calibration', 'dependencies': OrderedDict([('visp_bridge', '/home/open/work/install/visp_bridge')])}
+[0.000823] (flexbe_mirror) JobQueued: {'identifier': 'flexbe_mirror', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core')])}
+[0.000834] (flexbe_testing) JobQueued: {'identifier': 'flexbe_testing', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core')])}
+[0.000844] (hand_eye_flexbe_states) JobQueued: {'identifier': 'hand_eye_flexbe_states', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core')])}
+[0.000853] (hiwin_service_client) JobQueued: {'identifier': 'hiwin_service_client', 'dependencies': OrderedDict([('hiwin_interfaces', '/home/open/work/install/hiwin_interfaces'), ('hiwin_libmodbus', '/home/open/work/install/hiwin_libmodbus')])}
+[0.000863] (small_arm_description) JobQueued: {'identifier': 'small_arm_description', 'dependencies': OrderedDict([('dynamixel_hardware', '/home/open/work/install/dynamixel_hardware'), ('realsense2_camera_msgs', '/home/open/work/install/realsense2_camera_msgs'), ('realsense2_description', '/home/open/work/install/realsense2_description')])}
+[0.000876] (flexbe_states) JobQueued: {'identifier': 'flexbe_states', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core'), ('flexbe_testing', '/home/open/work/install/flexbe_testing')])}
+[0.000902] (small_arm_moveit_config) JobQueued: {'identifier': 'small_arm_moveit_config', 'dependencies': OrderedDict([('dynamixel_hardware', '/home/open/work/install/dynamixel_hardware'), ('realsense2_camera_msgs', '/home/open/work/install/realsense2_camera_msgs'), ('realsense2_description', '/home/open/work/install/realsense2_description'), ('small_arm_description', '/home/open/work/install/small_arm_description')])}
+[0.000918] (flexbe_onboard) JobQueued: {'identifier': 'flexbe_onboard', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core'), ('flexbe_testing', '/home/open/work/install/flexbe_testing'), ('flexbe_states', '/home/open/work/install/flexbe_states')])}
+[0.000928] (flexbe_widget) JobQueued: {'identifier': 'flexbe_widget', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core'), ('flexbe_mirror', '/home/open/work/install/flexbe_mirror'), ('flexbe_testing', '/home/open/work/install/flexbe_testing'), ('flexbe_states', '/home/open/work/install/flexbe_states'), ('flexbe_onboard', '/home/open/work/install/flexbe_onboard')])}
+[0.000940] (flexbe_app) JobQueued: {'identifier': 'flexbe_app', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core'), ('flexbe_mirror', '/home/open/work/install/flexbe_mirror'), ('flexbe_testing', '/home/open/work/install/flexbe_testing'), ('flexbe_states', '/home/open/work/install/flexbe_states'), ('flexbe_onboard', '/home/open/work/install/flexbe_onboard'), ('flexbe_widget', '/home/open/work/install/flexbe_widget')])}
+[0.000955] (flexbe_behavior_engine) JobQueued: {'identifier': 'flexbe_behavior_engine', 'dependencies': OrderedDict([('flexbe_msgs', '/home/open/work/install/flexbe_msgs'), ('flexbe_core', '/home/open/work/install/flexbe_core'), ('flexbe_input', '/home/open/work/install/flexbe_input'), ('flexbe_mirror', '/home/open/work/install/flexbe_mirror'), ('flexbe_testing', '/home/open/work/install/flexbe_testing'), ('flexbe_states', '/home/open/work/install/flexbe_states'), ('flexbe_onboard', '/home/open/work/install/flexbe_onboard'), ('flexbe_widget', '/home/open/work/install/flexbe_widget')])}
+[0.000968] (flexbe_msgs) JobStarted: {'identifier': 'flexbe_msgs'}
+[0.008323] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.010205] (dynamixel_hardware) JobStarted: {'identifier': 'dynamixel_hardware'}
+[0.011720] (hiwin_interfaces) JobStarted: {'identifier': 'hiwin_interfaces'}
+[0.013596] (visp_bridge) JobStarted: {'identifier': 'visp_bridge'}
+[0.015425] (charuco_detector_interfaces) JobStarted: {'identifier': 'charuco_detector_interfaces'}
+[0.017247] (hand_eye_flexbe_behaviors) JobStarted: {'identifier': 'hand_eye_flexbe_behaviors'}
+[0.019117] (hiwin_example) JobStarted: {'identifier': 'hiwin_example'}
+[0.022893] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.025383] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.028133] (ros2_aruco_interfaces) JobStarted: {'identifier': 'ros2_aruco_interfaces'}
+[0.030098] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.033997] (flexbe_msgs) JobProgress: {'identifier': 'flexbe_msgs', 'progress': 'cmake'}
+[0.034603] (flexbe_msgs) JobProgress: {'identifier': 'flexbe_msgs', 'progress': 'build'}
+[0.035042] (flexbe_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/flexbe_msgs', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/flexbe_msgs', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/flexbe_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036969] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'cmake'}
+[0.037559] (realsense2_camera_msgs) JobProgress: {'identifier': 'realsense2_camera_msgs', 'progress': 'build'}
+[0.037767] (realsense2_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/realsense2_camera_msgs', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/realsense2_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/realsense2_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039011] (dynamixel_hardware) JobProgress: {'identifier': 'dynamixel_hardware', 'progress': 'cmake'}
+[0.039032] (dynamixel_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/open/work/src/tb4_arm_ros2/dynamixel_hardware', '-DCMAKE_INSTALL_PREFIX=/home/open/work/install/dynamixel_hardware'], 'cwd': '/home/open/work/build/dynamixel_hardware', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/dynamixel_hardware'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039538] (hiwin_interfaces) JobProgress: {'identifier': 'hiwin_interfaces', 'progress': 'cmake'}
+[0.039993] (hiwin_interfaces) JobProgress: {'identifier': 'hiwin_interfaces', 'progress': 'build'}
+[0.040184] (hiwin_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/hiwin_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/hiwin_interfaces', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/hiwin_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041014] (visp_bridge) JobProgress: {'identifier': 'visp_bridge', 'progress': 'cmake'}
+[0.041530] (visp_bridge) JobProgress: {'identifier': 'visp_bridge', 'progress': 'build'}
+[0.041721] (visp_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/visp_bridge', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/visp_bridge', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/visp_bridge'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042484] (charuco_detector_interfaces) JobProgress: {'identifier': 'charuco_detector_interfaces', 'progress': 'cmake'}
+[0.043121] (charuco_detector_interfaces) JobProgress: {'identifier': 'charuco_detector_interfaces', 'progress': 'build'}
+[0.043322] (charuco_detector_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/charuco_detector_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/charuco_detector_interfaces', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/charuco_detector_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044056] (hand_eye_flexbe_behaviors) JobProgress: {'identifier': 'hand_eye_flexbe_behaviors', 'progress': 'cmake'}
+[0.044505] (hand_eye_flexbe_behaviors) JobProgress: {'identifier': 'hand_eye_flexbe_behaviors', 'progress': 'build'}
+[0.044700] (hand_eye_flexbe_behaviors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/hand_eye_flexbe_behaviors', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/hand_eye_flexbe_behaviors', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/hand_eye_flexbe_behaviors'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102521] (-) TimerEvent: {}
+[0.202942] (-) TimerEvent: {}
+[0.303516] (-) TimerEvent: {}
+[0.404775] (-) TimerEvent: {}
+[0.506132] (-) TimerEvent: {}
+[0.606725] (-) TimerEvent: {}
+[0.707148] (-) TimerEvent: {}
+[0.807590] (-) TimerEvent: {}
+[0.908366] (-) TimerEvent: {}
+[1.015397] (-) TimerEvent: {}
+[1.041801] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'cmake'}
+[1.041894] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/open/work/src/ros2_aruco/ros2_aruco_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/open/work/install/ros2_aruco_interfaces'], 'cwd': '/home/open/work/build/ros2_aruco_interfaces', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/ros2_aruco_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.047930] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[1.053554] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[1.053680] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/open/work/build/tutorial_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/open/work/build/tutorial_interfaces', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/tutorial_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.062375] (flexbe_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.062764] (flexbe_msgs) StdoutLine: {'line': b'[  0%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.062867] (flexbe_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_flexbe_msgs\n'}
+[1.062941] (flexbe_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.063019] (flexbe_msgs) StdoutLine: {'line': b'writing flexbe_msgs.egg-info/PKG-INFO\n'}
+[1.063093] (flexbe_msgs) StdoutLine: {'line': b'writing dependency_links to flexbe_msgs.egg-info/dependency_links.txt\n'}
+[1.063162] (flexbe_msgs) StdoutLine: {'line': b'writing top-level names to flexbe_msgs.egg-info/top_level.txt\n'}
+[1.063242] (flexbe_msgs) StdoutLine: {'line': b"reading manifest file 'flexbe_msgs.egg-info/SOURCES.txt'\n"}
+[1.063418] (flexbe_msgs) StdoutLine: {'line': b"writing manifest file 'flexbe_msgs.egg-info/SOURCES.txt'\n"}
+[1.063507] (flexbe_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_build_flexbe_msgs_egg\n'}
+[1.066704] (realsense2_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.066976] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.067059] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_realsense2_camera_msgs\n'}
+[1.067119] (realsense2_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.067176] (realsense2_camera_msgs) StdoutLine: {'line': b'writing realsense2_camera_msgs.egg-info/PKG-INFO\n'}
+[1.067232] (realsense2_camera_msgs) StdoutLine: {'line': b'writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt\n'}
+[1.067300] (realsense2_camera_msgs) StdoutLine: {'line': b'writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt\n'}
+[1.067363] (realsense2_camera_msgs) StdoutLine: {'line': b"reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[1.067417] (realsense2_camera_msgs) StdoutLine: {'line': b"writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'\n"}
+[1.067472] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg\n'}
+[1.067529] (realsense2_camera_msgs) StdoutLine: {'line': b'[  3%] Built target realsense2_camera_msgs__cpp\n'}
+[1.067592] (realsense2_camera_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.067649] (realsense2_camera_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.067706] (realsense2_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.073874] (realsense2_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/imu_info__functions.c.o\x1b[0m\n'}
+[1.077421] (dynamixel_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.077745] (dynamixel_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.077834] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.077922] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.078003] (dynamixel_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.078098] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.078176] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.078250] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.078312] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.078374] (dynamixel_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.078433] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.078496] (dynamixel_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.078554] (dynamixel_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.078619] (dynamixel_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.080864] (hiwin_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.081158] (hiwin_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.081239] (hiwin_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_hiwin_interfaces\n'}
+[1.081311] (hiwin_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.081376] (hiwin_interfaces) StdoutLine: {'line': b'writing hiwin_interfaces.egg-info/PKG-INFO\n'}
+[1.081435] (hiwin_interfaces) StdoutLine: {'line': b'writing dependency_links to hiwin_interfaces.egg-info/dependency_links.txt\n'}
+[1.081493] (hiwin_interfaces) StdoutLine: {'line': b'writing top-level names to hiwin_interfaces.egg-info/top_level.txt\n'}
+[1.081551] (hiwin_interfaces) StdoutLine: {'line': b"reading manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'\n"}
+[1.081607] (hiwin_interfaces) StdoutLine: {'line': b"writing manifest file 'hiwin_interfaces.egg-info/SOURCES.txt'\n"}
+[1.081664] (hiwin_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_hiwin_interfaces_egg\n'}
+[1.081727] (hiwin_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hiwin_interfaces/srv/detail/robot_command__functions.c.o\x1b[0m\n'}
+[1.081794] (hiwin_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_c.dir/rosidl_generator_c/hiwin_interfaces/srv/detail/hiwinmodbus__functions.c.o\x1b[0m\n'}
+[1.081856] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[1.081998] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[1.086472] (visp_bridge) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/camera.cpp.o\x1b[0m\n'}
+[1.088465] (visp_bridge) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o\x1b[0m\n'}
+[1.088620] (visp_bridge) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object src/CMakeFiles/visp_bridge.dir/image.cpp.o\x1b[0m\n'}
+[1.088690] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/msg/detail/rgbd__functions.c.o\x1b[0m\n'}
+[1.090523] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/realsense2_camera_msgs/srv/detail/device_info__functions.c.o\x1b[0m\n'}
+[1.091281] (charuco_detector_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target charuco_detector_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.091483] (charuco_detector_interfaces) StdoutLine: {'line': b'[  3%] Built target charuco_detector_interfaces__cpp\n'}
+[1.091569] (charuco_detector_interfaces) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_charuco_detector_interfaces\n'}
+[1.091638] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 12%] Built target charuco_detector_interfaces__rosidl_generator_c\n'}
+[1.091706] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.091772] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.091842] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o\x1b[0m\n'}
+[1.091912] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.091980] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/charuco_detector_interfaces/srv/detail/dds_fastrtps/eye2base__type_support.cpp.o\x1b[0m\n'}
+[1.092050] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/charuco_detector_interfaces/srv/detail/eye2base__type_support.cpp.o\x1b[0m\n'}
+[1.092119] (charuco_detector_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.092186] (charuco_detector_interfaces) StdoutLine: {'line': b'writing charuco_detector_interfaces.egg-info/PKG-INFO\n'}
+[1.092253] (charuco_detector_interfaces) StdoutLine: {'line': b'writing dependency_links to charuco_detector_interfaces.egg-info/dependency_links.txt\n'}
+[1.094370] (charuco_detector_interfaces) StdoutLine: {'line': b'writing top-level names to charuco_detector_interfaces.egg-info/top_level.txt\n'}
+[1.094950] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/charuco_detector_interfaces/srv/eye2base__type_support.cpp.o\x1b[0m\n'}
+[1.095043] (charuco_detector_interfaces) StdoutLine: {'line': b"reading manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'\n"}
+[1.095114] (charuco_detector_interfaces) StdoutLine: {'line': b"writing manifest file 'charuco_detector_interfaces.egg-info/SOURCES.txt'\n"}
+[1.095176] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 35%] Built target ament_cmake_python_build_charuco_detector_interfaces_egg\n'}
+[1.095245] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.095323] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/charuco_detector_interfaces/srv/detail/eye2base__type_support.c.o\x1b[0m\n'}
+[1.095402] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 41%] Built target charuco_detector_interfaces__rosidl_typesupport_c\n'}
+[1.095464] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/charuco_detector_interfaces/srv/detail/eye2base__type_support_c.cpp.o\x1b[0m\n'}
+[1.095526] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.095590] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.095662] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 51%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.095722] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 54%] Built target charuco_detector_interfaces__rosidl_typesupport_cpp\n'}
+[1.095782] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.095843] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.095904] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 64%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.096302] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'Built target ament_cmake_python_copy_hand_eye_flexbe_behaviors_setup\n'}
+[1.096437] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'Built target ament_cmake_python_copy_hand_eye_flexbe_behaviors\n'}
+[1.096502] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'running egg_info\n'}
+[1.096566] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'writing hand_eye_flexbe_behaviors.egg-info/PKG-INFO\n'}
+[1.096631] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'writing dependency_links to hand_eye_flexbe_behaviors.egg-info/dependency_links.txt\n'}
+[1.096692] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'writing top-level names to hand_eye_flexbe_behaviors.egg-info/top_level.txt\n'}
+[1.096756] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b"reading manifest file 'hand_eye_flexbe_behaviors.egg-info/SOURCES.txt'\n"}
+[1.096817] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b"writing manifest file 'hand_eye_flexbe_behaviors.egg-info/SOURCES.txt'\n"}
+[1.096876] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'Built target ament_cmake_python_build_hand_eye_flexbe_behaviors_egg\n'}
+[1.100116] (hand_eye_flexbe_behaviors) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.100329] (hand_eye_flexbe_behaviors) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.100410] (hand_eye_flexbe_behaviors) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.100486] (hand_eye_flexbe_behaviors) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.114437] (hand_eye_flexbe_behaviors) CommandEnded: {'returncode': 0}
+[1.119104] (-) TimerEvent: {}
+[1.142094] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 67%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.154512] (hiwin_interfaces) StdoutLine: {'line': b'[ 10%] Built target hiwin_interfaces__cpp\n'}
+[1.158517] (tutorial_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.167205] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.173435] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.176878] (hiwin_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libhiwin_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.180548] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.182649] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcharuco_detector_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.184947] (hiwin_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.193688] (hiwin_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.193842] (hiwin_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.193926] (hand_eye_flexbe_behaviors) JobProgress: {'identifier': 'hand_eye_flexbe_behaviors', 'progress': 'install'}
+[1.193952] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[1.211309] (hand_eye_flexbe_behaviors) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/open/work/build/hand_eye_flexbe_behaviors'], 'cwd': '/home/open/work/build/hand_eye_flexbe_behaviors', 'env': OrderedDict([('HOSTNAME', 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/open'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/open_folder/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('TERMINATOR_UUID', 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('PWD', '/home/open/work/build/hand_eye_flexbe_behaviors'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ROS_HOSTNAME', 'localhost'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('TZ', 'America/New_York'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.219434] (-) TimerEvent: {}
+[1.240880] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.241243] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest\n'}
+[1.241453] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/manual_hand_eye_calibration.xml\n'}
+[1.241613] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/automatic_hand_eye_calibration.xml\n'}
+[1.241699] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/hand_eye_calibration.xml\n'}
+[1.241774] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/camera_calibration.xml\n'}
+[1.241848] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/manifest/verify_calibraion.xml\n'}
+[1.241951] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/config\n'}
+[1.242034] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/lib/hand_eye_flexbe_behaviors/config/example.yaml\n'}
+[1.242246] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/pythonpath.sh\n'}
+[1.242374] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/pythonpath.dsv\n'}
+[1.242692] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info\n'}
+[1.242819] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Installing: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.243019] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Installing: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.243137] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Installing: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.243265] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Installing: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors-1.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.243459] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors\n'}
+[1.243592] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/hand_eye_calibration_sm.py\n'}
+[1.243724] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/verify_calibraion_sm.py\n'}
+[1.243810] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/automatic_hand_eye_calibration_sm.py\n'}
+[1.249078] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[1.249334] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/__init__.py\n'}
+[1.249442] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/camera_calibration_sm.py\n'}
+[1.249530] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors/manual_hand_eye_calibration_sm.py\n'}
+[1.275427] (hiwin_interfaces) StdoutLine: {'line': b'[ 20%] Built target hiwin_interfaces__rosidl_generator_c\n'}
+[1.291535] (hiwin_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.297417] (hiwin_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.299995] (hiwin_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.321378] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.321670] (-) TimerEvent: {}
+[1.344461] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.346821] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.357460] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b"Listing '/home/open/work/install/hand_eye_flexbe_behaviors/local/lib/python3.10/dist-packages/hand_eye_flexbe_behaviors'...\n"}
+[1.362603] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.363459] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 17%] Built target realsense2_camera_msgs__rosidl_generator_c\n'}
+[1.370789] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/package_run_dependencies/hand_eye_flexbe_behaviors\n'}
+[1.371524] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/parent_prefix_path/hand_eye_flexbe_behaviors\n'}
+[1.371704] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/ament_prefix_path.sh\n'}
+[1.371794] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/ament_prefix_path.dsv\n'}
+[1.371858] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/path.sh\n'}
+[1.371925] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/environment/path.dsv\n'}
+[1.371988] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.bash\n'}
+[1.372057] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.sh\n'}
+[1.372117] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.zsh\n'}
+[1.372179] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/local_setup.dsv\n'}
+[1.372240] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Installing: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/package.dsv\n'}
+[1.375451] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/ament_index/resource_index/packages/hand_eye_flexbe_behaviors\n'}
+[1.377685] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/cmake/hand_eye_flexbe_behaviorsConfig.cmake\n'}
+[1.378018] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/cmake/hand_eye_flexbe_behaviorsConfig-version.cmake\n'}
+[1.378201] (hand_eye_flexbe_behaviors) StdoutLine: {'line': b'-- Up-to-date: /home/open/work/install/hand_eye_flexbe_behaviors/share/hand_eye_flexbe_behaviors/package.xml\n'}
+[1.378827] (hand_eye_flexbe_behaviors) CommandEnded: {'returncode': 0}
+[1.386035] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.391869] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.398462] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.403245] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 70%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.405836] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.421777] (-) TimerEvent: {}
+[1.444861] (dynamixel_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.455796] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 70%] Built target charuco_detector_interfaces\n'}
+[1.505662] (hand_eye_flexbe_behaviors) JobEnded: {'identifier': 'hand_eye_flexbe_behaviors', 'rc': 0}
+[1.514799] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.515708] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.518358] (dynamixel_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.521858] (-) TimerEvent: {}
+[1.545429] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.545638] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.545727] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.553361] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.621971] (-) TimerEvent: {}
+[1.635954] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.636820] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[1.640406] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[1.640579] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[1.640668] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[1.640748] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.640825] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.644407] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[1.684888] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[1.693442] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[1.697384] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[1.698221] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o\x1b[0m\n'}
+[1.700134] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[1.706402] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[1.720411] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.722051] (-) TimerEvent: {}
+[1.737380] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.742804] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.743468] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.751058] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.771806] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.779816] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.822171] (-) TimerEvent: {}
+[1.902392] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/open/work/build/py_pubsub/build', 'install', '--record', '/home/open/work/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/open/work/src/py_pubsub', 'env': {'HOSTNAME': 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/open', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/open_folder/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40', 'ROS_MASTER_URI': 'http://localhost:11311', 'PWD': '/home/open/work/build/py_pubsub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/open/work/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/py_pubsub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'NVIDIA_VISIBLE_DEVICES': 'all', 'TZ': 'America/New_York', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.922296] (-) TimerEvent: {}
+[1.960381] (hiwin_example) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/hiwin_example', 'build', '--build-base', '/home/open/work/build/hiwin_example/build', 'install', '--record', '/home/open/work/build/hiwin_example/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/open/work/src/Hiwin_libmodbus/hiwin_example', 'env': {'HOSTNAME': 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/open', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/open_folder/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40', 'ROS_MASTER_URI': 'http://localhost:11311', 'PWD': '/home/open/work/build/hiwin_example', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/open/work/build/hiwin_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/hiwin_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'NVIDIA_VISIBLE_DEVICES': 'all', 'TZ': 'America/New_York', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.969984] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o\x1b[0m\n'}
+[1.973955] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[1.974356] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[1.988914] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o\x1b[0m\n'}
+[1.989165] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/realsense2_camera_msgs/srv/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[2.022439] (-) TimerEvent: {}
+[2.029890] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/ros2_aruco', 'build', '--build-base', '/home/open/work/build/ros2_aruco/build', 'install', '--record', '/home/open/work/build/ros2_aruco/install.log', '--install-scripts', '$base/lib/ros2_aruco', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/open/work/src/ros2_aruco/ros2_aruco', 'env': {'HOSTNAME': 'open-ASUS-TUF-Gaming-F15-FX506HE-FX506HE', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/open', 'ROS_PYTHON_VERSION': '3', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/home/open_folder/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'TERMINATOR_UUID': 'urn:uuid:6b4be6c3-08cf-445d-8729-8468a7ffff40', 'ROS_MASTER_URI': 'http://localhost:11311', 'PWD': '/home/open/work/build/ros2_aruco', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/open/work/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/ros2_aruco/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'NVIDIA_VISIBLE_DEVICES': 'all', 'TZ': 'America/New_York', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.074806] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.104490] (dynamixel_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.117220] (tutorial_interfaces) StdoutLine: {'line': b'[  4%] Built target tutorial_interfaces__cpp\n'}
+[2.122548] (-) TimerEvent: {}
+[2.155066] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.155310] (tutorial_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.175456] (tutorial_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.218443] (dynamixel_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.225367] (-) TimerEvent: {}
+[2.245021] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[2.257528] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[2.260447] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/imu_info__type_support.cpp.o\x1b[0m\n'}
+[2.310438] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[2.310665] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[2.318495] (tutorial_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[2.325481] (-) TimerEvent: {}
+[2.332461] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.421454] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/msg/detail/rgbd__type_support.cpp.o\x1b[0m\n'}
+[2.429365] (-) TimerEvent: {}
+[2.452438] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.463459] (dynamixel_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.474361] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.475548] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/realsense2_camera_msgs/srv/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[2.493042] (hiwin_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_interfaces/srv/hiwinmodbus__type_support.cpp.o\x1b[0m\n'}
+[2.494376] (hiwin_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/hiwin_interfaces/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[2.499188] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.501964] (dynamixel_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.510872] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.529488] (-) TimerEvent: {}
+[2.543641] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.606964] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.607413] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.611795] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.615419] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.615628] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.615712] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.615789] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.623457] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.630385] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.630665] (-) TimerEvent: {}
+[2.630953] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.631082] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.631414] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.632014] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.640633] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.646869] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.647158] (py_pubsub) StdoutLine: {'line': b"removing '/home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.649328] (tutorial_interfaces) StdoutLine: {'line': b'[ 19%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[2.650024] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[2.654425] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.677492] (hiwin_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_interfaces/srv/robot_command__type_support.cpp.o\x1b[0m\n'}
+[2.680410] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.683207] (hiwin_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/hiwin_interfaces/srv/hiwinmodbus__type_support.cpp.o\x1b[0m\n'}
+[2.683561] (tutorial_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.702369] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.702624] (tutorial_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.715259] (hiwin_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_interfaces/srv/detail/robot_command__type_support_c.cpp.o\x1b[0m\n'}
+[2.730811] (-) TimerEvent: {}
+[2.732231] (hiwin_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/hiwin_interfaces/srv/detail/hiwinmodbus__type_support_c.cpp.o\x1b[0m\n'}
+[2.744623] (hiwin_example) StdoutLine: {'line': b'running egg_info\n'}
+[2.746141] (hiwin_example) StdoutLine: {'line': b'writing ../../../build/hiwin_example/hiwin_example.egg-info/PKG-INFO\n'}
+[2.747970] (hiwin_example) StdoutLine: {'line': b'writing dependency_links to ../../../build/hiwin_example/hiwin_example.egg-info/dependency_links.txt\n'}
+[2.748227] (hiwin_example) StdoutLine: {'line': b'writing entry points to ../../../build/hiwin_example/hiwin_example.egg-info/entry_points.txt\n'}
+[2.748382] (hiwin_example) StdoutLine: {'line': b'writing requirements to ../../../build/hiwin_example/hiwin_example.egg-info/requires.txt\n'}
+[2.748463] (hiwin_example) StdoutLine: {'line': b'writing top-level names to ../../../build/hiwin_example/hiwin_example.egg-info/top_level.txt\n'}
+[2.748878] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/open/work/install/py_pubsub/lib/py_pubsub\n'}
+[2.752981] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/open/work/install/py_pubsub/lib/py_pubsub\n'}
+[2.761448] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/open/work/build/py_pubsub/install.log'\n"}
+[2.766145] (hiwin_example) StdoutLine: {'line': b"reading manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'\n"}
+[2.768231] (hiwin_example) StdoutLine: {'line': b"writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'\n"}
+[2.777435] (hiwin_example) StdoutLine: {'line': b'running build\n'}
+[2.777746] (hiwin_example) StdoutLine: {'line': b'running build_py\n'}
+[2.778682] (hiwin_example) StdoutLine: {'line': b'running install\n'}
+[2.779106] (hiwin_example) StdoutLine: {'line': b'running install_lib\n'}
+[2.789235] (hiwin_example) StdoutLine: {'line': b'running install_data\n'}
+[2.791830] (visp_bridge) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libvisp_bridge.so\x1b[0m\n'}
+[2.799754] (hiwin_example) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.800059] (hiwin_example) StdoutLine: {'line': b"removing '/home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.800421] (hiwin_example) StdoutLine: {'line': b'Copying ../../../build/hiwin_example/hiwin_example.egg-info to /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info\n'}
+[2.809574] (hiwin_example) StdoutLine: {'line': b'running install_scripts\n'}
+[2.830926] (-) TimerEvent: {}
+[2.833370] (hiwin_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_interfaces/srv/detail/dds_fastrtps/hiwinmodbus__type_support.cpp.o\x1b[0m\n'}
+[2.833697] (hiwin_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/hiwin_interfaces/srv/detail/dds_fastrtps/robot_command__type_support.cpp.o\x1b[0m\n'}
+[2.836514] (hiwin_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libhiwin_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.849513] (dynamixel_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.849795] (dynamixel_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.880396] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp\n'}
+[2.894475] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/imu_info__type_support.cpp.o\x1b[0m\n'}
+[2.895490] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.900469] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[2.902465] (hiwin_example) StdoutLine: {'line': b'Installing hand_in_eye_calibration script to /home/open/work/install/hiwin_example/lib/hiwin_example\n'}
+[2.906784] (hiwin_example) StdoutLine: {'line': b'Installing strategy_example script to /home/open/work/install/hiwin_example/lib/hiwin_example\n'}
+[2.907078] (hiwin_example) StdoutLine: {'line': b'Installing test_jog script to /home/open/work/install/hiwin_example/lib/hiwin_example\n'}
+[2.907156] (hiwin_example) StdoutLine: {'line': b'Installing three_points_calibration_example script to /home/open/work/install/hiwin_example/lib/hiwin_example\n'}
+[2.907340] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[2.909360] (hiwin_example) StdoutLine: {'line': b"writing list of installed files to '/home/open/work/build/hiwin_example/install.log'\n"}
+[2.909579] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.926012] (hiwin_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.c.o\x1b[0m\n'}
+[2.934388] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[2.934685] (-) TimerEvent: {}
+[2.934989] (hiwin_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/hiwin_interfaces/srv/detail/robot_command__type_support.c.o\x1b[0m\n'}
+[2.949960] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[2.950218] (ros2_aruco) StdoutLine: {'line': b'writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO\n'}
+[2.950371] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt\n'}
+[2.950457] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt\n'}
+[2.950528] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt\n'}
+[2.950602] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt\n'}
+[2.950669] (ros2_aruco) StdoutLine: {'line': b"reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[2.950736] (ros2_aruco) StdoutLine: {'line': b"writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'\n"}
+[2.950805] (ros2_aruco) StdoutLine: {'line': b'running build\n'}
+[2.950874] (ros2_aruco) StdoutLine: {'line': b'running build_py\n'}
+[2.950942] (ros2_aruco) StdoutLine: {'line': b'running install\n'}
+[2.951012] (ros2_aruco) StdoutLine: {'line': b'running install_lib\n'}
+[2.951082] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[2.951149] (ros2_aruco) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.951214] (ros2_aruco) StdoutLine: {'line': b"removing '/home/open/work/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[2.951286] (ros2_aruco) StdoutLine: {'line': b'Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/open/work/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info\n'}
+[2.951378] (ros2_aruco) StdoutLine: {'line': b'running install_scripts\n'}
+[2.951446] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/open/work/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.951514] (ros2_aruco) StdoutLine: {'line': b'Installing hiwin_cali script to /home/open/work/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.951581] (ros2_aruco) StdoutLine: {'line': b'Installing mask_color_and_depth_image script to /home/open/work/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.951650] (ros2_aruco) StdoutLine: {'line': b'Installing test_mask script to /home/open/work/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.951718] (ros2_aruco) StdoutLine: {'line': b'Installing tm_aruco script to /home/open/work/install/ros2_aruco/lib/ros2_aruco\n'}
+[2.951786] (ros2_aruco) StdoutLine: {'line': b"writing list of installed files to '/home/open/work/build/ros2_aruco/install.log'\n"}
+[2.951858] (ros2_aruco) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.951950] (ros2_aruco) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.952025] (ros2_aruco) CommandEnded: {'returncode': 0}
+[2.991415] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[2.993092] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.993533] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/srv/device_info__type_support.cpp.o\x1b[0m\n'}
+[2.993664] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/realsense2_camera_msgs/msg/rgbd__type_support.cpp.o\x1b[0m\n'}
+[2.993731] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 74%] Built target charuco_detector_interfaces__py\n'}
+[2.997227] (hiwin_interfaces) StdoutLine: {'line': b'[ 56%] Built target hiwin_interfaces__rosidl_typesupport_c\n'}
+[3.007538] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/imu_info__type_support.c.o\x1b[0m\n'}
+[3.017362] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.023856] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[3.036403] (-) TimerEvent: {}
+[3.049837] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_generator_py.dir/rosidl_generator_py/charuco_detector_interfaces/srv/_eye2base_s.c.o\x1b[0m\n'}
+[3.088772] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[3.090925] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.091131] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/msg/detail/rgbd__type_support.c.o\x1b[0m\n'}
+[3.118648] (hiwin_example) CommandEnded: {'returncode': 0}
+[3.147655] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.147941] (-) TimerEvent: {}
+[3.148205] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/realsense2_camera_msgs/srv/detail/device_info__type_support.c.o\x1b[0m\n'}
+[3.148366] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[3.148457] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.148538] (dynamixel_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.148623] (dynamixel_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.153750] (hiwin_example) JobEnded: {'identifier': 'hiwin_example', 'rc': 0}
+[3.180279] (hiwin_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libhiwin_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.197482] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[3.221381] (hiwin_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_interfaces/srv/detail/hiwinmodbus__type_support.cpp.o\x1b[0m\n'}
+[3.221755] (hiwin_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/hiwin_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/hiwin_interfaces/srv/detail/robot_command__type_support.cpp.o\x1b[0m\n'}
+[3.221856] (tutorial_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.228208] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o\x1b[0m\n'}
+[3.235985] (tutorial_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[3.236302] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.240508] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 71%] Built target realsense2_camera_msgs__rosidl_typesupport_c\n'}
+[3.248078] (-) TimerEvent: {}
+[3.260003] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/realsense2_camera_msgs/srv/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[3.275119] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.348188] (-) TimerEvent: {}
+[3.351534] (hiwin_interfaces) StdoutLine: {'line': b'[ 64%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.374090] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 74%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[3.383562] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.390454] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[3.402386] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[3.443840] (visp_bridge) StdoutLine: {'line': b'[ 66%] Built target visp_bridge\n'}
+[3.448360] (-) TimerEvent: {}
+[3.502348] (visp_bridge) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object tool/CMakeFiles/visp_bridge_cam_param_converter.dir/cam_param_converter.cpp.o\x1b[0m\n'}
+[3.526566] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/libcharuco_detector_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.548504] (-) TimerEvent: {}
+[3.563383] (dynamixel_hardware) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[3.567909] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.634457] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.642727] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 80%] Built target charuco_detector_interfaces__rosidl_generator_py\n'}
+[3.648638] (-) TimerEvent: {}
+[3.708605] (hiwin_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libhiwin_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.716500] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.723390] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.726958] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/charuco_detector_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/charuco_detector_interfaces/_charuco_detector_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.750426] (-) TimerEvent: {}
+[3.756880] (dynamixel_hardware) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.757138] (dynamixel_hardware) StdoutLine: {'line': b'See also "/home/open/work/build/dynamixel_hardware/CMakeFiles/CMakeOutput.log".\n'}
+[3.760489] (dynamixel_hardware) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (find_package):\n'}
+[3.760758] (dynamixel_hardware) StderrLine: {'line': b'  By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[3.760859] (dynamixel_hardware) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[3.760935] (dynamixel_hardware) StderrLine: {'line': b'  "hardware_interface", but CMake did not find one.\n'}
+[3.761026] (dynamixel_hardware) StderrLine: {'line': b'\n'}
+[3.761103] (dynamixel_hardware) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[3.761174] (dynamixel_hardware) StderrLine: {'line': b'  "hardware_interface" with any of the following names:\n'}
+[3.761255] (dynamixel_hardware) StderrLine: {'line': b'\n'}
+[3.761342] (dynamixel_hardware) StderrLine: {'line': b'    hardware_interfaceConfig.cmake\n'}
+[3.761405] (dynamixel_hardware) StderrLine: {'line': b'    hardware_interface-config.cmake\n'}
+[3.761466] (dynamixel_hardware) StderrLine: {'line': b'\n'}
+[3.761522] (dynamixel_hardware) StderrLine: {'line': b'  Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or\n'}
+[3.761588] (dynamixel_hardware) StderrLine: {'line': b'  set "hardware_interface_DIR" to a directory containing one of the above\n'}
+[3.761647] (dynamixel_hardware) StderrLine: {'line': b'  files.  If "hardware_interface" provides a separate development package or\n'}
+[3.761711] (dynamixel_hardware) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[3.761777] (dynamixel_hardware) StderrLine: {'line': b'\n'}
+[3.761846] (dynamixel_hardware) StderrLine: {'line': b'\x1b[0m\n'}
+[3.804167] (dynamixel_hardware) CommandEnded: {'returncode': 1}
+[3.841021] (dynamixel_hardware) JobEnded: {'identifier': 'dynamixel_hardware', 'rc': 1}
+[3.854223] (-) TimerEvent: {}
+[3.856019] (hiwin_interfaces) StdoutLine: {'line': b'[ 66%] Built target hiwin_interfaces__rosidl_typesupport_cpp\n'}
+[3.954391] (-) TimerEvent: {}
+[3.975395] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.983430] (hiwin_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libhiwin_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.009463] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[4.013396] (charuco_detector_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.013699] (tutorial_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[4.013829] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 76%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.013933] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[4.021760] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[4.026009] (tutorial_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[4.028951] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.035544] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[4.046091] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[4.049629] (tutorial_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.054537] (-) TimerEvent: {}
+[4.055111] (charuco_detector_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/charuco_detector_interfaces/charuco_detector_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.055363] (tutorial_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[4.058490] (charuco_detector_interfaces) StdoutLine: {'line': b'[100%] Built target charuco_detector_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.093866] (charuco_detector_interfaces) StdoutLine: {'line': b'[100%] Built target charuco_detector_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.119111] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.130353] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.141795] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.148457] (charuco_detector_interfaces) StdoutLine: {'line': b'[100%] Built target charuco_detector_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.154657] (-) TimerEvent: {}
+[4.186315] (charuco_detector_interfaces) JobEnded: {'identifier': 'charuco_detector_interfaces', 'rc': 'SIGINT'}
+[4.206944] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.227412] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.227706] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[4.254781] (-) TimerEvent: {}
+[4.264361] (hiwin_interfaces) StdoutLine: {'line': b'[ 69%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.276828] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.288197] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 77%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.330617] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[4.352465] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library librealsense2_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.354880] (-) TimerEvent: {}
+[4.380844] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.407457] (hiwin_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libhiwin_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.415893] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.428881] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.439677] (hiwin_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libhiwin_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.450735] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense2_camera_msgs\n'}
+[4.450998] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.454992] (-) TimerEvent: {}
+[4.468207] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.480082] (hiwin_interfaces) StdoutLine: {'line': b'[ 74%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.503370] (hiwin_interfaces) StdoutLine: {'line': b'[ 74%] Built target hiwin_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.518493] (hiwin_interfaces) StdoutLine: {'line': b'[ 74%] Built target hiwin_interfaces\n'}
+[4.518750] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.533267] (hiwin_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.555105] (-) TimerEvent: {}
+[4.575821] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.591271] (tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target tutorial_interfaces\n'}
+[4.605936] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.655218] (-) TimerEvent: {}
+[4.755591] (-) TimerEvent: {}
+[4.783762] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.855959] (-) TimerEvent: {}
+[4.874310] (flexbe_msgs) StdoutLine: {'line': b'[  0%] Built target flexbe_msgs__cpp\n'}
+[4.897375] (flexbe_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.897657] (flexbe_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.897764] (flexbe_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.936240] (visp_bridge) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable visp_bridge_cam_param_converter\x1b[0m\n'}
+[4.956079] (-) TimerEvent: {}
+[5.000681] (flexbe_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/behavior_selection__functions.c.o\x1b[0m\n'}
+[5.001725] (flexbe_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/command_feedback__functions.c.o\x1b[0m\n'}
+[5.001931] (flexbe_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/behavior_request__functions.c.o\x1b[0m\n'}
+[5.002021] (flexbe_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/be_status__functions.c.o\x1b[0m\n'}
+[5.002143] (flexbe_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/behavior_log__functions.c.o\x1b[0m\n'}
+[5.002233] (flexbe_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/behavior_modification__functions.c.o\x1b[0m\n'}
+[5.004883] (flexbe_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/outcome_condition__functions.c.o\x1b[0m\n'}
+[5.005030] (flexbe_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/behavior_sync__functions.c.o\x1b[0m\n'}
+[5.006960] (flexbe_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/container__functions.c.o\x1b[0m\n'}
+[5.009869] (flexbe_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/container_structure__functions.c.o\x1b[0m\n'}
+[5.014490] (flexbe_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/outcome_request__functions.c.o\x1b[0m\n'}
+[5.029416] (flexbe_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/state_instantiation__functions.c.o\x1b[0m\n'}
+[5.043439] (flexbe_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/synthesis_error_codes__functions.c.o\x1b[0m\n'}
+[5.056180] (-) TimerEvent: {}
+[5.073432] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.077999] (flexbe_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/ui_command__functions.c.o\x1b[0m\n'}
+[5.086793] (flexbe_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/msg/detail/synthesis_request__functions.c.o\x1b[0m\n'}
+[5.098697] (flexbe_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/action/detail/behavior_execution__functions.c.o\x1b[0m\n'}
+[5.099866] (flexbe_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/action/detail/behavior_input__functions.c.o\x1b[0m\n'}
+[5.117041] (flexbe_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_c.dir/rosidl_generator_c/flexbe_msgs/action/detail/behavior_synthesis__functions.c.o\x1b[0m\n'}
+[5.117637] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[5.120757] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[5.152358] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.152614] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.152695] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.152773] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.156267] (-) TimerEvent: {}
+[5.171664] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.210347] (visp_bridge) StdoutLine: {'line': b'[100%] Built target visp_bridge_cam_param_converter\n'}
+[5.210865] (tutorial_interfaces) StdoutLine: {'line': b'[ 78%] Built target tutorial_interfaces__py\n'}
+[5.220444] (visp_bridge) JobEnded: {'identifier': 'visp_bridge', 'rc': 'SIGINT'}
+[5.228047] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[5.228249] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[5.228335] (tutorial_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[5.256353] (-) TimerEvent: {}
+[5.271464] (flexbe_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libflexbe_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.274008] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.307125] (flexbe_msgs) StdoutLine: {'line': b'[ 14%] Built target flexbe_msgs__rosidl_generator_c\n'}
+[5.310171] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.312901] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.314514] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.316620] (flexbe_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.316784] (flexbe_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.316886] (flexbe_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.317917] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.319886] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.357011] (-) TimerEvent: {}
+[5.357941] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[5.372473] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target realsense2_camera_msgs__py\n'}
+[5.375205] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[5.376647] (tutorial_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.378830] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/open/work/build/ros2_aruco_interfaces\n'}
+[5.379079] (tutorial_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.379204] (tutorial_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.395078] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[5.395806] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_imu_info_s.c.o\x1b[0m\n'}
+[5.395909] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_rgbd_s.c.o\x1b[0m\n'}
+[5.395986] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/srv/_device_info_s.c.o\x1b[0m\n'}
+[5.396056] (ros2_aruco_interfaces) JobEnded: {'identifier': 'ros2_aruco_interfaces', 'rc': 'SIGINT'}
+[5.400331] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/realsense2_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[5.458281] (-) TimerEvent: {}
+[5.528238] (tutorial_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.533655] (tutorial_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.533875] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.558372] (-) TimerEvent: {}
+[5.563349] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[5.569950] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[5.577563] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.584422] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/librealsense2_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[5.587891] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 'SIGINT'}
+[5.618287] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 90%] Built target realsense2_camera_msgs__rosidl_generator_py\n'}
+[5.634220] (hiwin_interfaces) StdoutLine: {'line': b'[ 76%] Built target hiwin_interfaces__py\n'}
+[5.636832] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.637073] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.640590] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/realsense2_camera_msgs/_realsense2_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.655712] (hiwin_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_hiwinmodbus_s.c.o\x1b[0m\n'}
+[5.655990] (hiwin_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_generator_py.dir/rosidl_generator_py/hiwin_interfaces/srv/_robot_command_s.c.o\x1b[0m\n'}
+[5.658452] (-) TimerEvent: {}
+[5.734963] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.748019] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.758553] (-) TimerEvent: {}
+[5.771453] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.785871] (realsense2_camera_msgs) StdoutLine: {'line': b'[ 98%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[5.790839] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/realsense2_camera_msgs/realsense2_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.824814] (realsense2_camera_msgs) StdoutLine: {'line': b'[100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[5.834113] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 'SIGINT'}
+[5.844651] (hiwin_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/libhiwin_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[5.858694] (-) TimerEvent: {}
+[5.877202] (hiwin_interfaces) StdoutLine: {'line': b'[ 84%] Built target hiwin_interfaces__rosidl_generator_py\n'}
+[5.893989] (hiwin_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.894851] (hiwin_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.895065] (hiwin_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/hiwin_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/hiwin_interfaces/_hiwin_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[5.958779] (-) TimerEvent: {}
+[5.992576] (hiwin_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.030796] (hiwin_interfaces) StdoutLine: {'line': b'[ 94%] Built target hiwin_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[6.037384] (hiwin_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.037591] (hiwin_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/hiwin_interfaces/hiwin_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.058888] (-) TimerEvent: {}
+[6.069367] (hiwin_interfaces) StdoutLine: {'line': b'[100%] Built target hiwin_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.069582] (hiwin_interfaces) StdoutLine: {'line': b'[100%] Built target hiwin_interfaces__rosidl_typesupport_c__pyext\n'}
+[6.077914] (hiwin_interfaces) JobEnded: {'identifier': 'hiwin_interfaces', 'rc': 'SIGINT'}
+[6.158985] (-) TimerEvent: {}
+[6.259283] (-) TimerEvent: {}
+[6.359594] (-) TimerEvent: {}
+[6.386262] (flexbe_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/be_status__type_support.cpp.o\x1b[0m\n'}
+[6.386494] (flexbe_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/behavior_modification__type_support.cpp.o\x1b[0m\n'}
+[6.386606] (flexbe_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/behavior_log__type_support.cpp.o\x1b[0m\n'}
+[6.386681] (flexbe_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/behavior_request__type_support.cpp.o\x1b[0m\n'}
+[6.386746] (flexbe_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/behavior_sync__type_support.cpp.o\x1b[0m\n'}
+[6.386807] (flexbe_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/behavior_selection__type_support.cpp.o\x1b[0m\n'}
+[6.386869] (flexbe_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/container_structure__type_support.cpp.o\x1b[0m\n'}
+[6.387033] (flexbe_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/container__type_support.cpp.o\x1b[0m\n'}
+[6.387187] (flexbe_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/outcome_condition__type_support.cpp.o\x1b[0m\n'}
+[6.387277] (flexbe_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/command_feedback__type_support.cpp.o\x1b[0m\n'}
+[6.387363] (flexbe_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/outcome_request__type_support.cpp.o\x1b[0m\n'}
+[6.460260] (-) TimerEvent: {}
+[6.560618] (-) TimerEvent: {}
+[6.663822] (-) TimerEvent: {}
+[6.739340] (flexbe_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/be_status__type_support.cpp.o\x1b[0m\n'}
+[6.739707] (flexbe_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/state_instantiation__type_support.cpp.o\x1b[0m\n'}
+[6.741439] (flexbe_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/synthesis_error_codes__type_support.cpp.o\x1b[0m\n'}
+[6.754563] (flexbe_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/synthesis_request__type_support.cpp.o\x1b[0m\n'}
+[6.754884] (flexbe_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/behavior_log__type_support.cpp.o\x1b[0m\n'}
+[6.760636] (flexbe_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/behavior_modification__type_support.cpp.o\x1b[0m\n'}
+[6.764158] (-) TimerEvent: {}
+[6.774998] (flexbe_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/behavior_request__type_support.cpp.o\x1b[0m\n'}
+[6.792218] (flexbe_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/behavior_selection__type_support.cpp.o\x1b[0m\n'}
+[6.792496] (flexbe_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/behavior_sync__type_support.cpp.o\x1b[0m\n'}
+[6.804503] (flexbe_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/action/behavior_input__type_support.cpp.o\x1b[0m\n'}
+[6.808176] (flexbe_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/command_feedback__type_support.cpp.o\x1b[0m\n'}
+[6.808622] (flexbe_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/msg/ui_command__type_support.cpp.o\x1b[0m\n'}
+[6.813079] (flexbe_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/container__type_support.cpp.o\x1b[0m\n'}
+[6.834327] (flexbe_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/container_structure__type_support.cpp.o\x1b[0m\n'}
+[6.834769] (flexbe_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/action/behavior_execution__type_support.cpp.o\x1b[0m\n'}
+[6.836109] (flexbe_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/outcome_condition__type_support.cpp.o\x1b[0m\n'}
+[6.850506] (flexbe_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/outcome_request__type_support.cpp.o\x1b[0m\n'}
+[6.852365] (flexbe_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/flexbe_msgs/action/behavior_synthesis__type_support.cpp.o\x1b[0m\n'}
+[6.860541] (flexbe_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/state_instantiation__type_support.cpp.o\x1b[0m\n'}
+[6.864278] (-) TimerEvent: {}
+[6.884848] (flexbe_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/synthesis_error_codes__type_support.cpp.o\x1b[0m\n'}
+[6.898722] (flexbe_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/synthesis_request__type_support.cpp.o\x1b[0m\n'}
+[6.909146] (flexbe_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/msg/ui_command__type_support.cpp.o\x1b[0m\n'}
+[6.921354] (flexbe_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/action/behavior_input__type_support.cpp.o\x1b[0m\n'}
+[6.924549] (flexbe_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/action/behavior_execution__type_support.cpp.o\x1b[0m\n'}
+[6.946612] (flexbe_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/flexbe_msgs/action/behavior_synthesis__type_support.cpp.o\x1b[0m\n'}
+[6.965452] (-) TimerEvent: {}
+[7.013019] (flexbe_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libflexbe_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.031525] (flexbe_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/behavior_log__type_support.cpp.o\x1b[0m\n'}
+[7.031911] (flexbe_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/behavior_request__type_support.cpp.o\x1b[0m\n'}
+[7.032447] (flexbe_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/behavior_selection__type_support.cpp.o\x1b[0m\n'}
+[7.032966] (flexbe_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/be_status__type_support.cpp.o\x1b[0m\n'}
+[7.036342] (flexbe_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/behavior_modification__type_support.cpp.o\x1b[0m\n'}
+[7.065590] (-) TimerEvent: {}
+[7.101644] (flexbe_msgs) StdoutLine: {'line': b'[ 42%] Built target flexbe_msgs__rosidl_typesupport_c\n'}
+[7.115643] (flexbe_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/command_feedback__type_support.cpp.o\x1b[0m\n'}
+[7.115956] (flexbe_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/behavior_sync__type_support.cpp.o\x1b[0m\n'}
+[7.129677] (flexbe_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/container__type_support.cpp.o\x1b[0m\n'}
+[7.145765] (flexbe_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/container_structure__type_support.cpp.o\x1b[0m\n'}
+[7.165718] (-) TimerEvent: {}
+[7.190184] (flexbe_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/outcome_condition__type_support.cpp.o\x1b[0m\n'}
+[7.265852] (-) TimerEvent: {}
+[7.367365] (-) TimerEvent: {}
+[7.452239] (flexbe_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/outcome_request__type_support.cpp.o\x1b[0m\n'}
+[7.469374] (-) TimerEvent: {}
+[7.475885] (flexbe_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/state_instantiation__type_support.cpp.o\x1b[0m\n'}
+[7.484367] (flexbe_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libflexbe_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.510500] (flexbe_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/be_status__type_support.cpp.o\x1b[0m\n'}
+[7.538245] (flexbe_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/behavior_log__type_support.cpp.o\x1b[0m\n'}
+[7.569492] (-) TimerEvent: {}
+[7.573388] (flexbe_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/behavior_modification__type_support.cpp.o\x1b[0m\n'}
+[7.600449] (flexbe_msgs) StdoutLine: {'line': b'[ 48%] Built target flexbe_msgs__rosidl_typesupport_cpp\n'}
+[7.613554] (flexbe_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/behavior_request__type_support.cpp.o\x1b[0m\n'}
+[7.632949] (flexbe_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/synthesis_error_codes__type_support.cpp.o\x1b[0m\n'}
+[7.650678] (flexbe_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/behavior_selection__type_support.cpp.o\x1b[0m\n'}
+[7.669607] (-) TimerEvent: {}
+[7.684039] (flexbe_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/synthesis_request__type_support.cpp.o\x1b[0m\n'}
+[7.765790] (flexbe_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/msg/detail/ui_command__type_support.cpp.o\x1b[0m\n'}
+[7.769717] (-) TimerEvent: {}
+[7.808687] (flexbe_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/action/detail/behavior_input__type_support.cpp.o\x1b[0m\n'}
+[7.828100] (flexbe_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/behavior_sync__type_support.cpp.o\x1b[0m\n'}
+[7.869892] (-) TimerEvent: {}
+[7.896386] (flexbe_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/command_feedback__type_support.cpp.o\x1b[0m\n'}
+[7.911430] (flexbe_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/action/detail/behavior_execution__type_support.cpp.o\x1b[0m\n'}
+[7.970011] (-) TimerEvent: {}
+[8.009852] (flexbe_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/container__type_support.cpp.o\x1b[0m\n'}
+[8.070129] (-) TimerEvent: {}
+[8.103211] (flexbe_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/flexbe_msgs/action/detail/behavior_synthesis__type_support.cpp.o\x1b[0m\n'}
+[8.109490] (flexbe_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/container_structure__type_support.cpp.o\x1b[0m\n'}
+[8.116162] (flexbe_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/be_status__type_support.c.o\x1b[0m\n'}
+[8.141108] (flexbe_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/outcome_condition__type_support.cpp.o\x1b[0m\n'}
+[8.168584] (flexbe_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/behavior_log__type_support.c.o\x1b[0m\n'}
+[8.170232] (-) TimerEvent: {}
+[8.207115] (flexbe_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/be_status__type_support_c.cpp.o\x1b[0m\n'}
+[8.214672] (flexbe_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/behavior_modification__type_support.c.o\x1b[0m\n'}
+[8.247567] (flexbe_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/behavior_request__type_support.c.o\x1b[0m\n'}
+[8.259382] (flexbe_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/outcome_request__type_support.cpp.o\x1b[0m\n'}
+[8.261285] (flexbe_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/behavior_log__type_support_c.cpp.o\x1b[0m\n'}
+[8.270377] (-) TimerEvent: {}
+[8.275083] (flexbe_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/state_instantiation__type_support.cpp.o\x1b[0m\n'}
+[8.302381] (flexbe_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/behavior_selection__type_support.c.o\x1b[0m\n'}
+[8.337446] (flexbe_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/behavior_sync__type_support.c.o\x1b[0m\n'}
+[8.349817] (flexbe_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/behavior_modification__type_support_c.cpp.o\x1b[0m\n'}
+[8.350139] (flexbe_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/command_feedback__type_support.c.o\x1b[0m\n'}
+[8.363325] (flexbe_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/behavior_request__type_support_c.cpp.o\x1b[0m\n'}
+[8.370515] (-) TimerEvent: {}
+[8.375417] (flexbe_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/container__type_support.c.o\x1b[0m\n'}
+[8.392973] (flexbe_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/container_structure__type_support.c.o\x1b[0m\n'}
+[8.417519] (flexbe_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/synthesis_error_codes__type_support.cpp.o\x1b[0m\n'}
+[8.446381] (flexbe_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/outcome_condition__type_support.c.o\x1b[0m\n'}
+[8.447659] (flexbe_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/behavior_selection__type_support_c.cpp.o\x1b[0m\n'}
+[8.470631] (-) TimerEvent: {}
+[8.495777] (flexbe_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/outcome_request__type_support.c.o\x1b[0m\n'}
+[8.510625] (flexbe_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/behavior_sync__type_support_c.cpp.o\x1b[0m\n'}
+[8.540887] (flexbe_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/state_instantiation__type_support.c.o\x1b[0m\n'}
+[8.570758] (-) TimerEvent: {}
+[8.628768] (flexbe_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/synthesis_error_codes__type_support.c.o\x1b[0m\n'}
+[8.670482] (flexbe_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/command_feedback__type_support_c.cpp.o\x1b[0m\n'}
+[8.670774] (-) TimerEvent: {}
+[8.671842] (flexbe_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/synthesis_request__type_support.c.o\x1b[0m\n'}
+[8.709646] (flexbe_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/msg/detail/ui_command__type_support.c.o\x1b[0m\n'}
+[8.719485] (flexbe_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/action/detail/dds_fastrtps/behavior_input__type_support.cpp.o\x1b[0m\n'}
+[8.719783] (flexbe_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/ui_command__type_support.cpp.o\x1b[0m\n'}
+[8.721418] (flexbe_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/msg/detail/dds_fastrtps/synthesis_request__type_support.cpp.o\x1b[0m\n'}
+[8.752583] (flexbe_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/action/detail/behavior_input__type_support.c.o\x1b[0m\n'}
+[8.760704] (flexbe_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/action/detail/behavior_execution__type_support.c.o\x1b[0m\n'}
+[8.771533] (-) TimerEvent: {}
+[8.774931] (flexbe_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/action/detail/dds_fastrtps/behavior_execution__type_support.cpp.o\x1b[0m\n'}
+[8.801431] (flexbe_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/flexbe_msgs/action/detail/dds_fastrtps/behavior_synthesis__type_support.cpp.o\x1b[0m\n'}
+[8.806856] (flexbe_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/container__type_support_c.cpp.o\x1b[0m\n'}
+[8.820432] (flexbe_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/container_structure__type_support_c.cpp.o\x1b[0m\n'}
+[8.829907] (flexbe_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/outcome_condition__type_support_c.cpp.o\x1b[0m\n'}
+[8.838519] (flexbe_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/flexbe_msgs/action/detail/behavior_synthesis__type_support.c.o\x1b[0m\n'}
+[8.871670] (-) TimerEvent: {}
+[8.907937] (flexbe_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/outcome_request__type_support_c.cpp.o\x1b[0m\n'}
+[8.910757] (flexbe_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library libflexbe_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.942013] (flexbe_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/state_instantiation__type_support_c.cpp.o\x1b[0m\n'}
+[8.962402] (flexbe_msgs) StdoutLine: {'line': b'[ 79%] Built target flexbe_msgs__rosidl_typesupport_introspection_c\n'}
+[8.966949] (flexbe_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/synthesis_request__type_support_c.cpp.o\x1b[0m\n'}
+[8.967488] (flexbe_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/synthesis_error_codes__type_support_c.cpp.o\x1b[0m\n'}
+[8.971774] (-) TimerEvent: {}
+[8.992335] (flexbe_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/msg/detail/ui_command__type_support_c.cpp.o\x1b[0m\n'}
+[9.071927] (-) TimerEvent: {}
+[9.084734] (flexbe_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/action/detail/behavior_input__type_support_c.cpp.o\x1b[0m\n'}
+[9.140030] (flexbe_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/action/detail/behavior_execution__type_support_c.cpp.o\x1b[0m\n'}
+[9.172070] (-) TimerEvent: {}
+[9.272505] (-) TimerEvent: {}
+[9.285074] (flexbe_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libflexbe_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[9.294396] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/flexbe_msgs/action/detail/behavior_synthesis__type_support_c.cpp.o\x1b[0m\n'}
+[9.372641] (-) TimerEvent: {}
+[9.435221] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] Built target flexbe_msgs__rosidl_typesupport_introspection_cpp\n'}
+[9.472768] (-) TimerEvent: {}
+[9.573210] (-) TimerEvent: {}
+[9.612124] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libflexbe_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.620839] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libflexbe_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.673342] (-) TimerEvent: {}
+[9.674800] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] Built target flexbe_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.674924] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] Built target flexbe_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.686885] (flexbe_msgs) StdoutLine: {'line': b'[ 84%] Built target flexbe_msgs\n'}
+[9.698896] (flexbe_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.773515] (-) TimerEvent: {}
+[9.873818] (-) TimerEvent: {}
+[9.974083] (-) TimerEvent: {}
+[10.074333] (-) TimerEvent: {}
+[10.174554] (-) TimerEvent: {}
+[10.274771] (-) TimerEvent: {}
+[10.374993] (-) TimerEvent: {}
+[10.475254] (-) TimerEvent: {}
+[10.575502] (-) TimerEvent: {}
+[10.675664] (-) TimerEvent: {}
+[10.775879] (-) TimerEvent: {}
+[10.876127] (-) TimerEvent: {}
+[10.976362] (-) TimerEvent: {}
+[11.076596] (-) TimerEvent: {}
+[11.176829] (-) TimerEvent: {}
+[11.276997] (-) TimerEvent: {}
+[11.377234] (-) TimerEvent: {}
+[11.477477] (-) TimerEvent: {}
+[11.577706] (-) TimerEvent: {}
+[11.677933] (-) TimerEvent: {}
+[11.778196] (-) TimerEvent: {}
+[11.878508] (-) TimerEvent: {}
+[11.978758] (-) TimerEvent: {}
+[12.078988] (-) TimerEvent: {}
+[12.179158] (-) TimerEvent: {}
+[12.279384] (-) TimerEvent: {}
+[12.379604] (-) TimerEvent: {}
+[12.474307] (flexbe_msgs) StdoutLine: {'line': b'[ 85%] Built target flexbe_msgs__py\n'}
+[12.479677] (-) TimerEvent: {}
+[12.494003] (flexbe_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_be_status_s.c.o\x1b[0m\n'}
+[12.494306] (flexbe_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_behavior_modification_s.c.o\x1b[0m\n'}
+[12.494451] (flexbe_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_behavior_log_s.c.o\x1b[0m\n'}
+[12.494564] (flexbe_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_behavior_request_s.c.o\x1b[0m\n'}
+[12.494630] (flexbe_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_behavior_selection_s.c.o\x1b[0m\n'}
+[12.494695] (flexbe_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_behavior_sync_s.c.o\x1b[0m\n'}
+[12.494762] (flexbe_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_command_feedback_s.c.o\x1b[0m\n'}
+[12.494828] (flexbe_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_container_s.c.o\x1b[0m\n'}
+[12.494890] (flexbe_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_container_structure_s.c.o\x1b[0m\n'}
+[12.494950] (flexbe_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_outcome_condition_s.c.o\x1b[0m\n'}
+[12.495010] (flexbe_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_outcome_request_s.c.o\x1b[0m\n'}
+[12.495069] (flexbe_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_state_instantiation_s.c.o\x1b[0m\n'}
+[12.495184] (flexbe_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_synthesis_error_codes_s.c.o\x1b[0m\n'}
+[12.495292] (flexbe_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_synthesis_request_s.c.o\x1b[0m\n'}
+[12.495361] (flexbe_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/msg/_ui_command_s.c.o\x1b[0m\n'}
+[12.495926] (flexbe_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/action/_behavior_input_s.c.o\x1b[0m\n'}
+[12.581384] (-) TimerEvent: {}
+[12.632201] (flexbe_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/action/_behavior_execution_s.c.o\x1b[0m\n'}
+[12.633508] (flexbe_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_generator_py.dir/rosidl_generator_py/flexbe_msgs/action/_behavior_synthesis_s.c.o\x1b[0m\n'}
+[12.681510] (-) TimerEvent: {}
+[12.745434] (flexbe_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flexbe_msgs/libflexbe_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[12.775164] (flexbe_msgs) StdoutLine: {'line': b'[ 96%] Built target flexbe_msgs__rosidl_generator_py\n'}
+[12.781570] (-) TimerEvent: {}
+[12.788012] (flexbe_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/flexbe_msgs/_flexbe_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.788397] (flexbe_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/flexbe_msgs/_flexbe_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.788570] (flexbe_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding C object CMakeFiles/flexbe_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/flexbe_msgs/_flexbe_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.881696] (-) TimerEvent: {}
+[12.928125] (flexbe_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flexbe_msgs/flexbe_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.928273] (flexbe_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flexbe_msgs/flexbe_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.928322] (flexbe_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/flexbe_msgs/flexbe_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.954046] (flexbe_msgs) StdoutLine: {'line': b'[100%] Built target flexbe_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.954237] (flexbe_msgs) StdoutLine: {'line': b'[100%] Built target flexbe_msgs__rosidl_typesupport_c__pyext\n'}
+[12.954298] (flexbe_msgs) StdoutLine: {'line': b'[100%] Built target flexbe_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[12.961276] (flexbe_msgs) JobEnded: {'identifier': 'flexbe_msgs', 'rc': 'SIGINT'}
+[12.971721] (charuco_detector) JobSkipped: {'identifier': 'charuco_detector'}
+[12.971820] (flexbe_core) JobSkipped: {'identifier': 'flexbe_core'}
+[12.971847] (flexbe_input) JobSkipped: {'identifier': 'flexbe_input'}
+[12.971866] (hiwin_libmodbus) JobSkipped: {'identifier': 'hiwin_libmodbus'}
+[12.971884] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[12.971902] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[12.971920] (visp_camera_calibration) JobSkipped: {'identifier': 'visp_camera_calibration'}
+[12.971938] (visp_hand2eye_calibration) JobSkipped: {'identifier': 'visp_hand2eye_calibration'}
+[12.971955] (flexbe_mirror) JobSkipped: {'identifier': 'flexbe_mirror'}
+[12.971973] (flexbe_testing) JobSkipped: {'identifier': 'flexbe_testing'}
+[12.971990] (hand_eye_flexbe_states) JobSkipped: {'identifier': 'hand_eye_flexbe_states'}
+[12.972008] (hiwin_service_client) JobSkipped: {'identifier': 'hiwin_service_client'}
+[12.972025] (small_arm_description) JobSkipped: {'identifier': 'small_arm_description'}
+[12.972042] (flexbe_states) JobSkipped: {'identifier': 'flexbe_states'}
+[12.972059] (small_arm_moveit_config) JobSkipped: {'identifier': 'small_arm_moveit_config'}
+[12.972076] (flexbe_onboard) JobSkipped: {'identifier': 'flexbe_onboard'}
+[12.972093] (flexbe_widget) JobSkipped: {'identifier': 'flexbe_widget'}
+[12.972110] (flexbe_app) JobSkipped: {'identifier': 'flexbe_app'}
+[12.972127] (flexbe_behavior_engine) JobSkipped: {'identifier': 'flexbe_behavior_engine'}
+[12.972145] (-) EventReactorShutdown: {}
