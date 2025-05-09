@@ -1,0 +1,3 @@
+/home/open/work/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:msg/ArucoMarkers.idl
+/home/open/work/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:srv/ArucoMarkerInfo.idl
+/home/open/work/build/ros2_aruco_interfaces/rosidl_adapter/ros2_aruco_interfaces:srv/GetMaskImage.idl

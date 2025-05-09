@@ -1,0 +1,41 @@
+[2.865s] Invoking command in '/home/open/work/src/py_pubsub': PYTHONPATH=/home/open/work/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/open/work/build/py_pubsub/build install --record /home/open/work/build/py_pubsub/install.log --single-version-externally-managed install_data
+[3.464s] running egg_info
+[3.465s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[3.466s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[3.466s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[3.467s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[3.467s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[3.467s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[3.468s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.471s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.474s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[3.474s] running build
+[3.474s] running build_py
+[3.475s] creating /home/open/work/build/py_pubsub/build
+[3.475s] creating /home/open/work/build/py_pubsub/build/lib
+[3.476s] creating /home/open/work/build/py_pubsub/build/lib/py_pubsub
+[3.476s] copying py_pubsub/publisher_member_function.py -> /home/open/work/build/py_pubsub/build/lib/py_pubsub
+[3.476s] copying py_pubsub/subscriber_member_function.py -> /home/open/work/build/py_pubsub/build/lib/py_pubsub
+[3.477s] copying py_pubsub/__init__.py -> /home/open/work/build/py_pubsub/build/lib/py_pubsub
+[3.477s] running install
+[3.478s] running install_lib
+[3.480s] creating /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.480s] copying /home/open/work/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.481s] copying /home/open/work/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.481s] copying /home/open/work/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[3.482s] byte-compiling /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[3.483s] byte-compiling /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[3.484s] byte-compiling /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[3.484s] running install_data
+[3.485s] creating /home/open/work/install/py_pubsub/share/ament_index
+[3.485s] creating /home/open/work/install/py_pubsub/share/ament_index/resource_index
+[3.485s] creating /home/open/work/install/py_pubsub/share/ament_index/resource_index/packages
+[3.486s] copying resource/py_pubsub -> /home/open/work/install/py_pubsub/share/ament_index/resource_index/packages
+[3.486s] copying package.xml -> /home/open/work/install/py_pubsub/share/py_pubsub
+[3.486s] running install_egg_info
+[3.490s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/open/work/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[3.491s] running install_scripts
+[3.540s] Installing listener script to /home/open/work/install/py_pubsub/lib/py_pubsub
+[3.541s] Installing talker script to /home/open/work/install/py_pubsub/lib/py_pubsub
+[3.541s] writing list of installed files to '/home/open/work/build/py_pubsub/install.log'
+[3.598s] Invoked command in '/home/open/work/src/py_pubsub' returned '0': PYTHONPATH=/home/open/work/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/open/work/build/py_pubsub/build install --record /home/open/work/build/py_pubsub/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+source;share/hand_eye_flexbe_behaviors/hook/cmake_prefix_path.ps1
+source;share/hand_eye_flexbe_behaviors/hook/cmake_prefix_path.dsv
+source;share/hand_eye_flexbe_behaviors/hook/cmake_prefix_path.sh
+source;share/hand_eye_flexbe_behaviors/local_setup.bash
+source;share/hand_eye_flexbe_behaviors/local_setup.dsv
+source;share/hand_eye_flexbe_behaviors/local_setup.ps1
+source;share/hand_eye_flexbe_behaviors/local_setup.sh
+source;share/hand_eye_flexbe_behaviors/local_setup.zsh

@@ -1,0 +1,43 @@
+running egg_info
+creating ../../../build/flexbe_mirror/flexbe_mirror.egg-info
+writing ../../../build/flexbe_mirror/flexbe_mirror.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/dependency_links.txt
+writing entry points to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/entry_points.txt
+writing requirements to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/requires.txt
+writing top-level names to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/top_level.txt
+writing manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+reading manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/src/build/flexbe_mirror/build
+creating /home/open/work/src/build/flexbe_mirror/build/lib
+creating /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+copying flexbe_mirror/mirror_state.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+copying flexbe_mirror/behavior_mirror_sm.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+copying flexbe_mirror/__init__.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+copying flexbe_mirror/flexbe_mirror.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+running install
+running install_lib
+creating /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/mirror_state.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/behavior_mirror_sm.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/__init__.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/flexbe_mirror.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/mirror_state.py to mirror_state.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/behavior_mirror_sm.py to behavior_mirror_sm.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/flexbe_mirror.py to flexbe_mirror.cpython-310.pyc
+running install_data
+creating /home/open/work/src/install/flexbe_mirror/share/ament_index
+creating /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index
+creating /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index/packages
+copying resource/flexbe_mirror -> /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/src/install/flexbe_mirror/share/flexbe_mirror
+running install_egg_info
+Copying ../../../build/flexbe_mirror/flexbe_mirror.egg-info to /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror-2.0.0-py3.10.egg-info
+running install_scripts
+Installing behavior_mirror_sm script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+Installing flexbe_mirror script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+Installing mirror_state script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+writing list of installed files to '/home/open/work/src/build/flexbe_mirror/install.log'

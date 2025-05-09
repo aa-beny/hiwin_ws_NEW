@@ -1,0 +1,3 @@
+Invoking command in '/home/open/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/install/hiwin_interfaces
+Invoked command in '/home/open/work/build/hiwin_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/Hiwin_libmodbus/hiwin_interfaces -DCMAKE_INSTALL_PREFIX=/home/open/work/install/hiwin_interfaces
+Invoking command in '/home/open/work/build/hiwin_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/hiwin_interfaces -- -j16 -l16

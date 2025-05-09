@@ -1,0 +1,5 @@
+gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:76: src/CMakeFiles/visp_bridge.dir/3dpose.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:104: src/CMakeFiles/visp_bridge.dir/image.cpp.o] Interrupt
+gmake[2]: *** [src/CMakeFiles/visp_bridge.dir/build.make:90: src/CMakeFiles/visp_bridge.dir/camera.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:170: src/CMakeFiles/visp_bridge.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

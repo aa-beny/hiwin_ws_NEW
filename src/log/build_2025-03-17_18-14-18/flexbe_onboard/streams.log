@@ -1,0 +1,42 @@
+[0.915s] Invoking command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_onboard': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_states:/home/open/work/src/install/flexbe_testing:/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_testing:/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_onboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_states/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_testing/local/lib/python3.10/dist-packages:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_onboard build --build-base /home/open/work/src/build/flexbe_onboard/build install --record /home/open/work/src/build/flexbe_onboard/install.log --single-version-externally-managed install_data
+[1.240s] running egg_info
+[1.241s] creating ../../../build/flexbe_onboard/flexbe_onboard.egg-info
+[1.241s] writing ../../../build/flexbe_onboard/flexbe_onboard.egg-info/PKG-INFO
+[1.242s] writing dependency_links to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/dependency_links.txt
+[1.242s] writing entry points to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/entry_points.txt
+[1.242s] writing requirements to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/requires.txt
+[1.242s] writing top-level names to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/top_level.txt
+[1.242s] writing manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+[1.244s] reading manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+[1.245s] writing manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+[1.246s] running build
+[1.246s] running build_py
+[1.246s] creating /home/open/work/src/build/flexbe_onboard/build
+[1.246s] creating /home/open/work/src/build/flexbe_onboard/build/lib
+[1.246s] creating /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+[1.246s] copying flexbe_onboard/flexbe_onboard.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+[1.250s] copying flexbe_onboard/start_behavior.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+[1.251s] copying flexbe_onboard/__init__.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+[1.251s] running install
+[1.252s] running install_lib
+[1.253s] creating /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+[1.253s] copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/flexbe_onboard.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+[1.253s] copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/start_behavior.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+[1.253s] copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/__init__.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+[1.254s] byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/flexbe_onboard.py to flexbe_onboard.cpython-310.pyc
+[1.259s] byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/start_behavior.py to start_behavior.cpython-310.pyc
+[1.259s] byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/__init__.py to __init__.cpython-310.pyc
+[1.259s] running install_data
+[1.260s] copying launch/behavior_onboard.launch.py -> /home/open/work/src/install/flexbe_onboard/share/flexbe_onboard
+[1.260s] creating /home/open/work/src/install/flexbe_onboard/share/ament_index
+[1.260s] creating /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index
+[1.260s] creating /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index/packages
+[1.260s] copying resource/flexbe_onboard -> /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index/packages
+[1.261s] copying package.xml -> /home/open/work/src/install/flexbe_onboard/share/flexbe_onboard
+[1.261s] running install_egg_info
+[1.263s] Copying ../../../build/flexbe_onboard/flexbe_onboard.egg-info to /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard-2.0.0-py3.10.egg-info
+[1.264s] running install_scripts
+[1.299s] Installing flexbe_onboard script to /home/open/work/src/install/flexbe_onboard/lib/flexbe_onboard
+[1.299s] Installing start_behavior script to /home/open/work/src/install/flexbe_onboard/lib/flexbe_onboard
+[1.299s] writing list of installed files to '/home/open/work/src/build/flexbe_onboard/install.log'
+[1.334s] Invoked command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_onboard' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_states:/home/open/work/src/install/flexbe_testing:/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_testing:/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_onboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_states/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_testing/local/lib/python3.10/dist-packages:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_onboard build --build-base /home/open/work/src/build/flexbe_onboard/build install --record /home/open/work/src/build/flexbe_onboard/install.log --single-version-externally-managed install_data

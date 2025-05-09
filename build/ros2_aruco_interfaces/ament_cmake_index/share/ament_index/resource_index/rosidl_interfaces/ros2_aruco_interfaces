@@ -1,0 +1,10 @@
+msg/ArucoMarkers.idl
+msg/ArucoMarkers.msg
+srv/ArucoMarkerInfo.idl
+srv/ArucoMarkerInfo.srv
+srv/ArucoMarkerInfo_Request.msg
+srv/ArucoMarkerInfo_Response.msg
+srv/GetMaskImage.idl
+srv/GetMaskImage.srv
+srv/GetMaskImage_Request.msg
+srv/GetMaskImage_Response.msg

@@ -1,0 +1,6 @@
+Invoking command in '/home/open/work/src/build/flexbe_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/flexbe_msgs
+Invoked command in '/home/open/work/src/build/flexbe_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/flexbe_msgs
+Invoking command in '/home/open/work/src/build/flexbe_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/flexbe_msgs -- -j16 -l16
+Invoked command in '/home/open/work/src/build/flexbe_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/flexbe_msgs -- -j16 -l16
+Invoking command in '/home/open/work/src/build/flexbe_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/flexbe_msgs
+Invoked command in '/home/open/work/src/build/flexbe_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/flexbe_msgs

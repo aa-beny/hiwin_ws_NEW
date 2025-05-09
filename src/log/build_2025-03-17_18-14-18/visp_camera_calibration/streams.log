@@ -1,0 +1,393 @@
+[0.023s] Invoking command in '/home/open/work/src/build/visp_camera_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_camera_calibration -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_camera_calibration
+[0.145s] -- The C compiler identification is GNU 11.4.0
+[0.272s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.461s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.468s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.674s] -- Detecting CXX compile features
+[0.674s] -- Detecting CXX compile features - done
+[0.679s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.066s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.723s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.758s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.784s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.885s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.094s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.583s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.729s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.951s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.990s] -- Looking for pthread.h
+[3.294s] -- Looking for pthread.h - found
+[3.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.568s] -- Found Threads: TRUE  
+[8.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.522s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.560s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.564s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.606s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.606s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.606s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.607s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.648s] -- Found PythonExtra: .so  
+[8.826s] -- Configuring done
+[9.021s] -- Generating done
+[9.029s] -- Build files have been written to: /home/open/work/src/build/visp_camera_calibration
+[9.052s] Invoked command in '/home/open/work/src/build/visp_camera_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_camera_calibration -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_camera_calibration
+[9.054s] Invoking command in '/home/open/work/src/build/visp_camera_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/open/work/src/build/visp_camera_calibration -- -j16 -l16
+[9.118s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.132s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.136s] [  4%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_common.dir/src/names.cpp.o[0m
+[9.149s] [  4%] Built target ament_cmake_python_copy_visp_camera_calibration
+[9.466s] running egg_info
+[9.467s] creating visp_camera_calibration.egg-info
+[9.467s] writing visp_camera_calibration.egg-info/PKG-INFO
+[9.467s] writing dependency_links to visp_camera_calibration.egg-info/dependency_links.txt
+[9.467s] writing top-level names to visp_camera_calibration.egg-info/top_level.txt
+[9.468s] writing manifest file 'visp_camera_calibration.egg-info/SOURCES.txt'
+[9.471s] reading manifest file 'visp_camera_calibration.egg-info/SOURCES.txt'
+[9.471s] writing manifest file 'visp_camera_calibration.egg-info/SOURCES.txt'
+[9.505s] [  4%] Built target ament_cmake_python_build_visp_camera_calibration_egg
+[9.616s] [  5%] [32m[1mLinking CXX shared library libvisp_camera_calibration_common.so[0m
+[9.757s] [  5%] Built target visp_camera_calibration_common
+[9.980s] [  5%] Built target visp_camera_calibration__cpp
+[9.993s] [  6%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_camera_calibration/msg/detail/calib_point_array__functions.c.o[0m
+[9.994s] [  8%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_camera_calibration/msg/detail/calib_point__functions.c.o[0m
+[9.994s] [  9%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_camera_calibration/msg/detail/image_point__functions.c.o[0m
+[9.994s] [ 10%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_camera_calibration/srv/detail/calibrate__functions.c.o[0m
+[9.995s] [ 12%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_camera_calibration/msg/detail/image_and_points__functions.c.o[0m
+[10.005s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.008s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.010s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.152s] [ 17%] [32m[1mLinking C shared library libvisp_camera_calibration__rosidl_generator_c.so[0m
+[10.228s] [ 17%] Built target visp_camera_calibration__rosidl_generator_c
+[10.248s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.249s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.251s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.189s] [ 22%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_camera_calibration/msg/calib_point_array__type_support.cpp.o[0m
+[11.199s] [ 24%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_camera_calibration/msg/calib_point__type_support.cpp.o[0m
+[11.210s] [ 25%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_camera_calibration/msg/image_point__type_support.cpp.o[0m
+[11.210s] [ 27%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_camera_calibration/msg/image_and_points__type_support.cpp.o[0m
+[11.219s] [ 28%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_camera_calibration/srv/calibrate__type_support.cpp.o[0m
+[11.370s] [ 29%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_camera_calibration/msg/detail/calib_point__type_support.cpp.o[0m
+[11.375s] [ 31%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_camera_calibration/msg/detail/image_and_points__type_support.cpp.o[0m
+[11.377s] [ 32%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_camera_calibration/msg/detail/calib_point_array__type_support.cpp.o[0m
+[11.379s] [ 33%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_camera_calibration/msg/detail/image_point__type_support.cpp.o[0m
+[11.390s] [ 35%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_camera_calibration/srv/detail/calibrate__type_support.cpp.o[0m
+[11.396s] [ 36%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_camera_calibration/msg/calib_point_array__type_support.cpp.o[0m
+[11.437s] [ 37%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_camera_calibration/msg/calib_point__type_support.cpp.o[0m
+[11.557s] [ 39%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_camera_calibration/msg/image_and_points__type_support.cpp.o[0m
+[11.581s] [ 40%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_camera_calibration/msg/image_point__type_support.cpp.o[0m
+[11.583s] [ 41%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_camera_calibration/srv/calibrate__type_support.cpp.o[0m
+[11.675s] [ 43%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_camera_calibration/msg/detail/calib_point_array__type_support_c.cpp.o[0m
+[11.720s] [ 44%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_camera_calibration/msg/detail/calib_point__type_support_c.cpp.o[0m
+[11.752s] [ 47%] [32m[1mLinking CXX shared library libvisp_camera_calibration__rosidl_typesupport_c.so[0m
+[11.752s] [ 47%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_camera_calibration/msg/detail/image_and_points__type_support_c.cpp.o[0m
+[11.863s] [ 48%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_camera_calibration/msg/detail/calib_point_array__type_support.c.o[0m
+[11.981s] [ 48%] Built target visp_camera_calibration__rosidl_typesupport_c
+[12.021s] [ 50%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_camera_calibration/msg/detail/calib_point__type_support.c.o[0m
+[12.057s] [ 51%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_camera_calibration/msg/detail/dds_fastrtps/calib_point_array__type_support.cpp.o[0m
+[12.098s] [ 52%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_camera_calibration/msg/detail/image_and_points__type_support.c.o[0m
+[12.182s] [ 54%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_camera_calibration/msg/detail/image_point__type_support_c.cpp.o[0m
+[12.290s] [ 55%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_camera_calibration/msg/detail/image_point__type_support.c.o[0m
+[12.333s] [ 56%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_camera_calibration/msg/detail/dds_fastrtps/calib_point__type_support.cpp.o[0m
+[12.402s] [ 58%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_camera_calibration/srv/detail/calibrate__type_support_c.cpp.o[0m
+[12.459s] [ 59%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_camera_calibration/srv/detail/calibrate__type_support.c.o[0m
+[12.640s] [ 60%] [32m[1mLinking C shared library libvisp_camera_calibration__rosidl_typesupport_introspection_c.so[0m
+[12.730s] [ 62%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_camera_calibration/msg/detail/dds_fastrtps/image_and_points__type_support.cpp.o[0m
+[12.741s] [ 62%] Built target visp_camera_calibration__rosidl_typesupport_introspection_c
+[12.759s] [ 63%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_camera_calibration/msg/detail/dds_fastrtps/image_point__type_support.cpp.o[0m
+[12.931s] [ 64%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_camera_calibration/srv/detail/dds_fastrtps/calibrate__type_support.cpp.o[0m
+[13.285s] [ 66%] [32m[1mLinking CXX shared library libvisp_camera_calibration__rosidl_typesupport_cpp.so[0m
+[13.464s] [ 66%] Built target visp_camera_calibration__rosidl_typesupport_cpp
+[13.553s] [ 67%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_calibrator.dir/src/calibrator.cpp.o[0m
+[13.554s] [ 68%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_camera.dir/src/camera.cpp.o[0m
+[13.560s] [ 70%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_calibrator.dir/src/calibrator_main.cpp.o[0m
+[13.563s] [ 71%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_image_processing.dir/src/image_processing_main.cpp.o[0m
+[13.567s] [ 72%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_camera.dir/src/camera_main.cpp.o[0m
+[13.568s] [ 74%] [32mBuilding CXX object CMakeFiles/visp_camera_calibration_image_processing.dir/src/image_processing.cpp.o[0m
+[13.914s] [ 75%] [32m[1mLinking CXX shared library libvisp_camera_calibration__rosidl_typesupport_introspection_cpp.so[0m
+[14.161s] [ 77%] [32m[1mLinking CXX shared library libvisp_camera_calibration__rosidl_typesupport_fastrtps_c.so[0m
+[14.172s] [ 77%] Built target visp_camera_calibration__rosidl_typesupport_introspection_cpp
+[14.440s] [ 77%] Built target visp_camera_calibration__rosidl_typesupport_fastrtps_c
+[14.685s] [ 78%] [32m[1mLinking CXX shared library libvisp_camera_calibration__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.869s] [ 78%] Built target visp_camera_calibration__rosidl_typesupport_fastrtps_cpp
+[14.911s] [ 78%] Built target visp_camera_calibration
+[14.958s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.340s] [ 79%] Built target visp_camera_calibration__py
+[17.422s] [ 81%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_camera_calibration/msg/_calib_point_s.c.o[0m
+[17.432s] [ 82%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_camera_calibration/msg/_calib_point_array_s.c.o[0m
+[17.437s] [ 83%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_camera_calibration/msg/_image_and_points_s.c.o[0m
+[17.440s] [ 85%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_camera_calibration/msg/_image_point_s.c.o[0m
+[17.449s] [ 86%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_camera_calibration/srv/_calibrate_s.c.o[0m
+[18.153s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/visp_camera_calibration/libvisp_camera_calibration__rosidl_generator_py.so[0m
+[18.316s] [ 87%] Built target visp_camera_calibration__rosidl_generator_py
+[18.399s] [ 89%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.413s] [ 90%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.424s] [ 91%] [32mBuilding C object CMakeFiles/visp_camera_calibration__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_c.c.o[0m
+[18.755s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.761s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.835s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.888s] [ 95%] Built target visp_camera_calibration__rosidl_typesupport_introspection_c__pyext
+[18.928s] [ 95%] Built target visp_camera_calibration__rosidl_typesupport_c__pyext
+[18.979s] [ 95%] Built target visp_camera_calibration__rosidl_typesupport_fastrtps_c__pyext
+[31.326s] [ 97%] [32m[1mLinking CXX executable visp_camera_calibration_camera[0m
+[33.403s] [ 97%] Built target visp_camera_calibration_camera
+[36.967s] [ 98%] [32m[1mLinking CXX executable visp_camera_calibration_calibrator[0m
+[39.300s] [ 98%] Built target visp_camera_calibration_calibrator
+[44.620s] [100%] [32m[1mLinking CXX executable visp_camera_calibration_image_processing[0m
+[46.087s] [100%] Built target visp_camera_calibration_image_processing
+[46.105s] Invoked command in '/home/open/work/src/build/visp_camera_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/open/work/src/build/visp_camera_calibration -- -j16 -l16
+[46.338s] Invoking command in '/home/open/work/src/build/visp_camera_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/open/work/src/build/visp_camera_calibration
+[46.349s] -- Install configuration: ""
+[46.349s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/ament_index/resource_index/rosidl_interfaces/visp_camera_calibration
+[46.349s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.350s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.350s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/rosidl_generator_c__visibility_control.h
+[46.350s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/image_point.h
+[46.350s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.350s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__functions.c
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__functions.h
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__functions.c
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__functions.c
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__type_support.h
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__functions.c
+[46.351s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__type_support.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__struct.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__functions.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__struct.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__type_support.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__functions.h
+[46.352s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__struct.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__struct.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__functions.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__type_support.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/image_and_points.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/calib_point.h
+[46.353s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/calib_point_array.h
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__struct.h
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__functions.h
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__functions.c
+[46.354s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__type_support.h
+[46.355s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/calibrate.h
+[46.355s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/library_path.sh
+[46.355s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/library_path.dsv
+[46.355s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_generator_c.so
+[46.355s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_generator_c.so" to ""
+[46.355s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.356s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.356s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.356s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.356s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__rosidl_typesupport_fastrtps_c.h
+[46.356s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__rosidl_typesupport_fastrtps_c.h
+[46.357s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__rosidl_typesupport_fastrtps_c.h
+[46.357s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__rosidl_typesupport_fastrtps_c.h
+[46.357s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.357s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.357s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__rosidl_typesupport_fastrtps_c.h
+[46.357s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_fastrtps_c.so
+[46.358s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_fastrtps_c.so" to ""
+[46.358s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.358s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.358s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/image_point.hpp
+[46.358s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/calib_point_array.hpp
+[46.358s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/image_and_points.hpp
+[46.359s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/calib_point.hpp
+[46.359s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.359s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__builder.hpp
+[46.359s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__struct.hpp
+[46.359s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__builder.hpp
+[46.359s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__struct.hpp
+[46.360s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__traits.hpp
+[46.360s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__traits.hpp
+[46.360s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__traits.hpp
+[46.360s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__struct.hpp
+[46.361s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__struct.hpp
+[46.361s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__traits.hpp
+[46.361s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__builder.hpp
+[46.361s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__builder.hpp
+[46.361s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.361s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/calibrate.hpp
+[46.362s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.362s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__traits.hpp
+[46.362s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__struct.hpp
+[46.362s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__builder.hpp
+[46.362s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.363s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.363s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.363s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.363s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[46.363s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/dds_fastrtps
+[46.364s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__rosidl_typesupport_fastrtps_cpp.hpp
+[46.364s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__rosidl_typesupport_fastrtps_cpp.hpp
+[46.364s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__rosidl_typesupport_fastrtps_cpp.hpp
+[46.364s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.364s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.364s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/dds_fastrtps
+[46.365s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__rosidl_typesupport_fastrtps_cpp.hpp
+[46.365s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_fastrtps_cpp.so
+[46.365s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_fastrtps_cpp.so" to ""
+[46.365s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.366s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.366s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.366s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.366s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__rosidl_typesupport_introspection_c.h
+[46.366s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__type_support.c
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__rosidl_typesupport_introspection_c.h
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__type_support.c
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__type_support.c
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__type_support.c
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__rosidl_typesupport_introspection_c.h
+[46.367s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__rosidl_typesupport_introspection_c.h
+[46.368s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.368s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.368s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__type_support.c
+[46.368s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__rosidl_typesupport_introspection_c.h
+[46.368s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_introspection_c.so
+[46.369s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_introspection_c.so" to ""
+[46.369s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_c.so
+[46.369s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_c.so" to ""
+[46.369s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration
+[46.369s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg
+[46.370s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail
+[46.370s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__type_support.cpp
+[46.370s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__type_support.cpp
+[46.370s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point_array__rosidl_typesupport_introspection_cpp.hpp
+[46.370s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__type_support.cpp
+[46.370s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_and_points__rosidl_typesupport_introspection_cpp.hpp
+[46.371s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__rosidl_typesupport_introspection_cpp.hpp
+[46.371s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/calib_point__type_support.cpp
+[46.371s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/msg/detail/image_point__rosidl_typesupport_introspection_cpp.hpp
+[46.371s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv
+[46.371s] -- Up-to-date: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail
+[46.371s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__type_support.cpp
+[46.371s] -- Installing: /home/open/work/src/install/visp_camera_calibration/include/visp_camera_calibration/visp_camera_calibration/srv/detail/calibrate__rosidl_typesupport_introspection_cpp.hpp
+[46.372s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_introspection_cpp.so
+[46.372s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_introspection_cpp.so" to ""
+[46.372s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_cpp.so
+[46.372s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_typesupport_cpp.so" to ""
+[46.372s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/pythonpath.sh
+[46.372s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/pythonpath.dsv
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration-0.13.1-py3.10.egg-info
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration-0.13.1-py3.10.egg-info/PKG-INFO
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration-0.13.1-py3.10.egg-info/top_level.txt
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration-0.13.1-py3.10.egg-info/dependency_links.txt
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration-0.13.1-py3.10.egg-info/SOURCES.txt
+[46.373s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration
+[46.374s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[46.374s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/libvisp_camera_calibration__rosidl_generator_py.so
+[46.374s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg
+[46.374s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_and_points.py
+[46.374s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/__init__.py
+[46.375s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_point.py
+[46.375s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_and_points_s.c
+[46.375s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point_array.py
+[46.375s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point.py
+[46.375s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point_array_s.c
+[46.376s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point_s.c
+[46.376s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_point_s.c
+[46.376s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv
+[46.376s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv/_calibrate_s.c
+[46.376s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv/_calibrate.py
+[46.377s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv/__init__.py
+[46.377s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_c.c
+[46.377s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/__init__.py
+[46.377s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.378s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[46.378s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[46.378s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/_visp_camera_calibration_s.ep.rosidl_typesupport_introspection_c.c
+[46.467s] Listing '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration'...
+[46.467s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/__init__.py'...
+[46.467s] Listing '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg'...
+[46.467s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/__init__.py'...
+[46.467s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point.py'...
+[46.468s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_calib_point_array.py'...
+[46.468s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_and_points.py'...
+[46.468s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/msg/_image_point.py'...
+[46.468s] Listing '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv'...
+[46.468s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv/__init__.py'...
+[46.468s] Compiling '/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/srv/_calibrate.py'...
+[46.476s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[46.476s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.476s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[46.477s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.477s] -- Installing: /home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[46.477s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/local/lib/python3.10/dist-packages/visp_camera_calibration/visp_camera_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.477s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_generator_py.so
+[46.478s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/libvisp_camera_calibration__rosidl_generator_py.so" to ""
+[46.478s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/CalibPointArray.idl
+[46.478s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/CalibPoint.idl
+[46.478s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/ImageAndPoints.idl
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/ImagePoint.idl
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/srv/Calibrate.idl
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/CalibPointArray.msg
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/CalibPoint.msg
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/ImageAndPoints.msg
+[46.479s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/msg/ImagePoint.msg
+[46.480s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/srv/Calibrate.srv
+[46.480s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/srv/Calibrate_Request.msg
+[46.480s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/srv/Calibrate_Response.msg
+[46.480s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_calibrator
+[46.484s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_calibrator" to ""
+[46.485s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_image_processing
+[46.489s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_image_processing" to ""
+[46.489s] -- Installing: /home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_camera
+[46.491s] -- Set runtime path of "/home/open/work/src/install/visp_camera_calibration/lib/visp_camera_calibration/visp_camera_calibration_camera" to ""
+[46.491s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch
+[46.495s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/lagadic_grid.launch
+[46.496s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images
+[46.496s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid36-04.pgm
+[46.497s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid2d.pdf
+[46.498s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid36-03.pgm
+[46.499s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid36-01.pgm
+[46.500s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid36-02.pgm
+[46.501s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/launch/images/grid2d.fig
+[46.502s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/ament_index/resource_index/package_run_dependencies/visp_camera_calibration
+[46.502s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/ament_index/resource_index/parent_prefix_path/visp_camera_calibration
+[46.503s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/ament_prefix_path.sh
+[46.503s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/ament_prefix_path.dsv
+[46.503s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/path.sh
+[46.504s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/environment/path.dsv
+[46.504s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/local_setup.bash
+[46.504s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/local_setup.sh
+[46.505s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/local_setup.zsh
+[46.505s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/local_setup.dsv
+[46.505s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/package.dsv
+[46.506s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/ament_index/resource_index/packages/visp_camera_calibration
+[46.506s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_generator_cExport.cmake
+[46.506s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_generator_cExport-noconfig.cmake
+[46.507s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_typesupport_fastrtps_cExport.cmake
+[46.507s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[46.507s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_generator_cppExport.cmake
+[46.507s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_typesupport_fastrtps_cppExport.cmake
+[46.508s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[46.508s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_introspection_cExport.cmake
+[46.508s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[46.509s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_cExport.cmake
+[46.509s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_cExport-noconfig.cmake
+[46.509s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_introspection_cppExport.cmake
+[46.510s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[46.510s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_cppExport.cmake
+[46.510s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibration__rosidl_typesupport_cppExport-noconfig.cmake
+[46.511s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_generator_pyExport.cmake
+[46.511s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/export_visp_camera_calibration__rosidl_generator_pyExport-noconfig.cmake
+[46.511s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/rosidl_cmake-extras.cmake
+[46.512s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.512s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.512s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/ament_cmake_export_libraries-extras.cmake
+[46.512s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/ament_cmake_export_targets-extras.cmake
+[46.513s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[46.513s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[46.513s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibrationConfig.cmake
+[46.514s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/cmake/visp_camera_calibrationConfig-version.cmake
+[46.514s] -- Installing: /home/open/work/src/install/visp_camera_calibration/share/visp_camera_calibration/package.xml
+[46.520s] Invoked command in '/home/open/work/src/build/visp_camera_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/open/work/src/build/visp_camera_calibration

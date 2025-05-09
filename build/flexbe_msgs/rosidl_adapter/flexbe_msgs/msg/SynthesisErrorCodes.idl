@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/SynthesisErrorCodes.msg
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module msg {
+    module SynthesisErrorCodes_Constants {
+      @verbatim (language="comment", text=
+        "success")
+      const int32 SUCCESS = 1;
+    };
+    struct SynthesisErrorCodes {
+      int32 value;
+    };
+  };
+};

@@ -1,0 +1,72 @@
+[1.024s] Invoking command in '/home/open/work/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/build/tutorial_interfaces -- -j16 -l16
+[1.129s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.150s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.164s] [  4%] Built target ament_cmake_python_copy_tutorial_interfaces
+[1.606s] running egg_info
+[1.607s] creating tutorial_interfaces.egg-info
+[1.610s] writing tutorial_interfaces.egg-info/PKG-INFO
+[1.610s] writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt
+[1.610s] writing top-level names to tutorial_interfaces.egg-info/top_level.txt
+[1.610s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.611s] reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.614s] writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'
+[1.655s] [  4%] Built target ament_cmake_python_build_tutorial_interfaces_egg
+[2.087s] [  4%] Built target tutorial_interfaces__cpp
+[2.125s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.125s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.145s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.280s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[2.280s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[2.288s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[2.481s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[2.619s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[2.653s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.672s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.672s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.865s] [ 27%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[2.870s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[2.879s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[3.192s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.206s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.206s] [ 38%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[3.353s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[3.360s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[3.372s] [ 44%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[3.979s] [ 46%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.983s] [ 48%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[3.984s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[3.992s] [ 53%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[3.996s] [ 55%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.999s] [ 57%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[4.005s] [ 59%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[4.016s] [ 63%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.020s] [ 63%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.025s] [ 65%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[4.089s] [ 68%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[4.100s] [ 70%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[4.177s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[4.197s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.197s] [ 70%] Built target tutorial_interfaces__rosidl_typesupport_c
+[4.247s] [ 72%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[4.300s] [ 72%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[4.351s] [ 74%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.421s] [ 74%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[4.489s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.546s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[4.561s] [ 76%] Built target tutorial_interfaces
+[4.576s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.181s] [ 78%] Built target tutorial_interfaces__py
+[5.198s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[5.198s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[5.198s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[5.290s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so[0m
+[5.328s] [ 87%] Built target tutorial_interfaces__rosidl_generator_py
+[5.346s] [ 89%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.349s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.349s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.498s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.503s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.504s] [100%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.533s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.540s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[5.547s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext

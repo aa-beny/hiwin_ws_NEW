@@ -1,0 +1,354 @@
+[0.018s] Invoking command in '/home/open/work/src/build/visp_hand2eye_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_hand2eye_calibration -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_hand2eye_calibration
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.264s] -- The CXX compiler identification is GNU 11.4.0
+[0.280s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.454s] -- Detecting CXX compiler ABI info
+[0.628s] -- Detecting CXX compiler ABI info - done
+[0.655s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.655s] -- Detecting CXX compile features
+[0.655s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.800s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.817s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.840s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.884s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.944s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.217s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.242s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.715s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.825s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.057s] -- Looking for pthread.h
+[3.330s] -- Looking for pthread.h - found
+[3.330s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.615s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.619s] -- Found Threads: TRUE  
+[7.459s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.116s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.170s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[8.175s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[8.237s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[8.238s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.238s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[8.239s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[8.288s] -- Found PythonExtra: .so  
+[8.518s] -- Configuring done
+[8.678s] -- Generating done
+[8.683s] -- Build files have been written to: /home/open/work/src/build/visp_hand2eye_calibration
+[8.705s] Invoked command in '/home/open/work/src/build/visp_hand2eye_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/vision_visp/visp_hand2eye_calibration -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/visp_hand2eye_calibration
+[8.706s] Invoking command in '/home/open/work/src/build/visp_hand2eye_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/open/work/src/build/visp_hand2eye_calibration -- -j16 -l16
+[8.769s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.778s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.788s] [  4%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration_common.dir/src/names.cpp.o[0m
+[8.805s] [  4%] Built target ament_cmake_python_copy_visp_hand2eye_calibration
+[9.134s] running egg_info
+[9.135s] creating visp_hand2eye_calibration.egg-info
+[9.136s] writing visp_hand2eye_calibration.egg-info/PKG-INFO
+[9.136s] writing dependency_links to visp_hand2eye_calibration.egg-info/dependency_links.txt
+[9.136s] writing top-level names to visp_hand2eye_calibration.egg-info/top_level.txt
+[9.137s] writing manifest file 'visp_hand2eye_calibration.egg-info/SOURCES.txt'
+[9.140s] reading manifest file 'visp_hand2eye_calibration.egg-info/SOURCES.txt'
+[9.140s] writing manifest file 'visp_hand2eye_calibration.egg-info/SOURCES.txt'
+[9.163s] [  6%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration_common.so[0m
+[9.175s] [  6%] Built target ament_cmake_python_build_visp_hand2eye_calibration_egg
+[9.351s] [  6%] Built target visp_hand2eye_calibration_common
+[9.764s] [  7%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera__functions.c.o[0m
+[9.764s] [  9%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__functions.c.o[0m
+[9.771s] [ 11%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_hand2eye_calibration/msg/detail/transform_array__functions.c.o[0m
+[9.771s] [ 12%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_c.dir/rosidl_generator_c/visp_hand2eye_calibration/srv/detail/reset__functions.c.o[0m
+[9.824s] [ 12%] Built target visp_hand2eye_calibration__cpp
+[9.839s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.844s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.844s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.892s] [ 19%] [32m[1mLinking C shared library libvisp_hand2eye_calibration__rosidl_generator_c.so[0m
+[9.972s] [ 19%] Built target visp_hand2eye_calibration__rosidl_generator_c
+[9.997s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[9.998s] [ 22%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.998s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.840s] [ 25%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_hand2eye_calibration/srv/compute_effector_camera__type_support.cpp.o[0m
+[10.847s] [ 26%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_hand2eye_calibration/srv/reset__type_support.cpp.o[0m
+[10.848s] [ 28%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_hand2eye_calibration/msg/transform_array__type_support.cpp.o[0m
+[10.851s] [ 30%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visp_hand2eye_calibration/srv/compute_effector_camera_quick__type_support.cpp.o[0m
+[10.942s] [ 31%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_hand2eye_calibration/msg/transform_array__type_support.cpp.o[0m
+[10.949s] [ 33%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_hand2eye_calibration/srv/compute_effector_camera_quick__type_support.cpp.o[0m
+[10.950s] [ 34%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_hand2eye_calibration/srv/compute_effector_camera__type_support.cpp.o[0m
+[10.955s] [ 36%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/visp_hand2eye_calibration/srv/reset__type_support.cpp.o[0m
+[11.114s] [ 38%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration__rosidl_typesupport_c.so[0m
+[11.192s] [ 39%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_hand2eye_calibration/msg/detail/transform_array__type_support.cpp.o[0m
+[11.195s] [ 41%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support.cpp.o[0m
+[11.198s] [ 42%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support.cpp.o[0m
+[11.200s] [ 44%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visp_hand2eye_calibration/srv/detail/reset__type_support.cpp.o[0m
+[11.260s] [ 47%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_hand2eye_calibration/srv/detail/dds_fastrtps/compute_effector_camera__type_support.cpp.o[0m
+[11.268s] [ 47%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_hand2eye_calibration/srv/detail/dds_fastrtps/compute_effector_camera_quick__type_support.cpp.o[0m
+[11.269s] [ 49%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_hand2eye_calibration/msg/detail/dds_fastrtps/transform_array__type_support.cpp.o[0m
+[11.272s] [ 50%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visp_hand2eye_calibration/srv/detail/dds_fastrtps/reset__type_support.cpp.o[0m
+[11.369s] [ 50%] Built target visp_hand2eye_calibration__rosidl_typesupport_c
+[11.651s] [ 52%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_hand2eye_calibration/msg/detail/transform_array__type_support.c.o[0m
+[11.662s] [ 53%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support.c.o[0m
+[11.679s] [ 55%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support.c.o[0m
+[11.697s] [ 57%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_hand2eye_calibration/msg/detail/transform_array__type_support_c.cpp.o[0m
+[11.835s] [ 58%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visp_hand2eye_calibration/srv/detail/reset__type_support.c.o[0m
+[11.850s] [ 60%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support_c.cpp.o[0m
+[11.899s] [ 61%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support_c.cpp.o[0m
+[11.939s] [ 63%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visp_hand2eye_calibration/srv/detail/reset__type_support_c.cpp.o[0m
+[12.012s] [ 65%] [32m[1mLinking C shared library libvisp_hand2eye_calibration__rosidl_typesupport_introspection_c.so[0m
+[12.144s] [ 66%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration__rosidl_typesupport_cpp.so[0m
+[12.164s] [ 66%] Built target visp_hand2eye_calibration__rosidl_typesupport_introspection_c
+[12.399s] [ 66%] Built target visp_hand2eye_calibration__rosidl_typesupport_cpp
+[12.493s] [ 68%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration_client.dir/src/client.cpp.o[0m
+[12.495s] [ 71%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration_calibrator.dir/src/calibrator.cpp.o[0m
+[12.498s] [ 69%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration_calibrator.dir/src/calibrator_main.cpp.o[0m
+[12.513s] [ 73%] [32mBuilding CXX object CMakeFiles/visp_hand2eye_calibration_client.dir/src/client_main.cpp.o[0m
+[13.585s] [ 74%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.so[0m
+[13.853s] [ 74%] Built target visp_hand2eye_calibration__rosidl_typesupport_introspection_cpp
+[13.880s] [ 76%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.so[0m
+[13.959s] [ 77%] [32m[1mLinking CXX shared library libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.so[0m
+[14.128s] [ 77%] Built target visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp
+[14.281s] [ 77%] Built target visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c
+[14.370s] [ 77%] Built target visp_hand2eye_calibration
+[14.456s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.970s] [ 79%] Built target visp_hand2eye_calibration__py
+[17.058s] [ 80%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_hand2eye_calibration/msg/_transform_array_s.c.o[0m
+[17.061s] [ 82%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_hand2eye_calibration/srv/_compute_effector_camera_s.c.o[0m
+[17.068s] [ 84%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_hand2eye_calibration/srv/_reset_s.c.o[0m
+[17.070s] [ 85%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_generator_py.dir/rosidl_generator_py/visp_hand2eye_calibration/srv/_compute_effector_camera_quick_s.c.o[0m
+[17.568s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/visp_hand2eye_calibration/libvisp_hand2eye_calibration__rosidl_generator_py.so[0m
+[17.762s] [ 87%] Built target visp_hand2eye_calibration__rosidl_generator_py
+[17.863s] [ 88%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.864s] [ 90%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_c.c.o[0m
+[17.913s] [ 92%] [32mBuilding C object CMakeFiles/visp_hand2eye_calibration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.221s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.347s] [ 93%] Built target visp_hand2eye_calibration__rosidl_typesupport_fastrtps_c__pyext
+[18.361s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.404s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[18.471s] [ 96%] Built target visp_hand2eye_calibration__rosidl_typesupport_introspection_c__pyext
+[18.588s] [ 96%] Built target visp_hand2eye_calibration__rosidl_typesupport_c__pyext
+[30.085s] [ 98%] [32m[1mLinking CXX executable visp_hand2eye_calibration_client[0m
+[31.839s] [ 98%] Built target visp_hand2eye_calibration_client
+[40.132s] [100%] [32m[1mLinking CXX executable visp_hand2eye_calibration_calibrator[0m
+[42.446s] [100%] Built target visp_hand2eye_calibration_calibrator
+[42.474s] Invoked command in '/home/open/work/src/build/visp_hand2eye_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/open/work/src/build/visp_hand2eye_calibration -- -j16 -l16
+[42.741s] Invoking command in '/home/open/work/src/build/visp_hand2eye_calibration': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/open/work/src/build/visp_hand2eye_calibration
+[42.758s] -- Install configuration: ""
+[42.758s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/ament_index/resource_index/rosidl_interfaces/visp_hand2eye_calibration
+[42.759s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.759s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.759s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/rosidl_generator_c__visibility_control.h
+[42.759s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/transform_array.h
+[42.759s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.760s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__struct.h
+[42.760s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__functions.h
+[42.760s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__functions.c
+[42.760s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__type_support.h
+[42.760s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.761s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/compute_effector_camera.h
+[42.761s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/compute_effector_camera_quick.h
+[42.761s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.761s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__struct.h
+[42.761s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__functions.c
+[42.762s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__functions.h
+[42.762s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__struct.h
+[42.762s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__functions.c
+[42.762s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__type_support.h
+[42.762s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__struct.h
+[42.763s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support.h
+[42.763s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__functions.h
+[42.763s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__functions.h
+[42.763s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support.h
+[42.764s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__functions.c
+[42.764s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/reset.h
+[42.764s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/library_path.sh
+[42.765s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/library_path.dsv
+[42.765s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_generator_c.so
+[42.766s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_generator_c.so" to ""
+[42.766s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.766s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.766s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[42.766s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.767s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__rosidl_typesupport_fastrtps_c.h
+[42.767s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.767s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.767s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__rosidl_typesupport_fastrtps_c.h
+[42.767s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__rosidl_typesupport_fastrtps_c.h
+[42.767s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__rosidl_typesupport_fastrtps_c.h
+[42.767s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.so
+[42.768s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_c.so" to ""
+[42.768s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.769s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.769s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/transform_array.hpp
+[42.769s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.769s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__struct.hpp
+[42.769s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__traits.hpp
+[42.769s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__builder.hpp
+[42.769s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.770s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/compute_effector_camera.hpp
+[42.770s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/reset.hpp
+[42.770s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/compute_effector_camera_quick.hpp
+[42.770s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.770s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__traits.hpp
+[42.770s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__builder.hpp
+[42.771s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__traits.hpp
+[42.771s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__struct.hpp
+[42.771s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__traits.hpp
+[42.771s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__struct.hpp
+[42.771s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__builder.hpp
+[42.772s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__builder.hpp
+[42.772s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__struct.hpp
+[42.772s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.772s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.772s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[42.773s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.773s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__rosidl_typesupport_fastrtps_cpp.hpp
+[42.773s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/dds_fastrtps
+[42.773s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.773s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.773s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__rosidl_typesupport_fastrtps_cpp.hpp
+[42.774s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__rosidl_typesupport_fastrtps_cpp.hpp
+[42.774s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/dds_fastrtps
+[42.774s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp
+[42.774s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.so
+[42.775s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_fastrtps_cpp.so" to ""
+[42.775s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.775s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.775s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[42.775s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.776s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__type_support.c
+[42.776s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__rosidl_typesupport_introspection_c.h
+[42.776s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.776s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.776s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__type_support.c
+[42.776s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__rosidl_typesupport_introspection_c.h
+[42.777s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support.c
+[42.777s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support.c
+[42.777s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__rosidl_typesupport_introspection_c.h
+[42.777s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__rosidl_typesupport_introspection_c.h
+[42.777s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_introspection_c.so
+[42.778s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_introspection_c.so" to ""
+[42.778s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_c.so
+[42.779s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_c.so" to ""
+[42.779s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration
+[42.779s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg
+[42.779s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail
+[42.779s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__rosidl_typesupport_introspection_cpp.hpp
+[42.780s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/msg/detail/transform_array__type_support.cpp
+[42.780s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv
+[42.780s] -- Up-to-date: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail
+[42.780s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__rosidl_typesupport_introspection_cpp.hpp
+[42.780s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__rosidl_typesupport_introspection_cpp.hpp
+[42.780s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__type_support.cpp
+[42.780s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera__type_support.cpp
+[42.781s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/compute_effector_camera_quick__type_support.cpp
+[42.781s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/include/visp_hand2eye_calibration/visp_hand2eye_calibration/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp
+[42.781s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.so
+[42.782s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_introspection_cpp.so" to ""
+[42.782s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_cpp.so
+[42.783s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_typesupport_cpp.so" to ""
+[42.783s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/pythonpath.sh
+[42.783s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/pythonpath.dsv
+[42.783s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration-0.13.1-py3.10.egg-info
+[42.784s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration-0.13.1-py3.10.egg-info/PKG-INFO
+[42.784s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration-0.13.1-py3.10.egg-info/top_level.txt
+[42.784s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration-0.13.1-py3.10.egg-info/dependency_links.txt
+[42.784s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration-0.13.1-py3.10.egg-info/SOURCES.txt
+[42.785s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration
+[42.785s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_c.c
+[42.785s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.785s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.785s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg
+[42.786s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg/__init__.py
+[42.786s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg/_transform_array.py
+[42.786s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg/_transform_array_s.c
+[42.786s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv
+[42.786s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_reset.py
+[42.787s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/__init__.py
+[42.787s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera.py
+[42.787s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_reset_s.c
+[42.787s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera_quick.py
+[42.787s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera_quick_s.c
+[42.788s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera_s.c
+[42.788s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/__init__.py
+[42.788s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_fastrtps_c.c
+[42.788s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.789s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/libvisp_hand2eye_calibration__rosidl_generator_py.so
+[42.789s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/_visp_hand2eye_calibration_s.ep.rosidl_typesupport_introspection_c.c
+[42.881s] Listing '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration'...
+[42.881s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/__init__.py'...
+[42.881s] Listing '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg'...
+[42.881s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg/__init__.py'...
+[42.881s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/msg/_transform_array.py'...
+[42.881s] Listing '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv'...
+[42.881s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/__init__.py'...
+[42.882s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera.py'...
+[42.882s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_compute_effector_camera_quick.py'...
+[42.882s] Compiling '/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/srv/_reset.py'...
+[42.890s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[42.891s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.891s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[42.892s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.892s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[42.893s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/local/lib/python3.10/dist-packages/visp_hand2eye_calibration/visp_hand2eye_calibration_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[42.893s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_generator_py.so
+[42.894s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/libvisp_hand2eye_calibration__rosidl_generator_py.so" to ""
+[42.894s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/msg/TransformArray.idl
+[42.894s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCamera.idl
+[42.895s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCameraQuick.idl
+[42.895s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/Reset.idl
+[42.895s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/msg/TransformArray.msg
+[42.896s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCamera.srv
+[42.896s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCamera_Request.msg
+[42.896s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCamera_Response.msg
+[42.896s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCameraQuick.srv
+[42.897s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCameraQuick_Request.msg
+[42.897s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/ComputeEffectorCameraQuick_Response.msg
+[42.897s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/Reset.srv
+[42.898s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/Reset_Request.msg
+[42.898s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/srv/Reset_Response.msg
+[42.898s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/visp_hand2eye_calibration/visp_hand2eye_calibration_calibrator
+[42.905s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/visp_hand2eye_calibration/visp_hand2eye_calibration_calibrator" to ""
+[42.906s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/lib/visp_hand2eye_calibration/visp_hand2eye_calibration_client
+[42.909s] -- Set runtime path of "/home/open/work/src/install/visp_hand2eye_calibration/lib/visp_hand2eye_calibration/visp_hand2eye_calibration_client" to ""
+[42.909s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/ament_index/resource_index/package_run_dependencies/visp_hand2eye_calibration
+[42.910s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/ament_index/resource_index/parent_prefix_path/visp_hand2eye_calibration
+[42.910s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/ament_prefix_path.sh
+[42.910s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/ament_prefix_path.dsv
+[42.911s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/path.sh
+[42.911s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/environment/path.dsv
+[42.911s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/local_setup.bash
+[42.911s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/local_setup.sh
+[42.912s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/local_setup.zsh
+[42.912s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/local_setup.dsv
+[42.912s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/package.dsv
+[42.913s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/ament_index/resource_index/packages/visp_hand2eye_calibration
+[42.913s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_generator_cExport.cmake
+[42.913s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_generator_cExport-noconfig.cmake
+[42.914s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cExport.cmake
+[42.914s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[42.914s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_generator_cppExport.cmake
+[42.915s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cppExport.cmake
+[42.915s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[42.915s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_introspection_cExport.cmake
+[42.916s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[42.916s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_cExport.cmake
+[42.916s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_cExport-noconfig.cmake
+[42.917s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_introspection_cppExport.cmake
+[42.917s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[42.917s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_cppExport.cmake
+[42.918s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibration__rosidl_typesupport_cppExport-noconfig.cmake
+[42.918s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_generator_pyExport.cmake
+[42.918s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/export_visp_hand2eye_calibration__rosidl_generator_pyExport-noconfig.cmake
+[42.919s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/rosidl_cmake-extras.cmake
+[42.919s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[42.919s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[42.919s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/ament_cmake_export_libraries-extras.cmake
+[42.920s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/ament_cmake_export_targets-extras.cmake
+[42.920s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[42.920s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[42.921s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibrationConfig.cmake
+[42.921s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/cmake/visp_hand2eye_calibrationConfig-version.cmake
+[42.922s] -- Installing: /home/open/work/src/install/visp_hand2eye_calibration/share/visp_hand2eye_calibration/package.xml
+[42.927s] Invoked command in '/home/open/work/src/build/visp_hand2eye_calibration' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/visp_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/visp_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/open/work/src/install/visp_bridge/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/open/work/src/build/visp_hand2eye_calibration

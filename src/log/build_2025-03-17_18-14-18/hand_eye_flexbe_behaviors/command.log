@@ -1,0 +1,6 @@
+Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_behaviors -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_behaviors
+Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/open/work/src/hand-eye-calibration_ROS2/hand_eye_flexbe_behaviors -DCMAKE_INSTALL_PREFIX=/home/open/work/src/install/hand_eye_flexbe_behaviors
+Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_behaviors -- -j16 -l16
+Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/open/work/src/build/hand_eye_flexbe_behaviors -- -j16 -l16
+Invoking command in '/home/open/work/src/build/hand_eye_flexbe_behaviors': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_behaviors
+Invoked command in '/home/open/work/src/build/hand_eye_flexbe_behaviors' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/open/work/src/build/hand_eye_flexbe_behaviors

@@ -1,0 +1,45 @@
+[1.853s] Invoking command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_mirror': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_mirror build --build-base /home/open/work/src/build/flexbe_mirror/build install --record /home/open/work/src/build/flexbe_mirror/install.log --single-version-externally-managed install_data
+[2.696s] running egg_info
+[2.698s] creating ../../../build/flexbe_mirror/flexbe_mirror.egg-info
+[2.698s] writing ../../../build/flexbe_mirror/flexbe_mirror.egg-info/PKG-INFO
+[2.699s] writing dependency_links to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/dependency_links.txt
+[2.703s] writing entry points to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/entry_points.txt
+[2.703s] writing requirements to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/requires.txt
+[2.703s] writing top-level names to ../../../build/flexbe_mirror/flexbe_mirror.egg-info/top_level.txt
+[2.704s] writing manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+[2.715s] reading manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+[2.717s] writing manifest file '../../../build/flexbe_mirror/flexbe_mirror.egg-info/SOURCES.txt'
+[2.755s] running build
+[2.756s] running build_py
+[2.756s] creating /home/open/work/src/build/flexbe_mirror/build
+[2.756s] creating /home/open/work/src/build/flexbe_mirror/build/lib
+[2.756s] creating /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+[2.756s] copying flexbe_mirror/mirror_state.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+[2.758s] copying flexbe_mirror/behavior_mirror_sm.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+[2.759s] copying flexbe_mirror/__init__.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+[2.759s] copying flexbe_mirror/flexbe_mirror.py -> /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror
+[2.762s] running install
+[2.766s] running install_lib
+[2.768s] creating /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+[2.772s] copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/mirror_state.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+[2.772s] copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/behavior_mirror_sm.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+[2.772s] copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/__init__.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+[2.772s] copying /home/open/work/src/build/flexbe_mirror/build/lib/flexbe_mirror/flexbe_mirror.py -> /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror
+[2.775s] byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/mirror_state.py to mirror_state.cpython-310.pyc
+[2.776s] byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/behavior_mirror_sm.py to behavior_mirror_sm.cpython-310.pyc
+[2.777s] byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/__init__.py to __init__.cpython-310.pyc
+[2.777s] byte-compiling /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror/flexbe_mirror.py to flexbe_mirror.cpython-310.pyc
+[2.795s] running install_data
+[2.795s] creating /home/open/work/src/install/flexbe_mirror/share/ament_index
+[2.795s] creating /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index
+[2.795s] creating /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index/packages
+[2.795s] copying resource/flexbe_mirror -> /home/open/work/src/install/flexbe_mirror/share/ament_index/resource_index/packages
+[2.796s] copying package.xml -> /home/open/work/src/install/flexbe_mirror/share/flexbe_mirror
+[2.796s] running install_egg_info
+[2.800s] Copying ../../../build/flexbe_mirror/flexbe_mirror.egg-info to /home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages/flexbe_mirror-2.0.0-py3.10.egg-info
+[2.806s] running install_scripts
+[2.892s] Installing behavior_mirror_sm script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+[2.892s] Installing flexbe_mirror script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+[2.892s] Installing mirror_state script to /home/open/work/src/install/flexbe_mirror/lib/flexbe_mirror
+[2.893s] writing list of installed files to '/home/open/work/src/build/flexbe_mirror/install.log'
+[2.949s] Invoked command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_mirror' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_core:/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_mirror/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_mirror/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_mirror build --build-base /home/open/work/src/build/flexbe_mirror/build install --record /home/open/work/src/build/flexbe_mirror/install.log --single-version-externally-managed install_data

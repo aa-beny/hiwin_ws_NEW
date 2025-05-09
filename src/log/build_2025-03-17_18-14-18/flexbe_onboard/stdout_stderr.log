@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../build/flexbe_onboard/flexbe_onboard.egg-info
+writing ../../../build/flexbe_onboard/flexbe_onboard.egg-info/PKG-INFO
+writing dependency_links to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/dependency_links.txt
+writing entry points to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/entry_points.txt
+writing requirements to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/requires.txt
+writing top-level names to ../../../build/flexbe_onboard/flexbe_onboard.egg-info/top_level.txt
+writing manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+reading manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+writing manifest file '../../../build/flexbe_onboard/flexbe_onboard.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/open/work/src/build/flexbe_onboard/build
+creating /home/open/work/src/build/flexbe_onboard/build/lib
+creating /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+copying flexbe_onboard/flexbe_onboard.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+copying flexbe_onboard/start_behavior.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+copying flexbe_onboard/__init__.py -> /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard
+running install
+running install_lib
+creating /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/flexbe_onboard.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/start_behavior.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+copying /home/open/work/src/build/flexbe_onboard/build/lib/flexbe_onboard/__init__.py -> /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard
+byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/flexbe_onboard.py to flexbe_onboard.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/start_behavior.py to start_behavior.cpython-310.pyc
+byte-compiling /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying launch/behavior_onboard.launch.py -> /home/open/work/src/install/flexbe_onboard/share/flexbe_onboard
+creating /home/open/work/src/install/flexbe_onboard/share/ament_index
+creating /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index
+creating /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index/packages
+copying resource/flexbe_onboard -> /home/open/work/src/install/flexbe_onboard/share/ament_index/resource_index/packages
+copying package.xml -> /home/open/work/src/install/flexbe_onboard/share/flexbe_onboard
+running install_egg_info
+Copying ../../../build/flexbe_onboard/flexbe_onboard.egg-info to /home/open/work/src/install/flexbe_onboard/lib/python3.10/site-packages/flexbe_onboard-2.0.0-py3.10.egg-info
+running install_scripts
+Installing flexbe_onboard script to /home/open/work/src/install/flexbe_onboard/lib/flexbe_onboard
+Installing start_behavior script to /home/open/work/src/install/flexbe_onboard/lib/flexbe_onboard
+writing list of installed files to '/home/open/work/src/build/flexbe_onboard/install.log'

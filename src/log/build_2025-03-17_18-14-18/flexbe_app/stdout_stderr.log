@@ -1,0 +1,226 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+-- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/open/work/src/build/flexbe_app
+-- Install configuration: ""
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/run_app
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/shortcut
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/nwjs_install
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/test_report
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/find_flexbe_packages
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/package.json
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/flexbe.desktop
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc/rc_sync.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc/rc.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc/rc_controller.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc/rc_pubsub.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/rc/rc_ros.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/window.html
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_statelib.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_behaviorlib.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_statemachinedefinition.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_documentation.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_statedefinition.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ws/ws_behaviorstatedefinition.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/sm_active.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/information.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/db.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/close.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/add.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/error.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/settings_import.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/link.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/file_load.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/version_old.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_add.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/icon-128.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_save.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/sm.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/settings_export.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/move-icon.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/pencil.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/redo.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/lock.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/page_edit.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/version_devel.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/db_active.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/file_save_white.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_sm.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/LOGO_ARGONAUTS.jpg
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/turn_back.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/note.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/file_save.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/dataflow.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/tick.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/autoconnect.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_terminal.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/file_new.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/icon-16.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_db.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/se.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/outcome.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/argonauts_logo.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/rc_active.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/note_add.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/group_selection.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_settings.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/team_vigir_logo.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/version_offline.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/lightning.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/warning.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/cross.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/dataflow_white.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/se_active.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_load.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/logo_borderless.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/version_latest.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/title_terminal_white.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/smile.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/link_break.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/table_row_delete.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/rc.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/undo.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/img/check.png
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_settings.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels/ui_panels.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels/ui_panels_addstate.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels/ui_panels_stateproperties.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels/ui_panels_selectbehavior.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/panels/ui_panels_terminal.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_dashboard.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_menu.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_tools.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_feed.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_runtimecontrol.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ui/ui_statemachine.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_transition.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_containerpath.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_behaviorstate.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_helper.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_statemachine.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_note.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_state.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/drawable/drawable_outcome.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/events.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_test
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_test/statelib.test.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_test/testreport.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_test/checkbehaviorsreport.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_test/scripts.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/tools.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/checking.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/varsolver.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/command_lib.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/autocomplete.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_helper/activitytracer.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext/d3.min.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext/yaml.min.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext/json_parse_raw.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext/mousetrap.min.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ext/raphael.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_stateparser.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_filesystem.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_manifestparser.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_manifestgenerator.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_behaviorpacker.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_codeparser.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_packagegenerator.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_codegenerator.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_modelgenerator.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_packageparser.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_behaviorsaver.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/io/io_behaviorloader.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ros
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ros/ros_actionclient.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ros/ros_publisher.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ros/ros_subscriber.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/ros/ros.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/window.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/prototype.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/main.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/behaviorstate.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/statemachine.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/state.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/note.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/transition.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/_model/behavior.js
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/main.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/settings.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/popup.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/runtimecontrol.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/statemachine.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/src/style/dashboard.css
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/launch
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/launch/test_report.test
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/launch/flexbe_full.launch.py
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/launch/test_report_test.py
+-- Installing: /home/open/work/src/install/flexbe_app/lib/flexbe_app/launch/flexbe_ocs.launch.py
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/launch
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/launch/test_report.test
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/launch/flexbe_full.launch.py
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/launch/test_report_test.py
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/launch/flexbe_ocs.launch.py
+-- Installing: /home/open/work/src/install/flexbe_app/share/ament_index/resource_index/package_run_dependencies/flexbe_app
+-- Installing: /home/open/work/src/install/flexbe_app/share/ament_index/resource_index/parent_prefix_path/flexbe_app
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/environment/ament_prefix_path.sh
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/environment/ament_prefix_path.dsv
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/environment/path.sh
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/environment/path.dsv
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/local_setup.bash
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/local_setup.sh
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/local_setup.zsh
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/local_setup.dsv
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/package.dsv
+-- Installing: /home/open/work/src/install/flexbe_app/share/ament_index/resource_index/packages/flexbe_app
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/cmake/flexbe_appConfig.cmake
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/cmake/flexbe_appConfig-version.cmake
+-- Installing: /home/open/work/src/install/flexbe_app/share/flexbe_app/package.xml

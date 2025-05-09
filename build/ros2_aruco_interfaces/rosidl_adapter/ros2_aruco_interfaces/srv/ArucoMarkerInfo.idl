@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ros2_aruco_interfaces/srv/ArucoMarkerInfo.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module ros2_aruco_interfaces {
+  module srv {
+    struct ArucoMarkerInfo_Request {
+      boolean process;
+    };
+    struct ArucoMarkerInfo_Response {
+      sequence<int64> marker_ids;
+
+      sequence<geometry_msgs::msg::Pose> poses;
+    };
+  };
+};

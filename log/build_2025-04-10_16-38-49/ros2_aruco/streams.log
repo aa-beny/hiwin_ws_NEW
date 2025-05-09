@@ -1,0 +1,27 @@
+[2.005s] Invoking command in '/home/open/work/src/ros2_aruco/ros2_aruco': PYTHONPATH=/home/open/work/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/open/work/build/ros2_aruco/build install --record /home/open/work/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data
+[2.925s] running egg_info
+[2.925s] writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[2.925s] writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[2.925s] writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[2.925s] writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[2.925s] writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[2.925s] reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.925s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[2.925s] running build
+[2.926s] running build_py
+[2.926s] running install
+[2.926s] running install_lib
+[2.926s] running install_data
+[2.926s] running install_egg_info
+[2.926s] removing '/home/open/work/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info' (and everything under it)
+[2.926s] Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/open/work/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[2.926s] running install_scripts
+[2.926s] Installing aruco_generate_marker script to /home/open/work/install/ros2_aruco/lib/ros2_aruco
+[2.926s] Installing hiwin_cali script to /home/open/work/install/ros2_aruco/lib/ros2_aruco
+[2.926s] Installing mask_color_and_depth_image script to /home/open/work/install/ros2_aruco/lib/ros2_aruco
+[2.926s] Installing test_mask script to /home/open/work/install/ros2_aruco/lib/ros2_aruco
+[2.926s] Installing tm_aruco script to /home/open/work/install/ros2_aruco/lib/ros2_aruco
+[2.926s] writing list of installed files to '/home/open/work/build/ros2_aruco/install.log'
+[2.927s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.927s]   warnings.warn(
+[2.927s] Invoked command in '/home/open/work/src/ros2_aruco/ros2_aruco' returned '0': PYTHONPATH=/home/open/work/build/ros2_aruco/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/open/work/build/ros2_aruco/build install --record /home/open/work/build/ros2_aruco/install.log --install-scripts $base/lib/ros2_aruco --single-version-externally-managed install_data

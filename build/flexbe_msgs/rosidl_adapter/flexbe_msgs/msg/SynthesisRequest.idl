@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/SynthesisRequest.msg
+// generated code does not contain a copyright notice
+
+
+module flexbe_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Minimal template for the request data provided by the FlexBE synthesis interface." "\n"
+      "Either refer this message as 'request' in the goal part of your synthesis action" "\n"
+      "or implement your own by at least supporting the fields listed below.")
+    struct SynthesisRequest {
+      @verbatim (language="comment", text=
+        "Identifier of this synthesis query, can for example be used to set the name of the resulting state machine")
+      string name;
+
+      @verbatim (language="comment", text=
+        "Identifier of the system (i.e., configuration data set) to be used by the synthesis tool")
+      string system;
+
+      @verbatim (language="comment", text=
+        "Goal to be achieved by the synthesized behavior")
+      string goal;
+
+      @verbatim (language="comment", text=
+        "Initial conditions from which the synthesized behavior will start")
+      string initial_condition;
+
+      @verbatim (language="comment", text=
+        "Available outcomes of the generated state machine," "\n"
+        "i.e., possible results of the synthesized behavior")
+      sequence<string> sm_outcomes;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from flexbe_msgs/msg/BehaviorRequest.msg
+// generated code does not contain a copyright notice
+
+#include "flexbe_msgs/msg/Container.idl"
+
+module flexbe_msgs {
+  module msg {
+    struct BehaviorRequest {
+      string behavior_name;
+
+      uint8 autonomy_level;
+
+      sequence<string> arg_keys;
+
+      sequence<string> arg_values;
+
+      sequence<flexbe_msgs::msg::Container> structure;
+    };
+  };
+};

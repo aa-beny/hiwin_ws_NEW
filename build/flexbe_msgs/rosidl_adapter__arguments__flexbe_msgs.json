@@ -1,0 +1,23 @@
+{
+  "package_name": "flexbe_msgs",
+  "non_idl_tuples": [
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BEStatus.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BehaviorLog.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BehaviorModification.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BehaviorRequest.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BehaviorSelection.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/BehaviorSync.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/CommandFeedback.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/Container.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/ContainerStructure.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/OutcomeCondition.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/OutcomeRequest.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/StateInstantiation.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/SynthesisErrorCodes.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/SynthesisRequest.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:msg/UICommand.msg",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:action/BehaviorInput.action",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:action/BehaviorExecution.action",
+    "/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_msgs:action/BehaviorSynthesis.action"
+  ]
+}

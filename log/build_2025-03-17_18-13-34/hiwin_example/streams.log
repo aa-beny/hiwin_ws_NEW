@@ -1,0 +1,84 @@
+[2.815s] Invoking command in '/home/open/work/src/Hiwin_libmodbus/hiwin_example': PYTHONPATH=/home/open/work/build/hiwin_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/open/work/build/hiwin_example/build install --record /home/open/work/build/hiwin_example/install.log --single-version-externally-managed install_data
+[3.546s] running egg_info
+[3.549s] creating ../../../build/hiwin_example/hiwin_example.egg-info
+[3.549s] writing ../../../build/hiwin_example/hiwin_example.egg-info/PKG-INFO
+[3.550s] writing dependency_links to ../../../build/hiwin_example/hiwin_example.egg-info/dependency_links.txt
+[3.550s] writing entry points to ../../../build/hiwin_example/hiwin_example.egg-info/entry_points.txt
+[3.551s] writing requirements to ../../../build/hiwin_example/hiwin_example.egg-info/requires.txt
+[3.551s] writing top-level names to ../../../build/hiwin_example/hiwin_example.egg-info/top_level.txt
+[3.551s] writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[3.559s] reading manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[3.563s] writing manifest file '../../../build/hiwin_example/hiwin_example.egg-info/SOURCES.txt'
+[3.563s] running build
+[3.563s] running build_py
+[3.564s] creating /home/open/work/build/hiwin_example/build
+[3.565s] creating /home/open/work/build/hiwin_example/build/lib
+[3.565s] creating /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.565s] copying hiwin_example/Hiwin_move.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.565s] copying hiwin_example/mainHiwinphoto.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.566s] copying hiwin_example/Hiwinphoto2.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.567s] copying hiwin_example/hand_in_eye_calibration.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.567s] copying hiwin_example/YoloDetector.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.568s] copying hiwin_example/three_points_calibration_example.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.568s] copying hiwin_example/test_strategy_example .py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.569s] copying hiwin_example/strategy_example.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.570s] copying hiwin_example/__init__.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.571s] copying hiwin_example/test.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.571s] copying hiwin_example/YoloDetector_class_node.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.572s] copying hiwin_example/movetest.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.573s] copying hiwin_example/transformations.py -> /home/open/work/build/hiwin_example/build/lib/hiwin_example
+[3.576s] running install
+[3.577s] running install_lib
+[3.580s] creating /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.580s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/Hiwin_move.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.581s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/mainHiwinphoto.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.581s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/Hiwinphoto2.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.581s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/hand_in_eye_calibration.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.582s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/YoloDetector.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.582s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/three_points_calibration_example.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.582s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/test_strategy_example .py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.583s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/strategy_example.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.583s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/__init__.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.583s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/test.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.584s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/YoloDetector_class_node.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.584s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/movetest.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.585s] copying /home/open/work/build/hiwin_example/build/lib/hiwin_example/transformations.py -> /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example
+[3.587s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/Hiwin_move.py to Hiwin_move.cpython-310.pyc
+[3.601s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/mainHiwinphoto.py to mainHiwinphoto.cpython-310.pyc
+[3.610s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/Hiwinphoto2.py to Hiwinphoto2.cpython-310.pyc
+[3.620s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/hand_in_eye_calibration.py to hand_in_eye_calibration.cpython-310.pyc
+[3.627s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector.py to YoloDetector.cpython-310.pyc
+[3.631s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/three_points_calibration_example.py to three_points_calibration_example.cpython-310.pyc
+[3.642s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/test_strategy_example .py to test_strategy_example .cpython-310.pyc
+[3.661s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/strategy_example.py to strategy_example.cpython-310.pyc
+[3.677s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/__init__.py to __init__.cpython-310.pyc
+[3.678s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/test.py to test.cpython-310.pyc
+[3.681s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/YoloDetector_class_node.py to YoloDetector_class_node.cpython-310.pyc
+[3.683s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/movetest.py to movetest.cpython-310.pyc
+[3.693s] byte-compiling /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example/transformations.py to transformations.cpython-310.pyc
+[3.713s] running install_data
+[3.714s] creating /home/open/work/install/hiwin_example/share/ament_index
+[3.714s] creating /home/open/work/install/hiwin_example/share/ament_index/resource_index
+[3.715s] creating /home/open/work/install/hiwin_example/share/ament_index/resource_index/packages
+[3.715s] copying resource/hiwin_example -> /home/open/work/install/hiwin_example/share/ament_index/resource_index/packages
+[3.715s] copying package.xml -> /home/open/work/install/hiwin_example/share/hiwin_example
+[3.716s] creating /home/open/work/install/hiwin_example/share/hiwin_example/launch
+[3.716s] copying launch/cup_three_points_calibration.launch.py -> /home/open/work/install/hiwin_example/share/hiwin_example/launch
+[3.716s] copying launch/bag_three_points_calibration.launch.py -> /home/open/work/install/hiwin_example/share/hiwin_example/launch
+[3.716s] copying launch/test_three_points_calibration.launch.py -> /home/open/work/install/hiwin_example/share/hiwin_example/launch
+[3.717s] creating /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.717s] copying config/test_cam.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.717s] copying config/bag_cam.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.718s] copying config/bag_cali_pose.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.718s] copying config/cup_cam.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.718s] copying config/test_cali_pose.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.719s] copying config/cup_cali_pose.yaml -> /home/open/work/install/hiwin_example/share/hiwin_example/config
+[3.719s] running install_egg_info
+[3.724s] Copying ../../../build/hiwin_example/hiwin_example.egg-info to /home/open/work/install/hiwin_example/lib/python3.10/site-packages/hiwin_example-0.0.0-py3.10.egg-info
+[3.726s] running install_scripts
+[3.780s] Installing hand_in_eye_calibration script to /home/open/work/install/hiwin_example/lib/hiwin_example
+[3.780s] Installing strategy_example script to /home/open/work/install/hiwin_example/lib/hiwin_example
+[3.781s] Installing test_jog script to /home/open/work/install/hiwin_example/lib/hiwin_example
+[3.781s] Installing three_points_calibration_example script to /home/open/work/install/hiwin_example/lib/hiwin_example
+[3.781s] writing list of installed files to '/home/open/work/build/hiwin_example/install.log'
+[3.839s] Invoked command in '/home/open/work/src/Hiwin_libmodbus/hiwin_example' returned '0': PYTHONPATH=/home/open/work/build/hiwin_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/install/hiwin_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hiwin_example build --build-base /home/open/work/build/hiwin_example/build install --record /home/open/work/build/hiwin_example/install.log --single-version-externally-managed install_data

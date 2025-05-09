@@ -1,0 +1,120 @@
+[3.003s] Invoking command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_core': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_core build --build-base /home/open/work/src/build/flexbe_core/build install --record /home/open/work/src/build/flexbe_core/install.log --single-version-externally-managed install_data
+[4.081s] running egg_info
+[4.083s] creating ../../../build/flexbe_core/flexbe_core.egg-info
+[4.084s] writing ../../../build/flexbe_core/flexbe_core.egg-info/PKG-INFO
+[4.085s] writing dependency_links to ../../../build/flexbe_core/flexbe_core.egg-info/dependency_links.txt
+[4.086s] writing requirements to ../../../build/flexbe_core/flexbe_core.egg-info/requires.txt
+[4.086s] writing top-level names to ../../../build/flexbe_core/flexbe_core.egg-info/top_level.txt
+[4.087s] writing manifest file '../../../build/flexbe_core/flexbe_core.egg-info/SOURCES.txt'
+[4.093s] reading manifest file '../../../build/flexbe_core/flexbe_core.egg-info/SOURCES.txt'
+[4.096s] writing manifest file '../../../build/flexbe_core/flexbe_core.egg-info/SOURCES.txt'
+[4.097s] running build
+[4.097s] running build_py
+[4.097s] creating /home/open/work/src/build/flexbe_core/build
+[4.098s] creating /home/open/work/src/build/flexbe_core/build/lib
+[4.098s] creating /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.099s] copying flexbe_core/behavior.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.107s] copying flexbe_core/behavior_library.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.107s] copying flexbe_core/__init__.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.107s] copying flexbe_core/state_logger.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.107s] copying flexbe_core/logger.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core
+[4.108s] creating /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.108s] copying flexbe_core/proxy/proxy_subscriber_cached.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.108s] copying flexbe_core/proxy/proxy_transform_listener.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.108s] copying flexbe_core/proxy/proxy_service_caller.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.109s] copying flexbe_core/proxy/__init__.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.110s] copying flexbe_core/proxy/proxy_publisher.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.110s] copying flexbe_core/proxy/qos.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.112s] copying flexbe_core/proxy/proxy_action_client.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy
+[4.112s] creating /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.112s] copying flexbe_core/core/state_machine.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.113s] copying flexbe_core/core/lockable_state_machine.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.113s] copying flexbe_core/core/lockable_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.120s] copying flexbe_core/core/preemptable_state_machine.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.121s] copying flexbe_core/core/ros_state_machine.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.121s] copying flexbe_core/core/operatable_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.121s] copying flexbe_core/core/operatable_state_machine.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.122s] copying flexbe_core/core/preemptable_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.122s] copying flexbe_core/core/priority_container.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.122s] copying flexbe_core/core/__init__.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.122s] copying flexbe_core/core/user_data.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.122s] copying flexbe_core/core/ros_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.123s] copying flexbe_core/core/event_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.124s] copying flexbe_core/core/concurrency_container.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.124s] copying flexbe_core/core/manually_transitionable_state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.125s] copying flexbe_core/core/state.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.125s] copying flexbe_core/core/exceptions.py -> /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core
+[4.129s] running install
+[4.131s] running install_lib
+[4.136s] creating /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.137s] creating /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.137s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/proxy_subscriber_cached.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.137s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/proxy_transform_listener.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.139s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/proxy_service_caller.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.142s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/__init__.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.143s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/proxy_publisher.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.143s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/qos.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.143s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/proxy/proxy_action_client.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy
+[4.143s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/behavior.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.143s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/behavior_library.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.144s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/__init__.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.144s] creating /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.144s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/state_machine.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.144s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/lockable_state_machine.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.144s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/lockable_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.144s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/preemptable_state_machine.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.145s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/ros_state_machine.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.145s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/operatable_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.145s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/operatable_state_machine.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.146s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/preemptable_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.146s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/priority_container.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.146s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/__init__.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.147s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/user_data.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.147s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/ros_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.147s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/event_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.147s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/concurrency_container.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.149s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/manually_transitionable_state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.150s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/state.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.150s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/core/exceptions.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core
+[4.150s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/state_logger.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.150s] copying /home/open/work/src/build/flexbe_core/build/lib/flexbe_core/logger.py -> /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core
+[4.152s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/proxy_subscriber_cached.py to proxy_subscriber_cached.cpython-310.pyc
+[4.166s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/proxy_transform_listener.py to proxy_transform_listener.cpython-310.pyc
+[4.166s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/proxy_service_caller.py to proxy_service_caller.cpython-310.pyc
+[4.173s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/__init__.py to __init__.cpython-310.pyc
+[4.173s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/proxy_publisher.py to proxy_publisher.cpython-310.pyc
+[4.180s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/qos.py to qos.cpython-310.pyc
+[4.181s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/proxy/proxy_action_client.py to proxy_action_client.cpython-310.pyc
+[4.188s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/behavior.py to behavior.cpython-310.pyc
+[4.195s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/behavior_library.py to behavior_library.cpython-310.pyc
+[4.200s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/__init__.py to __init__.cpython-310.pyc
+[4.203s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/state_machine.py to state_machine.cpython-310.pyc
+[4.210s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/lockable_state_machine.py to lockable_state_machine.cpython-310.pyc
+[4.211s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/lockable_state.py to lockable_state.cpython-310.pyc
+[4.212s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/preemptable_state_machine.py to preemptable_state_machine.cpython-310.pyc
+[4.214s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/ros_state_machine.py to ros_state_machine.cpython-310.pyc
+[4.216s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/operatable_state.py to operatable_state.cpython-310.pyc
+[4.218s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/operatable_state_machine.py to operatable_state_machine.cpython-310.pyc
+[4.222s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/preemptable_state.py to preemptable_state.cpython-310.pyc
+[4.224s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/priority_container.py to priority_container.cpython-310.pyc
+[4.225s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/__init__.py to __init__.cpython-310.pyc
+[4.226s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/user_data.py to user_data.cpython-310.pyc
+[4.228s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/ros_state.py to ros_state.cpython-310.pyc
+[4.230s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/event_state.py to event_state.cpython-310.pyc
+[4.232s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/concurrency_container.py to concurrency_container.cpython-310.pyc
+[4.235s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/manually_transitionable_state.py to manually_transitionable_state.cpython-310.pyc
+[4.240s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/state.py to state.cpython-310.pyc
+[4.241s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/core/exceptions.py to exceptions.cpython-310.pyc
+[4.241s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/state_logger.py to state_logger.cpython-310.pyc
+[4.243s] byte-compiling /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core/logger.py to logger.cpython-310.pyc
+[4.245s] running install_data
+[4.246s] creating /home/open/work/src/install/flexbe_core/share/ament_index
+[4.246s] creating /home/open/work/src/install/flexbe_core/share/ament_index/resource_index
+[4.247s] creating /home/open/work/src/install/flexbe_core/share/ament_index/resource_index/packages
+[4.247s] copying resource/flexbe_core -> /home/open/work/src/install/flexbe_core/share/ament_index/resource_index/packages
+[4.248s] copying package.xml -> /home/open/work/src/install/flexbe_core/share/flexbe_core
+[4.250s] running install_egg_info
+[4.254s] Copying ../../../build/flexbe_core/flexbe_core.egg-info to /home/open/work/src/install/flexbe_core/lib/python3.10/site-packages/flexbe_core-2.0.0-py3.10.egg-info
+[4.256s] running install_scripts
+[4.332s] writing list of installed files to '/home/open/work/src/build/flexbe_core/install.log'
+[4.452s] Invoked command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_core' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_core/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_core build --build-base /home/open/work/src/build/flexbe_core/build install --record /home/open/work/src/build/flexbe_core/install.log --single-version-externally-managed install_data

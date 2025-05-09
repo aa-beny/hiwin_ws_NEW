@@ -1,0 +1,42 @@
+[3.292s] Invoking command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_input': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_input/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_input build --build-base /home/open/work/src/build/flexbe_input/build install --record /home/open/work/src/build/flexbe_input/install.log --single-version-externally-managed install_data
+[4.066s] running egg_info
+[4.068s] creating ../../../build/flexbe_input/flexbe_input.egg-info
+[4.068s] writing ../../../build/flexbe_input/flexbe_input.egg-info/PKG-INFO
+[4.073s] writing dependency_links to ../../../build/flexbe_input/flexbe_input.egg-info/dependency_links.txt
+[4.073s] writing entry points to ../../../build/flexbe_input/flexbe_input.egg-info/entry_points.txt
+[4.073s] writing requirements to ../../../build/flexbe_input/flexbe_input.egg-info/requires.txt
+[4.074s] writing top-level names to ../../../build/flexbe_input/flexbe_input.egg-info/top_level.txt
+[4.074s] writing manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+[4.078s] reading manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+[4.079s] writing manifest file '../../../build/flexbe_input/flexbe_input.egg-info/SOURCES.txt'
+[4.084s] running build
+[4.084s] running build_py
+[4.084s] creating /home/open/work/src/build/flexbe_input/build
+[4.084s] creating /home/open/work/src/build/flexbe_input/build/lib
+[4.084s] creating /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+[4.085s] copying flexbe_input/complex_action_server.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+[4.086s] copying flexbe_input/__init__.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+[4.086s] copying flexbe_input/flexbe_input.py -> /home/open/work/src/build/flexbe_input/build/lib/flexbe_input
+[4.086s] running install
+[4.087s] running install_lib
+[4.092s] creating /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+[4.092s] copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/complex_action_server.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+[4.092s] copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/__init__.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+[4.092s] copying /home/open/work/src/build/flexbe_input/build/lib/flexbe_input/flexbe_input.py -> /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input
+[4.093s] byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/complex_action_server.py to complex_action_server.cpython-310.pyc
+[4.100s] byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/__init__.py to __init__.cpython-310.pyc
+[4.102s] byte-compiling /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input/flexbe_input.py to flexbe_input.cpython-310.pyc
+[4.102s] running install_data
+[4.106s] creating /home/open/work/src/install/flexbe_input/share/ament_index
+[4.107s] creating /home/open/work/src/install/flexbe_input/share/ament_index/resource_index
+[4.107s] creating /home/open/work/src/install/flexbe_input/share/ament_index/resource_index/packages
+[4.107s] copying resource/flexbe_input -> /home/open/work/src/install/flexbe_input/share/ament_index/resource_index/packages
+[4.108s] copying package.xml -> /home/open/work/src/install/flexbe_input/share/flexbe_input
+[4.108s] running install_egg_info
+[4.113s] Copying ../../../build/flexbe_input/flexbe_input.egg-info to /home/open/work/src/install/flexbe_input/lib/python3.10/site-packages/flexbe_input-2.0.0-py3.10.egg-info
+[4.114s] running install_scripts
+[4.222s] Installing behavior_input script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+[4.228s] Installing complex_action_server script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+[4.228s] Installing flexbe_input script to /home/open/work/src/install/flexbe_input/lib/flexbe_input
+[4.228s] writing list of installed files to '/home/open/work/src/build/flexbe_input/install.log'
+[4.362s] Invoked command in '/home/open/work/src/hand-eye-calibration_ROS2/flexbe_behavior_engine/flexbe_input' returned '0': AMENT_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/open/work/src/install/flexbe_msgs LD_LIBRARY_PATH=/home/open/work/src/install/flexbe_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/open/work/src/build/flexbe_input/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/open/work/src/install/flexbe_input/lib/python3.10/site-packages:/home/open/work/src/install/flexbe_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/flexbe_input build --build-base /home/open/work/src/build/flexbe_input/build install --record /home/open/work/src/build/flexbe_input/install.log --single-version-externally-managed install_data
